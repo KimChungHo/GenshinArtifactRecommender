@@ -71,9 +71,8 @@ function ChipSelectSection(props: ChipSelectSectionProps): JSX.Element {
           const isSelected: boolean = props.selectedKeys.includes(option.key);
           const disabled: boolean = isOptionDisabled(option.key);
 
-          const baseClassName: string =
-            "h-10 rounded-full px-5 text-[14px] font-medium transition shadow-sm";
-          const selectedClassName: string = "bg-blue-600 text-white";
+          const baseClassName: string = "h-10 rounded-full px-5 text-[14px] font-medium transition shadow-sm focus:outline-none";
+          const selectedClassName: string = "bg-blue-600 text-white border border-blue-700 ring-1 ring-blue-300";
           const unselectedClassName: string = "bg-white text-slate-700 border border-slate-200";
           const disabledClassName: string = "opacity-40 cursor-not-allowed";
 
