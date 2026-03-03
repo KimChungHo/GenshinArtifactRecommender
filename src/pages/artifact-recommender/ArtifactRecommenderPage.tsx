@@ -384,8 +384,9 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
           <div className="my-8 border-t border-slate-100" />
 
-          <section>
-            <div className="mb-2 flex items-center justify-between">
+          {selectedArtifactSetKey ? (
+            <section>
+              <div className="mb-2 flex items-center justify-between">
               <h3 className="text-[15px] font-semibold text-slate-800">
                 {uiText.recommendationTitle[locale]}
               </h3>
@@ -457,7 +458,8 @@ export default function ArtifactRecommenderPage(): JSX.Element {
                 })}
               </div>
             )}
-          </section>
+            </section>
+          ) : null}
         </div>
       </div>
     </div>
