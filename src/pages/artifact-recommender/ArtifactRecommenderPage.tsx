@@ -5,12 +5,58 @@ import {
   getSubStatOptions,
   type Locale,
 } from "../../data/artifactOptions";
+import charactersRaw from "../../data/characters.json";
+import recommendationsRaw from "../../data/recommendations.json";
 
 type OptionKey = string;
 
 interface ChipOption {
   key: OptionKey;
   label: string;
+}
+
+interface LocalizedText {
+  ko: string;
+  en: string;
+  ja: string;
+}
+
+interface CharacterMeta {
+  id: string;
+  name: LocalizedText;
+  imageKey: string;
+}
+
+interface CharacterRule {
+  characterId: string;
+  artifactSets: string[];
+  mainStats: string[];
+  validSubStats: string[];
+}
+
+const characters: CharacterMeta[] = (charactersRaw as { characters: CharacterMeta[] }).characters;
+const rules: CharacterRule[] = (recommendationsRaw as { rules: CharacterRule[] }).rules;
+
+const characterImageModules: Record<string, { default: string }> = import.meta.glob(
+  "../../assets/characters/*.{svg,png,jpg,jpeg,webp}",
+  { eager: true }
+);
+
+function getCharacterImageUrl(imageKey: string): string | null {
+  const svgPath: string = `../../assets/characters/${imageKey}.svg`;
+  const pngPath: string = `../../assets/characters/${imageKey}.png`;
+  const jpgPath: string = `../../assets/characters/${imageKey}.jpg`;
+  const jpegPath: string = `../../assets/characters/${imageKey}.jpeg`;
+  const webpPath: string = `../../assets/characters/${imageKey}.webp`;
+
+  const hit =
+    characterImageModules[svgPath] ??
+    characterImageModules[pngPath] ??
+    characterImageModules[jpgPath] ??
+    characterImageModules[jpegPath] ??
+    characterImageModules[webpPath];
+
+  return hit?.default ?? null;
 }
 
 interface ChipSelectSectionProps {
@@ -185,6 +231,22 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       en: "You can select up to 4 sub stats.",
       ja: "サブオプションは最大4つまで選択できます。",
     },
+    recommendationTitle: { ko: "추천 캐릭터", en: "Recommended Characters", ja: "おすすめキャラ" },
+    recommendationHint: {
+      ko: "주옵션이 일치하고, 부옵션이 3개 이상 유효하면 추천됩니다.",
+      en: "A character is recommended when the main stat matches and 3+ sub stats are valid.",
+      ja: "メインが一致し、サブが3つ以上有効ならおすすめします。",
+    },
+    noRecommendation: {
+      ko: "아직 추천할 수 있는 캐릭터가 없어요. 세트/주옵션/부옵션을 더 골라보세요.",
+      en: "No matching character yet. Try selecting a set, a main stat, and sub stats.",
+      ja: "まだおすすめがありません。セット/メイン/サブを選んでください。",
+    },
+    validOptionCountMessage: {
+      ko: "옵션 {count}개 유효",
+      en: "{count} valid sub stats",
+      ja: "有効オプション {count}個",
+    },
     languageLabel: { ko: "언어", en: "Language", ja: "言語" },
   };
 
@@ -196,6 +258,50 @@ export default function ArtifactRecommenderPage(): JSX.Element {
   const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string | null>(null);
   const [selectedMainStatKeys, setSelectedMainStatKeys] = React.useState<OptionKey[]>([]);
   const [selectedSubStatKeys, setSelectedSubStatKeys] = React.useState<OptionKey[]>([]);
+
+  const selectedMainStatKey: string | null = selectedMainStatKeys[0] ?? null;
+
+  const subStatLabelByKey: Map<string, string> = new Map(
+    subStatOptions.map((option) => [option.key, option.label])
+  );
+
+  const recommendedCharacters = React.useMemo(() => {
+    if (!selectedMainStatKey) {
+      return [];
+    }
+
+    const results: Array<{
+      characterId: string;
+      validSubStatKeys: string[];
+    }> = [];
+
+    for (const rule of rules) {
+      const setMatches: boolean = selectedArtifactSetKey
+        ? rule.artifactSets.includes(selectedArtifactSetKey)
+        : true;
+
+      if (!setMatches) {
+        continue;
+      }
+
+      const mainMatches: boolean = rule.mainStats.includes(selectedMainStatKey);
+      if (!mainMatches) {
+        continue;
+      }
+
+      const validSubStatKeys: string[] = selectedSubStatKeys.filter((key) =>
+        rule.validSubStats.includes(key)
+      );
+
+      if (validSubStatKeys.length < 3) {
+        continue;
+      }
+
+      results.push({ characterId: rule.characterId, validSubStatKeys });
+    }
+
+    return results;
+  }, [selectedArtifactSetKey, selectedMainStatKey, selectedSubStatKeys]);
 
   return (
     <div className="min-h-screen bg-slate-50 p-8">
@@ -256,6 +362,83 @@ export default function ArtifactRecommenderPage(): JSX.Element {
               setSelectedSubStatKeys(nextSelectedKeys);
             }}
           />
+
+          <div className="my-8 border-t border-slate-100" />
+
+          <section>
+            <div className="mb-2 flex items-center justify-between">
+              <h3 className="text-[15px] font-semibold text-slate-800">
+                {uiText.recommendationTitle[locale]}
+              </h3>
+            </div>
+            <div className="mb-5 text-[12px] text-slate-400">{uiText.recommendationHint[locale]}</div>
+
+            {recommendedCharacters.length <= 0 ? (
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 px-5 py-4 text-[14px] text-slate-600">
+                {uiText.noRecommendation[locale]}
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                {recommendedCharacters.map((item) => {
+                  const characterMeta: CharacterMeta | undefined = characters.find(
+                    (character) => character.id === item.characterId
+                  );
+
+                  if (!characterMeta) {
+                    return null;
+                  }
+
+                  const imageUrl: string | null = getCharacterImageUrl(characterMeta.imageKey);
+                  const validCount: number = item.validSubStatKeys.length;
+                  const messageTemplate: string = uiText.validOptionCountMessage[locale];
+                  const message: string = messageTemplate.replace("{count}", String(validCount));
+
+                  const validLabels: string[] = item.validSubStatKeys.map((key) => {
+                    return subStatLabelByKey.get(key) ?? key;
+                  });
+
+                  return (
+                    <div
+                      key={characterMeta.id}
+                      className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+                    >
+                      <div className="flex items-center gap-4">
+                        {imageUrl ? (
+                          <img
+                            src={imageUrl}
+                            alt={characterMeta.name[locale]}
+                            className="h-16 w-16 rounded-2xl border border-slate-200 bg-slate-50 object-cover"
+                          />
+                        ) : (
+                          <div className="h-16 w-16 rounded-2xl border border-slate-200 bg-slate-50" />
+                        )}
+
+                        <div className="min-w-0">
+                          <div className="truncate text-[16px] font-semibold text-slate-900">
+                            {characterMeta.name[locale]}
+                          </div>
+                          <div className="mt-1 text-[13px] font-medium text-blue-700">{message}</div>
+                        </div>
+                      </div>
+
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {validLabels.map((label) => {
+                          return (
+                            <span
+                              key={label}
+                              className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-[12px] font-medium text-slate-700"
+                            >
+                              {label}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </section>
         </div>
       </div>
     </div>

@@ -1,0 +1,19 @@
+{
+  "characters": [
+    {
+      "id": "raiden",
+      "name": { "ko": "라이덴 쇼군", "en": "Raiden Shogun", "ja": "雷電将軍" },
+      "imageKey": "raiden"
+    },
+    {
+      "id": "hutao",
+      "name": { "ko": "호두", "en": "Hu Tao", "ja": "胡桃" },
+      "imageKey": "hutao"
+    },
+    {
+      "id": "bennett",
+      "name": { "ko": "베넷", "en": "Bennett", "ja": "ベネット" },
+      "imageKey": "bennett"
+    }
+  ]
+}

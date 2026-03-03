@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "characterId": "raiden",
+      "artifactSets": ["emblem"],
+      "mainStats": ["er", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "hutao",
+      "artifactSets": ["gladiator"],
+      "mainStats": ["hp_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "hp_percent", "em"]
+    },
+    {
+      "characterId": "bennett",
+      "artifactSets": ["wanderer"],
+      "mainStats": ["er", "healing"],
+      "validSubStats": ["er", "hp_percent", "hp_flat", "def_percent"]
+    }
+  ]
+}
