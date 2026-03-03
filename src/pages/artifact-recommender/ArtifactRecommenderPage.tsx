@@ -230,6 +230,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       en: "Only one set may be selected. Click the selected one again to clear.",
       ja: "セットは1つだけ選択できます。もう一度押すと解除できます。",
     },
+    artifactSetSearchPlaceholder: {
+      ko: "세트 이름 검색...",
+      en: "Search sets...",
+      ja: "セット名を検索...",
+    },
     mainOptionTitle: { ko: "주옵션", en: "Main stat", ja: "メインオプション" },
     mainOptionHelper: {
       ko: "주옵션은 1개만 선택 가능합니다.",
@@ -264,6 +269,19 @@ export default function ArtifactRecommenderPage(): JSX.Element {
   const artifactSetChipOptions: ChipOption[] = artifactSetOptions
     .filter((option) => option.value !== "none")
     .map((option) => ({ key: option.value, label: option.label }));
+
+  const [artifactSetSearchText, setArtifactSetSearchText] = React.useState<string>("");
+
+  const filteredArtifactSetChipOptions: ChipOption[] = React.useMemo(() => {
+    const normalizedQuery: string = artifactSetSearchText.trim().toLowerCase();
+    if (!normalizedQuery) {
+      return artifactSetChipOptions;
+    }
+
+    return artifactSetChipOptions.filter((option) => {
+      return option.label.toLowerCase().includes(normalizedQuery);
+    });
+  }, [artifactSetChipOptions, artifactSetSearchText]);
 
 
   const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string | null>(null);
@@ -334,9 +352,21 @@ export default function ArtifactRecommenderPage(): JSX.Element {
           />
 
           {/* 세트 이름: 1개만 선택 */}
+          <div className="mb-4">
+            <input
+              type="text"
+              value={artifactSetSearchText}
+              onChange={(event) => {
+                setArtifactSetSearchText(event.target.value);
+              }}
+              placeholder={uiText.artifactSetSearchPlaceholder[locale]}
+              className="h-11 w-full rounded-xl border border-slate-200 bg-white px-4 text-[14px] text-slate-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-200"
+            />
+          </div>
+
           <ChipSelectSection
             title={uiText.artifactSetLabel[locale]}
-            options={artifactSetChipOptions}
+            options={filteredArtifactSetChipOptions}
             selectedKeys={selectedArtifactSetKey ? [selectedArtifactSetKey] : []}
             maxSelected={1}
             helperText={uiText.artifactSetHelper[locale]}
