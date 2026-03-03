@@ -1,0 +1,74 @@
+{
+  "artifactSets": [
+    {
+      "value": "none",
+      "label": {
+        "ko": "세트 선택",
+        "en": "Select set",
+        "ja": "セットを選択"
+      }
+    },
+    {
+      "value": "gladiator",
+      "label": {
+        "ko": "검투사의 피날레",
+        "en": "Gladiator's Finale",
+        "ja": "剣闘士のフィナーレ"
+      }
+    },
+    {
+      "value": "wanderer",
+      "label": {
+        "ko": "대지를 유랑하는 악단",
+        "en": "Wanderer's Troupe",
+        "ja": "大地を流浪する楽団"
+      }
+    },
+    {
+      "value": "emblem",
+      "label": {
+        "ko": "절연의 기치",
+        "en": "Emblem of Severed Fate",
+        "ja": "絶縁の旗印"
+      }
+    },
+    {
+      "value": "deepwood",
+      "label": {
+        "ko": "숲의 기억",
+        "en": "Deepwood Memories",
+        "ja": "翠緑の影"
+      }
+    }
+  ],
+  "mainStats": [
+    { "key": "atk_percent", "label": { "ko": "공격력%", "en": "ATK%", "ja": "攻撃力%" } },
+    { "key": "hp_percent", "label": { "ko": "생명력%", "en": "HP%", "ja": "HP%" } },
+    { "key": "def_percent", "label": { "ko": "방어력%", "en": "DEF%", "ja": "防御力%" } },
+    { "key": "er", "label": { "ko": "원소 충전 효율", "en": "Energy Recharge", "ja": "元素チャージ効率" } },
+    { "key": "em", "label": { "ko": "원소 마스터리", "en": "Elemental Mastery", "ja": "元素熟知" } },
+    { "key": "crit_rate", "label": { "ko": "치명타 확률", "en": "CRIT Rate", "ja": "会心率" } },
+    { "key": "crit_dmg", "label": { "ko": "치명타 피해", "en": "CRIT DMG", "ja": "会心ダメージ" } },
+    { "key": "healing", "label": { "ko": "치유 보너스", "en": "Healing Bonus", "ja": "治療効果" } },
+    { "key": "pyro", "label": { "ko": "불 원소 피해", "en": "Pyro DMG", "ja": "炎元素ダメージ" } },
+    { "key": "hydro", "label": { "ko": "물 원소 피해", "en": "Hydro DMG", "ja": "水元素ダメージ" } },
+    { "key": "electro", "label": { "ko": "번개 원소 피해", "en": "Electro DMG", "ja": "雷元素ダメージ" } },
+    { "key": "cryo", "label": { "ko": "얼음 원소 피해", "en": "Cryo DMG", "ja": "氷元素ダメージ" } },
+    { "key": "anemo", "label": { "ko": "바람 원소 피해", "en": "Anemo DMG", "ja": "風元素ダメージ" } },
+    { "key": "geo", "label": { "ko": "바위 원소 피해", "en": "Geo DMG", "ja": "岩元素ダメージ" } },
+    { "key": "dendro", "label": { "ko": "풀 원소 피해", "en": "Dendro DMG", "ja": "草元素ダメージ" } },
+    { "key": "physical", "label": { "ko": "물리 피해", "en": "Physical DMG", "ja": "物理ダメージ" } }
+  ],
+  "subStats": [
+    { "key": "atk_flat", "label": { "ko": "공격력", "en": "ATK", "ja": "攻撃力" } },
+    { "key": "atk_percent", "label": { "ko": "공격력%", "en": "ATK%", "ja": "攻撃力%" } },
+    { "key": "hp_flat", "label": { "ko": "생명력", "en": "HP", "ja": "HP" } },
+    { "key": "hp_percent", "label": { "ko": "생명력%", "en": "HP%", "ja": "HP%" } },
+    { "key": "def_flat", "label": { "ko": "방어력", "en": "DEF", "ja": "防御力" } },
+    { "key": "def_percent", "label": { "ko": "방어력%", "en": "DEF%", "ja": "防御力%" } },
+    { "key": "er", "label": { "ko": "원소 충전 효율", "en": "Energy Recharge", "ja": "元素チャージ効率" } },
+    { "key": "em", "label": { "ko": "원소 마스터리", "en": "Elemental Mastery", "ja": "元素熟知" } },
+    { "key": "crit_rate", "label": { "ko": "치명타 확률", "en": "CRIT Rate", "ja": "会心率" } },
+    { "key": "crit_dmg", "label": { "ko": "치명타 피해", "en": "CRIT DMG", "ja": "会心ダメージ" } }
+  ]
+}

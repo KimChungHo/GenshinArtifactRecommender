@@ -1,4 +1,10 @@
 import React, { type JSX } from "react";
+import {
+  getArtifactSetOptions,
+  getMainStatOptions,
+  getSubStatOptions,
+  type Locale,
+} from "../../data/artifactOptions";
 
 type OptionKey = string;
 
@@ -151,47 +157,31 @@ function LabeledSelect(props: LabeledSelectProps): JSX.Element {
 }
 
 export default function ArtifactRecommenderPage(): JSX.Element {
-  // 1) 세트 이름 콤보박스 (예시 데이터)
-  const artifactSetOptions: Array<{ value: string; label: string }> = [
-    { value: "none", label: "세트 선택" },
-    { value: "gladiator", label: "검투사의 피날레" },
-    { value: "wanderer", label: "대지를 유랑하는 악단" },
-    { value: "emblem", label: "절연의 기치" },
-    { value: "deepwood", label: "숲의 기억" },
-  ];
+  // locale state (ko/en/ja)
+  const [locale, setLocale] = React.useState<"ko" | "en" | "ja">("ko");
 
-  // 2) 주옵션/부옵션 (예시 데이터 - 원하시는 목록으로 교체)
-  const mainStatOptions: ChipOption[] = [
-    { key: "atk_percent", label: "공격력%" },
-    { key: "hp_percent", label: "생명력%" },
-    { key: "def_percent", label: "방어력%" },
-    { key: "er", label: "원소 충전 효율" },
-    { key: "em", label: "원소 마스터리" },
-    { key: "crit_rate", label: "치명타 확률" },
-    { key: "crit_dmg", label: "치명타 피해" },
-    { key: "healing", label: "치유 보너스" },
-    { key: "pyro", label: "불 원소 피해" },
-    { key: "hydro", label: "물 원소 피해" },
-    { key: "electro", label: "번개 원소 피해" },
-    { key: "cryo", label: "얼음 원소 피해" },
-    { key: "anemo", label: "바람 원소 피해" },
-    { key: "geo", label: "바위 원소 피해" },
-    { key: "dendro", label: "풀 원소 피해" },
-    { key: "physical", label: "물리 피해" },
-  ];
+  // load lists from JSON data and localize
+  const artifactSetOptions = getArtifactSetOptions(locale);
+  const mainStatOptions = getMainStatOptions(locale);
+  const subStatOptions = getSubStatOptions(locale);
 
-  const subStatOptions: ChipOption[] = [
-    { key: "atk_flat", label: "공격력" },
-    { key: "atk_percent", label: "공격력%" },
-    { key: "hp_flat", label: "생명력" },
-    { key: "hp_percent", label: "생명력%" },
-    { key: "def_flat", label: "방어력" },
-    { key: "def_percent", label: "방어력%" },
-    { key: "er", label: "원소 충전 효율" },
-    { key: "em", label: "원소 마스터리" },
-    { key: "crit_rate", label: "치명타 확률" },
-    { key: "crit_dmg", label: "치명타 피해" },
-  ];
+  // UI text strings that also need translation
+  const uiText = {
+    artifactSetLabel: { ko: "성유물 세트", en: "Artifact Set", ja: "聖遺物セット" },
+    mainOptionTitle: { ko: "주옵션", en: "Main stat", ja: "メインオプション" },
+    mainOptionHelper: {
+      ko: "주옵션은 1개만 선택 가능합니다.",
+      en: "Only one main stat may be selected.",
+      ja: "メインオプションは1つだけ選択できます。",
+    },
+    subOptionTitle: { ko: "부옵션", en: "Sub stats", ja: "サブオプション" },
+    subOptionHelper: {
+      ko: "부옵션은 최대 4개까지 선택 가능합니다.",
+      en: "You can select up to 4 sub stats.",
+      ja: "サブオプションは最大4つまで選択できます。",
+    },
+    languageLabel: { ko: "언어", en: "Language", ja: "言語" },
+  };
 
   const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string>("none");
   const [selectedMainStatKeys, setSelectedMainStatKeys] = React.useState<OptionKey[]>([]);
@@ -199,11 +189,25 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
   return (
     <div className="min-h-screen bg-slate-50 p-8">
-      <div className="mx-auto max-w-[760px]">
+      <div className="mx-auto max-w-190">
         <div className="rounded-[28px] bg-white p-10 shadow-sm">
           {/* 세트 이름 콤보박스 */}
+          {/* language selector for demonstration */}
           <LabeledSelect
-            label="성유물 세트"
+            label={uiText.languageLabel[locale]}
+            value={locale}
+            options={[
+              { value: "ko", label: "한국어" },
+              { value: "en", label: "English" },
+              { value: "ja", label: "日本語" },
+            ]}
+            onChange={(next) => {
+              setLocale(next as Locale);
+            }}
+          />
+
+          <LabeledSelect
+            label={uiText.artifactSetLabel[locale]}
             value={selectedArtifactSetKey}
             options={artifactSetOptions}
             onChange={(nextValue) => {
@@ -213,11 +217,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
           {/* 주옵션: 1개만 선택 */}
           <ChipSelectSection
-            title="주옵션"
+            title={uiText.mainOptionTitle[locale]}
             options={mainStatOptions}
             selectedKeys={selectedMainStatKeys}
             maxSelected={1}
-            helperText="주옵션은 1개만 선택 가능합니다."
+            helperText={uiText.mainOptionHelper[locale]}
             onChangeSelectedKeys={(nextSelectedKeys) => {
               setSelectedMainStatKeys(nextSelectedKeys);
             }}
@@ -225,11 +229,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
           {/* 부옵션: 최대 4개 선택 */}
           <ChipSelectSection
-            title="부옵션"
+            title={uiText.subOptionTitle[locale]}
             options={subStatOptions}
             selectedKeys={selectedSubStatKeys}
             maxSelected={4}
-            helperText="부옵션은 최대 4개까지 선택 가능합니다."
+            helperText={uiText.subOptionHelper[locale]}
             onChangeSelectedKeys={(nextSelectedKeys) => {
               setSelectedSubStatKeys(nextSelectedKeys);
             }}
