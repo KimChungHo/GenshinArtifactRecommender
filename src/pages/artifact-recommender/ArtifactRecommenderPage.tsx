@@ -226,9 +226,9 @@ export default function ArtifactRecommenderPage(): JSX.Element {
   const uiText = {
     artifactSetLabel: { ko: "성유물 세트", en: "Artifact Set", ja: "聖遺物セット" },
     artifactSetHelper: {
-      ko: "세트는 1개만 선택 가능합니다. 선택을 해제하려면 같은 버튼을 다시 누르세요.",
-      en: "Only one set may be selected. Click the selected one again to clear.",
-      ja: "セットは1つだけ選択できます。もう一度押すと解除できます。",
+      ko: "세트는 여러 개 선택 가능합니다. 선택을 해제하려면 같은 버튼을 다시 누르세요.",
+      en: "You can select multiple sets. Click a selected one again to clear.",
+      ja: "セットは複数選択できます。もう一度押すと解除できます。",
     },
     artifactSetSearchPlaceholder: {
       ko: "세트 이름 검색...",
@@ -284,7 +284,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
   }, [artifactSetChipOptions, artifactSetSearchText]);
 
 
-  const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string | null>(null);
+  const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<OptionKey[]>([]);
   const [selectedMainStatKeys, setSelectedMainStatKeys] = React.useState<OptionKey[]>([]);
   const [selectedSubStatKeys, setSelectedSubStatKeys] = React.useState<OptionKey[]>([]);
 
@@ -299,15 +299,19 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       return [];
     }
 
+    if (selectedArtifactSetKeys.length <= 0) {
+      return [];
+    }
+
     const results: Array<{
       characterId: string;
       validSubStatKeys: string[];
     }> = [];
 
     for (const rule of rules) {
-      const setMatches: boolean = selectedArtifactSetKey
-        ? rule.artifactSets.includes(selectedArtifactSetKey)
-        : true;
+      const setMatches: boolean = selectedArtifactSetKeys.some((selectedKey) =>
+        rule.artifactSets.includes(selectedKey)
+      );
 
       if (!setMatches) {
         continue;
@@ -330,7 +334,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     }
 
     return results;
-  }, [selectedArtifactSetKey, selectedMainStatKey, selectedSubStatKeys]);
+  }, [selectedArtifactSetKeys, selectedMainStatKey, selectedSubStatKeys]);
 
   return (
     <div className="min-h-screen bg-slate-50 p-8">
@@ -367,16 +371,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
           <ChipSelectSection
             title={uiText.artifactSetLabel[locale]}
             options={filteredArtifactSetChipOptions}
-            selectedKeys={selectedArtifactSetKey ? [selectedArtifactSetKey] : []}
-            maxSelected={1}
+            selectedKeys={selectedArtifactSetKeys}
+            maxSelected={10}
             helperText={uiText.artifactSetHelper[locale]}
             onChangeSelectedKeys={(nextSelectedKeys) => {
-              if (nextSelectedKeys.length <= 0) {
-                setSelectedArtifactSetKey(null);
-                return;
-              }
-
-              setSelectedArtifactSetKey(nextSelectedKeys[0] ?? null);
+              setSelectedArtifactSetKeys(nextSelectedKeys);
             }}
           />
 
@@ -414,7 +413,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
           <div className="my-8 border-t border-slate-100" />
 
-          {selectedArtifactSetKey ? (
+          {selectedArtifactSetKeys.length > 0 ? (
             <section>
               <div className="mb-2 flex items-center justify-between">
               <h3 className="text-[15px] font-semibold text-slate-800">
