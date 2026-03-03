@@ -168,6 +168,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
   // UI text strings that also need translation
   const uiText = {
     artifactSetLabel: { ko: "성유물 세트", en: "Artifact Set", ja: "聖遺物セット" },
+    artifactSetHelper: {
+      ko: "세트는 1개만 선택 가능합니다. 선택을 해제하려면 같은 버튼을 다시 누르세요.",
+      en: "Only one set may be selected. Click the selected one again to clear.",
+      ja: "セットは1つだけ選択できます。もう一度押すと解除できます。",
+    },
     mainOptionTitle: { ko: "주옵션", en: "Main stat", ja: "メインオプション" },
     mainOptionHelper: {
       ko: "주옵션은 1개만 선택 가능합니다.",
@@ -183,7 +188,12 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     languageLabel: { ko: "언어", en: "Language", ja: "言語" },
   };
 
-  const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string>("none");
+  const artifactSetChipOptions: ChipOption[] = artifactSetOptions
+    .filter((option) => option.value !== "none")
+    .map((option) => ({ key: option.value, label: option.label }));
+
+
+  const [selectedArtifactSetKey, setSelectedArtifactSetKey] = React.useState<string | null>(null);
   const [selectedMainStatKeys, setSelectedMainStatKeys] = React.useState<OptionKey[]>([]);
   const [selectedSubStatKeys, setSelectedSubStatKeys] = React.useState<OptionKey[]>([]);
 
@@ -206,12 +216,20 @@ export default function ArtifactRecommenderPage(): JSX.Element {
             }}
           />
 
-          <LabeledSelect
-            label={uiText.artifactSetLabel[locale]}
-            value={selectedArtifactSetKey}
-            options={artifactSetOptions}
-            onChange={(nextValue) => {
-              setSelectedArtifactSetKey(nextValue);
+          {/* 세트 이름: 1개만 선택 */}
+          <ChipSelectSection
+            title={uiText.artifactSetLabel[locale]}
+            options={artifactSetChipOptions}
+            selectedKeys={selectedArtifactSetKey ? [selectedArtifactSetKey] : []}
+            maxSelected={1}
+            helperText={uiText.artifactSetHelper[locale]}
+            onChangeSelectedKeys={(nextSelectedKeys) => {
+              if (nextSelectedKeys.length <= 0) {
+                setSelectedArtifactSetKey(null);
+                return;
+              }
+
+              setSelectedArtifactSetKey(nextSelectedKeys[0] ?? null);
             }}
           />
 
