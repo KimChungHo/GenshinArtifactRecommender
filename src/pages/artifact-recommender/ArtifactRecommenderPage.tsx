@@ -66,12 +66,18 @@ interface ChipSelectSectionProps {
   maxSelected: number;
   onChangeSelectedKeys: (nextSelectedKeys: OptionKey[]) => void;
   helperText?: string;
+  disabledKeys?: OptionKey[];
 }
 
 function ChipSelectSection(props: ChipSelectSectionProps): JSX.Element {
   const selectedCount: number = props.selectedKeys.length;
 
   function handleToggleOption(optionKey: OptionKey): void {
+    const isForceDisabled: boolean = props.disabledKeys ? props.disabledKeys.includes(optionKey) : false;
+    if (isForceDisabled) {
+      return;
+    }
+
     const isSelected: boolean = props.selectedKeys.includes(optionKey);
 
     if (isSelected) {
@@ -94,6 +100,11 @@ function ChipSelectSection(props: ChipSelectSectionProps): JSX.Element {
   }
 
   function isOptionDisabled(optionKey: OptionKey): boolean {
+    const isForceDisabled: boolean = props.disabledKeys ? props.disabledKeys.includes(optionKey) : false;
+    if (isForceDisabled) {
+      return true;
+    }
+
     const isSelected: boolean = props.selectedKeys.includes(optionKey);
 
     if (isSelected) {
@@ -348,6 +359,13 @@ export default function ArtifactRecommenderPage(): JSX.Element {
             helperText={uiText.mainOptionHelper[locale]}
             onChangeSelectedKeys={(nextSelectedKeys) => {
               setSelectedMainStatKeys(nextSelectedKeys);
+
+              const nextMainStatKey: string | null = nextSelectedKeys[0] ?? null;
+              if (nextMainStatKey) {
+                setSelectedSubStatKeys((previousSubStatKeys) => {
+                  return previousSubStatKeys.filter((key) => key !== nextMainStatKey);
+                });
+              }
             }}
           />
 
@@ -357,6 +375,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
             options={subStatOptions}
             selectedKeys={selectedSubStatKeys}
             maxSelected={4}
+            disabledKeys={selectedMainStatKey ? [selectedMainStatKey] : []}
             helperText={uiText.subOptionHelper[locale]}
             onChangeSelectedKeys={(nextSelectedKeys) => {
               setSelectedSubStatKeys(nextSelectedKeys);
