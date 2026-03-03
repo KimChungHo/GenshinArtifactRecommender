@@ -294,6 +294,16 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     subStatOptions.map((option) => [option.key, option.label])
   );
 
+  const artifactSetLabelByKey: Map<string, string> = new Map(
+    artifactSetOptions
+      .filter((option) => option.value !== "none")
+      .map((option) => [option.value, option.label])
+  );
+
+  const mainStatLabelByKey: Map<string, string> = new Map(
+    mainStatOptions.map((option) => [option.key, option.label])
+  );
+
   const recommendedCharacters = React.useMemo(() => {
     if (!selectedMainStatKey) {
       return [];
@@ -306,14 +316,15 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     const results: Array<{
       characterId: string;
       validSubStatKeys: string[];
+      matchedSetKeys: string[];
     }> = [];
 
     for (const rule of rules) {
-      const setMatches: boolean = selectedArtifactSetKeys.some((selectedKey) =>
+      const matchedSetKeys: string[] = selectedArtifactSetKeys.filter((selectedKey) =>
         rule.artifactSets.includes(selectedKey)
       );
 
-      if (!setMatches) {
+      if (matchedSetKeys.length <= 0) {
         continue;
       }
 
@@ -330,7 +341,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
         continue;
       }
 
-      results.push({ characterId: rule.characterId, validSubStatKeys });
+      results.push({ characterId: rule.characterId, validSubStatKeys, matchedSetKeys });
     }
 
     return results;
@@ -446,6 +457,14 @@ export default function ArtifactRecommenderPage(): JSX.Element {
                     return subStatLabelByKey.get(key) ?? key;
                   });
 
+                  const matchedSetLabels: string[] = item.matchedSetKeys.map((key) => {
+                    return artifactSetLabelByKey.get(key) ?? key;
+                  });
+
+                  const mainStatLabel: string = selectedMainStatKey
+                    ? mainStatLabelByKey.get(selectedMainStatKey) ?? selectedMainStatKey
+                    : "";
+
                   return (
                     <div
                       key={characterMeta.id}
@@ -471,6 +490,26 @@ export default function ArtifactRecommenderPage(): JSX.Element {
                       </div>
 
                       <div className="mt-4 flex flex-wrap gap-2">
+                        {item.matchedSetKeys.map((setKey, index) => {
+                          const label: string = matchedSetLabels[index] ?? setKey;
+                          return (
+                            <span
+                              key={`set-${setKey}`}
+                              className="rounded-full border border-slate-200 bg-white px-3 py-1 text-[12px] font-medium text-slate-700"
+                            >
+                              {label}
+                            </span>
+                          );
+                        })}
+
+                        {mainStatLabel ? (
+                          <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[12px] font-semibold text-blue-800">
+                            {mainStatLabel}
+                          </span>
+                        ) : null}
+                      </div>
+
+                      <div className="mt-3 flex flex-wrap gap-2">
                         {validLabels.map((label) => {
                           return (
                             <span
