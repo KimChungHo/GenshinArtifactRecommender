@@ -272,19 +272,16 @@ export default function ArtifactRecommenderPage(): JSX.Element {
 
   const [artifactSetSearchText, setArtifactSetSearchText] = React.useState<string>("");
 
-  const filteredArtifactSetChipOptions: ChipOption[] = React.useMemo(() => {
-    const normalizedQuery: string = artifactSetSearchText.trim().toLowerCase();
-    if (!normalizedQuery) {
-      return artifactSetChipOptions;
-    }
+  const normalizedArtifactSetQuery: string = artifactSetSearchText.trim().toLowerCase();
 
-    return artifactSetChipOptions.filter((option) => {
-      return option.label.toLowerCase().includes(normalizedQuery);
+  let filteredArtifactSetChipOptions: ChipOption[] = artifactSetChipOptions;
+  if (normalizedArtifactSetQuery) {
+    filteredArtifactSetChipOptions = artifactSetChipOptions.filter((option) => {
+      return option.label.toLowerCase().includes(normalizedArtifactSetQuery);
     });
-  }, [artifactSetChipOptions, artifactSetSearchText]);
+  }
 
-
-  const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<OptionKey[]>([]);
+const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<OptionKey[]>([]);
   const [selectedMainStatKeys, setSelectedMainStatKeys] = React.useState<OptionKey[]>([]);
   const [selectedSubStatKeys, setSelectedSubStatKeys] = React.useState<OptionKey[]>([]);
 
