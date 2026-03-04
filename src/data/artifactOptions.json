@@ -1,14 +1,6 @@
 {
   "artifactSets": [
     {
-      "value": "none",
-      "label": {
-        "ko": "세트 선택",
-        "en": "Select set",
-        "ja": "セットを選択"
-      }
-    },
-    {
       "value": "adaycarvedfromrisingwinds",
       "label": {
         "ko": "바람이 시작되는 날",

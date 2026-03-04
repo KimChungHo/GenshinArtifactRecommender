@@ -1,19 +1,314 @@
 {
   "characters": [
     {
-      "id": "raiden",
-      "name": { "ko": "라이덴 쇼군", "en": "Raiden Shogun", "ja": "雷電将軍" },
-      "imageKey": "raiden"
+      "id": "traveler_pyro",
+      "name": { "ko": "여행자 (불)", "en": "Traveler (Pyro)", "ja": "旅行者 (炎)" },
+      "imageKey": "traveler_pyro"
     },
     {
-      "id": "hutao",
-      "name": { "ko": "호두", "en": "Hu Tao", "ja": "胡桃" },
-      "imageKey": "hutao"
+      "id": "amber",
+      "name": { "ko": "엠버", "en": "Amber", "ja": "アンバー" },
+      "imageKey": "amber"
+    },
+    {
+      "id": "xiangling",
+      "name": { "ko": "향릉", "en": "Xiangling", "ja": "香菱" },
+      "imageKey": "xiangling"
     },
     {
       "id": "bennett",
       "name": { "ko": "베넷", "en": "Bennett", "ja": "ベネット" },
       "imageKey": "bennett"
+    },
+    {
+      "id": "diluc",
+      "name": { "ko": "다이루크", "en": "Diluc", "ja": "ディルック" },
+      "imageKey": "diluc"
+    },
+    {
+      "id": "klee",
+      "name": { "ko": "클레", "en": "Klee", "ja": "クレー" },
+      "imageKey": "klee"
+    },
+    {
+      "id": "xinyan_dps",
+      "name": { "ko": "신염 (딜러)", "en": "Xinyan (DPS)", "ja": "辛炎 (アタッカー)" },
+      "imageKey": "xinyan"
+    },
+    {
+      "id": "xinyan_support",
+      "name": { "ko": "신염 (서포터)", "en": "Xinyan (Support)", "ja": "辛炎 (サポーター)" },
+      "imageKey": "xinyan"
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
+    },
+    {
+      "id": "",
+      "name": { "ko": "", "en": "", "ja": "" },
+      "imageKey": ""
     }
   ]
 }
