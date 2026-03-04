@@ -263,6 +263,11 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       en: "{count} valid sub stats",
       ja: "有効オプション {count}個",
     },
+    validOptionMaxSuffix: {
+      ko: "(최대)",
+      en: "(max)",
+      ja: "（最大）",
+    },
     languageLabel: { ko: "언어", en: "Language", ja: "言語" },
   };
 
@@ -314,6 +319,7 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
       characterId: string;
       validSubStatKeys: string[];
       matchedSetKeys: string[];
+      maxValidSubStatCount: number;
     }> = [];
 
     for (const rule of rules) {
@@ -333,12 +339,21 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
       const validSubStatKeys: string[] = selectedSubStatKeys.filter((key) =>
         rule.validSubStats.includes(key)
       );
+      const maxValidSubStatCount: number = Math.min(4, rule.validSubStats.length);
+      const selectedSubStatCount: number = selectedSubStatKeys.length;
+      const validSubStatCount: number = validSubStatKeys.length;
 
-      if (validSubStatKeys.length < 3) {
+      const passesValidSubStatCheck: boolean =
+        maxValidSubStatCount >= 3
+          ? validSubStatCount >= 3
+          : selectedSubStatCount === maxValidSubStatCount && validSubStatCount === maxValidSubStatCount;
+
+      if (!passesValidSubStatCheck) {
         continue;
       }
 
-      results.push({ characterId: rule.characterId, validSubStatKeys, matchedSetKeys });
+      results.push({ characterId: rule.characterId, validSubStatKeys, matchedSetKeys, maxValidSubStatCount });
+
     }
 
     return results;
@@ -448,7 +463,15 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
                   const imageUrl: string | null = getCharacterImageUrl(characterMeta.imageKey);
                   const validCount: number = item.validSubStatKeys.length;
                   const messageTemplate: string = uiText.validOptionCountMessage[locale];
-                  const message: string = messageTemplate.replace("{count}", String(validCount));
+                  const isMaxValidSubStatSelection: boolean =
+                    item.maxValidSubStatCount < 4 &&
+                    selectedSubStatKeys.length === item.maxValidSubStatCount &&
+                    validCount === selectedSubStatKeys.length;
+
+                  let message: string = messageTemplate.replace("{count}", String(validCount));
+                  if (isMaxValidSubStatSelection) {
+                    message = `${message}${uiText.validOptionMaxSuffix[locale]}`;
+                  }
 
                   const validLabels: string[] = item.validSubStatKeys.map((key) => {
                     return subStatLabelByKey.get(key) ?? key;
