@@ -41,174 +41,174 @@
       "imageKey": "xinyan"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
+      "id": "hutao",
+      "name": { "ko": "호두", "en": "HuTao", "ja": "胡桃" },
+      "imageKey": "hutao"
+    },
+    {
+      "id": "yanfei_dps",
+      "name": { "ko": "연비 (딜러)", "en": "Yanfei (DPS)", "ja": "煙緋 (アタッカー)" },
+      "imageKey": "yanfei"
+    },
+    {
+      "id": "yanfei_support",
+      "name": { "ko": "연비 (서포터)", "en": "Yanfei (Support)", "ja": "煙緋 (サポーター)" },
+      "imageKey": "yanfei"
+    },
+    {
+      "id": "yoimiya",
+      "name": { "ko": "요이미야", "en": "Yoimiya", "ja": "宵宮" },
+      "imageKey": "yoimiya"
+    },
+    {
+      "id": "thoma_shield",
+      "name": { "ko": "토마 (방어)", "en": "Thoma (Shield)", "ja": "トーマ (シールド)" },
+      "imageKey": "thoma"
+    },
+    {
+      "id": "thoma_burst",
+      "name": { "ko": "토마 (발화)", "en": "Thoma (Burst)", "ja": "トーマ (バースト)" },
+      "imageKey": "thoma"
+    },
+    {
+      "id": "dehya_offfield",
+      "name": { "ko": "데히야 (오프필드)", "en": "Dehya (Off-field)", "ja": "ディシア (オフフィールド)" },
+      "imageKey": "dehya"
+    },
+    {
+      "id": "dehya_onfield",
+      "name": { "ko": "데히야 (온필드)", "en": "Dehya (On-field)", "ja": "ディシア (オンフィールド)" },
+      "imageKey": "dehya"
+    },
+    {
+      "id": "lyney",
+      "name": { "ko": "리니", "en": "Lyney", "ja": "リネ" },
+      "imageKey": "lyney"
+    },
+    {
+      "id": "chevreuse",
+      "name": { "ko": "슈브르즈", "en": "Chevreuse", "ja": "シュヴルーズ" },
       "imageKey": ""
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
+      "id": "gaming",
+      "name": { "ko": "가명", "en": "Gaming", "ja": "ガミン" },
       "imageKey": ""
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "arlecchino",
+      "name": { "ko": "아를레키노", "en": "Arlecchino", "ja": "アルレッキーノ" },
+      "imageKey": "arlecchino"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "mavuika",
+      "name": { "ko": "마비카", "en": "mavuika", "ja": "マーヴィカ" },
+      "imageKey": "mavuika"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "durin",
+      "name": { "ko": "두린", "en": "Durin", "ja": "ドゥリン" },
+      "imageKey": "durin"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_hydro",
+      "name": { "ko": "여행자 (물)", "en": "Traveler (Hydro)", "ja": "旅行者 (水)" },
+      "imageKey": "traveler_hydro"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "barbara_healer",
+      "name": { "ko": "바바라 (힐러)", "en": "Barbara (Healer)", "ja": "バーバラ (ヒーラー)" },
+      "imageKey": "barbara"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "barbara_bloom",
+      "name": { "ko": "바바라 (개화)", "en": "Barbara (Bloom)", "ja": "バーバラ (開花)" },
+      "imageKey": "barbara"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "xingqiu",
+      "name": { "ko": "행추", "en": "Xingqiu", "ja": "行秋 (ゆくあき)" },
+      "imageKey": "Xingqiu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "Mona",
+      "name": { "ko": "모나", "en": "Mona", "ja": "モナ" },
+      "imageKey": "mona"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "tartaglia",
+      "name": { "ko": "타르탈리아", "en": "Tartaglia", "ja": "タルタリヤ" },
+      "imageKey": "tartaglia"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kokomi_healer",
+      "name": { "ko": "산고노미야 코코미 (힐러)", "en": "Sangonomiya Kokomi (Healer)", "ja": "珊瑚宮心海 (ヒーラー)" },
+      "imageKey": "kokomi"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kokomi_support",
+      "name": { "ko": "산고노미야 코코미 (서포터)", "en": "Sangonomiya Kokomi (Support)", "ja": "珊瑚宮心海 (サポーター)" },
+      "imageKey": "kokomi"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kokomi_bloom",
+      "name": { "ko": "산고노미야 코코미 (개화)", "en": "Sangonomiya Kokomi (Bloom)", "ja": "珊瑚宮心海 (開花)" },
+      "imageKey": "kokomi"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ayato",
+      "name": { "ko": "카미사토 아야토", "en": "Kamisato Ayato", "ja": "神里綾人" },
+      "imageKey": "ayato"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "yelan",
+      "name": { "ko": "야란", "en": "Yelan", "ja": "夜蘭" },
+      "imageKey": "yelan"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "candace_support",
+      "name": { "ko": "캔디스 (서포터)", "en": "Candace (Support)", "ja": "キャンディス(サポーター)" },
+      "imageKey": "candace"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "candace_onfield",
+      "name": { "ko": "캔디스 (온필드)", "en": "Candace (On-field)", "ja": "キャンディス(オンフィールド)" },
+      "imageKey": "candace"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "nilou_bloom",
+      "name": { "ko": "닐루 (개화)", "en": "Nilou (Bloom)", "ja": "ニィロウ (開花)" },
+      "imageKey": "nilou"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "nilou_other",
+      "name": { "ko": "닐루 (기타)", "en": "Nilou (Other)", "ja": "ニィロウ (その他)" },
+      "imageKey": "nilou"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "neuvillette",
+      "name": { "ko": "느비예트", "en": "Neuvillette", "ja": "ヌヴィレット" },
+      "imageKey": "neuvillette"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "furina",
+      "name": { "ko": "푸리나", "en": "Furina", "ja": "フリーナ" },
+      "imageKey": "furina"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "sigewinne",
+      "name": { "ko": "시그윈", "en": "Sigewinne", "ja": "シグウィン" },
+      "imageKey": "sigewinne"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "mualani",
+      "name": { "ko": "말라니", "en": "Mualani", "ja": "ムアラニ" },
+      "imageKey": "mualani"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "dahlia",
+      "name": { "ko": "달리아", "en": "Dahlia", "ja": "ダリア" },
+      "imageKey": "dahlia"
     },
     {
       "id": "",
