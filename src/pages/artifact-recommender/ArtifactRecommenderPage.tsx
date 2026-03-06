@@ -336,10 +336,18 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
         continue;
       }
 
+      // NOTE:
+      // - Sub stats cannot include the selected main stat (we also actively disable it in the UI).
+      // - Some characters' rule data may include the same stat in both mainStats and validSubStats.
+      //   In that case, the *effective* valid sub stat pool should exclude the selected main stat,
+      //   otherwise the "max valid" count becomes impossible to reach.
+      const effectiveValidSubStats: string[] = rule.validSubStats.filter((key) => key !== selectedMainStatKey);
+
       const validSubStatKeys: string[] = selectedSubStatKeys.filter((key) =>
-        rule.validSubStats.includes(key)
+        effectiveValidSubStats.includes(key)
       );
-      const maxValidSubStatCount: number = Math.min(4, rule.validSubStats.length);
+
+      const maxValidSubStatCount: number = Math.min(4, effectiveValidSubStats.length);
       const selectedSubStatCount: number = selectedSubStatKeys.length;
       const validSubStatCount: number = validSubStatKeys.length;
 
