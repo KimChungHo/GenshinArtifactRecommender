@@ -522,6 +522,519 @@
       "validSubStats": ["hp_percent", "er", "crit_rate"]
     },
     {
+      "characterId": "aino",
+      "artifactSets": [
+        "silkenmoonsserenade",
+        "instructor",
+        "noblesseoblige",
+        "deepwoodmemories"
+      ],
+      "mainStats": ["em", "er", "crit_rate"],
+      "validSubStats": ["er", "em", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "columbina",
+      "artifactSets": [
+        "silkenmoonsserenade",
+        "journeyofstarsandmoon",
+        "tenacityofthemillelith",
+        "nightrevealstheboundaries"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate", "crit_dmg"],
+      "validSubStats": ["hp_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "traveler_electro",
+      "artifactSets": ["emblemofseveredfate", "theexile"],
+      "mainStats": ["er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
+    },
+    {
+      "characterId": "lisa",
+      "artifactSets": [
+        "noblesseoblige",
+        "gildeddreams",
+        "emblemofseveredfate",
+        "thunderingfury",
+        "instructor"
+      ],
+      "mainStats": [
+        "er",
+        "atk_percent",
+        "em",
+        "electro",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "razor",
+      "artifactSets": [
+        "adaycarvedfromrisingwinds",
+        "marechausseehunter",
+        "gladiatorsfinale",
+        "paleflame"
+      ],
+      "mainStats": ["atk_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "beidou",
+      "artifactSets": ["emblemofseveredfate", "theexile", "scholar"],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "fischl",
+      "artifactSets": [
+        "goldentroupe",
+        "adaycarvedfromrisingwinds",
+        "thunderingfury",
+        "tenacityofthemillelith",
+        "gildeddreams"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "keqing",
+      "artifactSets": [
+        "thunderingfury",
+        "gildeddreams",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "kujou_sara",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "thunderingfury",
+        "scholar"
+      ],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "raiden_shogun",
+      "artifactSets": ["emblemofseveredfate", "theexile", "scholar"],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent", "em"]
+    },
+    {
+      "characterId": "raiden_shogun_hyperbloom",
+      "artifactSets": ["flowerofparadiselost", "gildeddreams"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
       "characterId": "",
       "artifactSets": [""],
       "mainStats": [""],
