@@ -633,76 +633,110 @@
       "validSubStats": ["em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "yae_miko",
+      "artifactSets": [
+        "goldentroupe",
+        "thunderingfury",
+        "gildeddreams",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kuki_shinobu_healer",
+      "artifactSets": ["tenacityofthemillelith", "instructor"],
+      "mainStats": ["hp_percent", "healing", "hp_percent"],
+      "validSubStats": ["hp_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "dori_hyperbloom",
+      "artifactSets": [
+        "thunderingfury",
+        "gildeddreams",
+        "instructor",
+        "noblesseoblige",
+        "flowerofparadiselost"
+      ],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["er", "em", "hp_percent", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "dori_dps",
+      "artifactSets": ["thunderingfury"],
+      "mainStats": ["em", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "er",
+        "crit_rate",
+        "crit_dmg",
+        "em",
+        "atk_percent",
+        "hp_percent"
+      ]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "cyno",
+      "artifactSets": ["thunderingfury", "gildeddreams", "gladiatorsfinale"],
+      "mainStats": ["em", "atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "em", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "sethos",
+      "artifactSets": [
+        "wandererstroupe",
+        "gildeddreams",
+        "thunderingfury",
+        "marechausseehunter",
+        "resolutionofsojourner",
+        "martialartist"
+      ],
+      "mainStats": ["em", "er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "em"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "clorinde",
+      "artifactSets": [
+        "fragmentofharmonicwhimsy",
+        "thunderingfury",
+        "gladiatorsfinale",
+        "echoesofanoffering"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "ororon_atk",
+      "artifactSets": ["scrolloftheheroofcindercity"],
+      "mainStats": ["atk_percent", "er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "iansan",
+      "artifactSets": ["scrolloftheheroofcindercity", "noblesseoblige"],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "varesa",
+      "artifactSets": ["longnightsoath", "obsidiancodex"],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "ineffa",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "aubadeofmorningstarandmoon",
+        "gildeddreams"
+      ],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "flins",
+      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
     {
       "characterId": "",

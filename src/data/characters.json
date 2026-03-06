@@ -266,69 +266,69 @@
       "imageKey": "raiden_shogun"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "yae_miko",
+      "name": { "ko": "야에 미코", "en": "Yae Miko", "ja": "八重神子" },
+      "imageKey": "yae_miko"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kuki_shinobu_hyperbloom",
+      "name": { "ko": "쿠키 시노부 (만개)", "en": "Kuki Shinobu (Hyperbloom)", "ja": "久岐忍 (超開花)" },
+      "imageKey": "kuki_shinobu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kuki_shinobu_healer",
+      "name": { "ko": "쿠키 시노부 (힐러)", "en": "Kuki Shinobu (Healer)", "ja": "久岐忍 (ヒーラー)" },
+      "imageKey": "kuki_shinobu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "dori_hyperbloom",
+      "name": { "ko": "도리 (만개)", "en": "Dori (Hyperbloom)", "ja": "ドリー (超開花)" },
+      "imageKey": "dori"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "dori_dps",
+      "name": { "ko": "도리 (딜러)", "en": "Dori (DPS)", "ja": "ドリー (アタッカー)" },
+      "imageKey": "dori"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "cyno",
+      "name": { "ko": "사이노", "en": "Cyno", "ja": "セノ" },
+      "imageKey": "cyno"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "sethos",
+      "name": { "ko": "세토스", "en": "Sethos", "ja": "セトス" },
+      "imageKey": "sethos"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "clorinde",
+      "name": { "ko": "클로린드", "en": "Clorinde", "ja": "クロリンデ" },
+      "imageKey": "clorinde"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ororon_atk",
+      "name": { "ko": "올로룬 (공격력)", "en": "Ororon (ATK)", "ja": "オロルン (攻撃力)" },
+      "imageKey": "ororon"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ororon_em",
+      "name": { "ko": "올로룬 (원소 마스터리)", "en": "Ororon (Elemental Mastery)", "ja": "オロルン(元素熟知)" },
+      "imageKey": "ororon"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "iansan",
+      "name": { "ko": "얀사", "en": "Iansan", "ja": "イアンサ" },
+      "imageKey": "iansan"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "varesa",
+      "name": { "ko": "바레사", "en": "Varesa", "ja": "ヴァレサ" },
+      "imageKey": "varesa"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ineffa",
+      "name": { "ko": "이네파", "en": "Ineffa", "ja": "イネファ" },
+      "imageKey": "ineffa"
     },
     {
       "id": "",
