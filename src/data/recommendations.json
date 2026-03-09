@@ -739,130 +739,223 @@
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kaeya",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "blizzardstrayer",
+        "nightoftheboundlessskies",
+        "scholar",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "er", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "chongyun",
+      "artifactSets": [
+        "marechausseehunter",
+        "noblesseoblige",
+        "blizzardstrayer",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "qiqi_healer",
+      "artifactSets": [
+        "oceanhuedclam",
+        "tenacityofthemillelith",
+        "maidenbeloved",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["atk_percent", "er", "healing"],
+      "validSubStats": ["atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "qiqi_dps",
+      "artifactSets": ["oceanhuedclam"],
+      "mainStats": ["atk_percent", "physical", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "diona",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "instructor",
+        "emblemofseveredfate",
+        "scholar",
+        "theexile"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "hp", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "ganyu_melt",
+      "artifactSets": [
+        "wandererstroupe",
+        "unfinishedreverie",
+        "reminiscenceofshime"
+      ],
+      "mainStats": ["atk_percent", "em", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "ganyu_freeze",
+      "artifactSets": [
+        "blizzardstrayer",
+        "marechausseehunter",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "er", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "rosaria",
+      "artifactSets": [
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor",
+        "blizzardstrayer",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "er", "em", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "eula",
+      "artifactSets": [
+        "paleflame",
+        "marechausseehunter",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "er", "physical", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kamisato_ayaka",
+      "artifactSets": [
+        "blizzardstrayer",
+        "marechausseehunter",
+        "emblemofseveredfate",
+        "gladiatorsfinale",
+        "martialartist"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "aloy",
+      "artifactSets": [
+        "blizzardstrayer",
+        "reminiscenceofshime",
+        "noblesseoblige"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "shenhe",
+      "artifactSets": ["noblesseoblige", "emblemofseveredfate"],
+      "mainStats": ["atk_percent", "er", "crit_rate", "atk_percent"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "atk"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "layla",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate", "hp"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "mika",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "oceanhuedclam",
+        "maidenbeloved",
+        "theexile"
+      ],
+      "mainStats": ["hp_percent", "er", "healing", "crit_rate"],
+      "validSubStats": ["er", "crit_rate", "hp_percent", "hp"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "freminet",
+      "artifactSets": ["marechausseehunter", "paleflame", "blizzardstrayer"],
+      "mainStats": [
+        "atk_percent",
+        "er",
+        "physical",
+        "cryo",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "wriothesley",
+      "artifactSets": [
+        "marechausseehunter",
+        "shimenawasreminiscence",
+        "blizzardstrayer"
+      ],
+      "mainStats": ["atk_percent", "em", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "charlotte",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "oceanhuedclam",
+        "songofdayspast",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "atk_percent", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "citlali",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith",
+        "noblesseoblige",
+        "instructor"
+      ],
+      "mainStats": ["er", "em", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "em"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "escoffier",
+      "artifactSets": [
+        "goldentroupe",
+        "blizzardstrayer",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "skirk",
+      "artifactSets": [
+        "finaleofthedeepgalleries",
+        "marechausseehunter",
+        "blizzardstrayer",
+        "gladiatorsfinale",
+        "martialartist",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     },
     {
       "characterId": "",

@@ -331,64 +331,64 @@
       "imageKey": "ineffa"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "flins",
+      "name": { "ko": "플린스", "en": "Flins", "ja": "フリンズ" },
+      "imageKey": "flins"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kaeya",
+      "name": { "ko": "케이아", "en": "Kaeya", "ja": "ガイア" },
+      "imageKey": "kaeya"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "chongyun",
+      "name": { "ko": "중운", "en": "Chongyun", "ja": "重雲" },
+      "imageKey": "chongyun"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "qiqi_healer",
+      "name": { "ko": "치치 (힐러)", "en": "Qiqi (Healer)", "ja": "七七 (ヒーラー)" },
+      "imageKey": "qiqi"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "qiqi_dps",
+      "name": { "ko": "치치 (딜러)", "en": "Qiqi (DPS)", "ja": "七七 (アタッカー)" },
+      "imageKey": "qiqi"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "diona",
+      "name": { "ko": "디오나", "en": "Diona", "ja": "ディオナ" },
+      "imageKey": "diona"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ganyu_melt",
+      "name": { "ko": "감우 (융해)", "en": "Ganyu (Melt)", "ja": "甘雨 (溶解)" },
+      "imageKey": "ganyu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ganyu_freeze",
+      "name": { "ko": "감우", "en": "Ganyu (Freeze)", "ja": "甘雨 (凍結)" },
+      "imageKey": "ganyu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "rosaria",
+      "name": { "ko": "로자리아", "en": "Rosaria", "ja": "ロサリア" },
+      "imageKey": "rosaria"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "eula",
+      "name": { "ko": "유라", "en": "Eula", "ja": "エウルア" },
+      "imageKey": "eula"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kamisato_ayaka",
+      "name": { "ko": "카미사토 아야카", "en": "Kamisato Ayaka", "ja": "神里綾華" },
+      "imageKey": "kamisato_ayaka"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "aloy",
+      "name": { "ko": "에일로이", "en": "Aloy", "ja": "アーロイ" },
+      "imageKey": "aloy"
     },
     {
       "id": "",
