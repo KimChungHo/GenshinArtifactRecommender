@@ -391,49 +391,49 @@
       "imageKey": "aloy"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "shenhe",
+      "name": { "ko": "신학", "en": "Shenhe", "ja": "申鶴" },
+      "imageKey": "shenhe"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "layla",
+      "name": { "ko": "레일라", "en": "Layla", "ja": "レイラ" },
+      "imageKey": "layla"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "mika",
+      "name": { "ko": "미카", "en": "Mika", "ja": "ミカ" },
+      "imageKey": "mika"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "freminet",
+      "name": { "ko": "프레미네", "en": "Freminet", "ja": "フレミネ" },
+      "imageKey": "freminet"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "wriothesley",
+      "name": { "ko": "라이오슬리", "en": "Wriothesley", "ja": "リオセスリ" },
+      "imageKey": "wriothesley"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "charlotte",
+      "name": { "ko": "샤를로트", "en": "Charlotte", "ja": "シャルロット" },
+      "imageKey": "charlotte"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "citlali",
+      "name": { "ko": "시틀라리", "en": "Citlali", "ja": "シトラリ" },
+      "imageKey": "citlali"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "escoffier",
+      "name": { "ko": "에스코피에", "en": "Escoffier", "ja": "エスコフィエ" },
+      "imageKey": "escoffier"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "skirk",
+      "name": { "ko": "스커크", "en": "Skirk", "ja": "スカーク" },
+      "imageKey": "skirk"
     },
     {
       "id": "",
