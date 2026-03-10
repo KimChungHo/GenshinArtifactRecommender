@@ -958,100 +958,176 @@
       "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "traveler_dendro_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "scrolloftheheroofcindercity",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "traveler_dendro_dps",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "scrolloftheheroofcindercity",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "em", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "collei_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "collei_dps",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": []
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "tighnari",
+      "artifactSets": [
+        "wandererstroupe",
+        "gildeddreams",
+        "deepwoodmemories",
+        "marechausseehunter",
+        "instructor"
+      ],
+      "mainStats": ["em", "atk_percent", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "nahida",
+      "artifactSets": [
+        "deepwoodmemories",
+        "gildeddreams",
+        "noblesseoblige",
+        "instructor"
+      ],
+      "mainStats": ["em", "er", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["em", "crit_dmg", "er", "crit_rate", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "yaoyao_hp",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "maidenbeloved",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["hp_percent", "er", "healing", "crit_rate"],
+      "validSubStats": ["er", "hp_percent", "hp", "em", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "yaoyao_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "maidenbeloved",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["em", "er", "crit_rate"],
+      "validSubStats": ["em", "er", "hp_percent", "hp", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "alhaitham",
+      "artifactSets": ["gildeddreams", "deepwoodmemories"],
+      "mainStats": ["em", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "er", "atk_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kaveh",
+      "artifactSets": [
+        "deepwoodmemories",
+        "flowerofparadiselost",
+        "oceanhuedclam",
+        "gildeddreams",
+        "instructor"
+      ],
+      "mainStats": ["er", "em"],
+      "validSubStats": ["er", "em", "atk_percent", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "baizhu",
+      "artifactSets": [
+        "noblesseoblige",
+        "instructor",
+        "deepwoodmemories",
+        "songofdayspast",
+        "oceanhuedclam",
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "hp_percent"],
+      "validSubStats": ["er", "hp_percent", "crit_rate", "hp"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kirara",
+      "artifactSets": [
+        "deepwoodmemories",
+        "scrolloftheheroofcindercity",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "instructor"
+      ],
+      "mainStats": ["hp_percent", "crit_rate"],
+      "validSubStats": ["hp_percent", "crit_rate", "er", "em", "hp"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "emilie",
+      "artifactSets": [
+        "deepwoodmemories",
+        "unfinishedreverie",
+        "goldentroupe",
+        "lavawalker"
+      ],
+      "mainStats": ["atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kinich",
+      "artifactSets": [
+        "obsidiancodex",
+        "unfinishedreverie",
+        "deepwoodmemories"
+      ],
+      "mainStats": ["atk_percent", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "lauma",
+      "artifactSets": [
+        "deepwoodmemories",
+        "noblesseoblige",
+        "instructor",
+        "gildeddreams"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "nefer",
+      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "mainStats": ["em", "crit_dmg", "crit_rate"],
+      "validSubStats": ["em", "crit_rate", "crit_dmg", "er"]
     },
     {
       "characterId": "",

@@ -436,84 +436,84 @@
       "imageKey": "skirk"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_dendro_em",
+      "name": { "ko": "여행자 (풀) (마스터리)", "en": "Traveler (Dendro) (Elemental Mastery)", "ja": "旅人 (草) (元素熟知)" },
+      "imageKey": "traveler"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_dendro_dps",
+      "name": { "ko": "여행자 (풀) (딜러)", "en": "Traveler (Dendro) (DPS)", "ja": "旅人 (草) (アタッカー)" },
+      "imageKey": "traveler"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "collei_em",
+      "name": { "ko": "콜레이 (원소 마스터리)", "en": "Collei (Elemental Mastery)", "ja": "コレイ (元素熟知)" },
+      "imageKey": "collei"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "collei_dps",
+      "name": { "ko": "콜레이 (딜러)", "en": "Collei (DPS)", "ja": "コレイ (アタッカー)" },
+      "imageKey": "collei"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "tighnari",
+      "name": { "ko": "타이나리", "en": "Tighnari", "ja": "ティナリ" },
+      "imageKey": "tighnari"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "nahida",
+      "name": { "ko": "나히다", "en": "Nahida", "ja": "ナヒーダ" },
+      "imageKey": "nahida"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "yaoyao_hp",
+      "name": { "ko": "요요", "en": "Yaoyao (HP)", "ja": "ヨォーヨ (HP)" },
+      "imageKey": "yaoyao"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "yaoyao_em",
+      "name": { "ko": "요요", "en": "Yaoyao (Elemental Mastery)", "ja": "ヨォーヨ (元素熟知)" },
+      "imageKey": "yaoyao"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "alhaitham",
+      "name": { "ko": "알하이탐", "en": "Alhaitham", "ja": "アルハイゼン" },
+      "imageKey": "alhaitham"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kaveh",
+      "name": { "ko": "카베", "en": "Kaveh", "ja": "カーヴェ" },
+      "imageKey": "kaveh"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "baizhu",
+      "name": { "ko": "백출", "en": "Baizhu", "ja": "白朮" },
+      "imageKey": "baizhu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kirara",
+      "name": { "ko": "키라라", "en": "Kirara", "ja": "綺良々" },
+      "imageKey": "kirara"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "emilie",
+      "name": { "ko": "에밀리", "en": "Emilie", "ja": "エミリエ" },
+      "imageKey": "emilie"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kinich",
+      "name": { "ko": "키니치", "en": "Kinich", "ja": "キィニチ" },
+      "imageKey": "kinich"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "lauma",
+      "name": { "ko": "라우마", "en": "Lauma", "ja": "ラウマ" },
+      "imageKey": "lauma"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "nefer",
+      "name": { "ko": "네페르", "en": "Nefer", "ja": "ネフェル" },
+      "imageKey": "nefer"
     },
     {
       "id": "",

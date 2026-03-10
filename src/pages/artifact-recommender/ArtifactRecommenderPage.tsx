@@ -249,9 +249,9 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     },
     recommendationTitle: { ko: "추천 캐릭터", en: "Recommended Characters", ja: "おすすめキャラ" },
     recommendationHint: {
-      ko: "주옵션이 일치하고, 부옵션이 3개 이상 유효하면 추천됩니다.",
-      en: "A character is recommended when the main stat matches and 3+ sub stats are valid.",
-      ja: "メインが一致し、サブが3つ以上有効ならおすすめします。",
+      ko: "주옵션이 일치하고, (캐릭터 기준) 유효 부옵션이 충분하면 추천됩니다.",
+      en: "A character is recommended when the main stat matches and you meet the character\'s valid sub stat requirement.",
+      ja: "メインが一致し、キャラの有効サブ条件を満たすとおすすめします。",
     },
     noRecommendation: {
       ko: "아직 추천할 수 있는 캐릭터가 없어요. 세트/주옵션/부옵션을 더 골라보세요.",
@@ -352,9 +352,11 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
       const validSubStatCount: number = validSubStatKeys.length;
 
       const passesValidSubStatCheck: boolean =
-        maxValidSubStatCount >= 3
-          ? validSubStatCount >= 3
-          : selectedSubStatCount === maxValidSubStatCount && validSubStatCount === maxValidSubStatCount;
+        maxValidSubStatCount === 0
+          ? true
+          : maxValidSubStatCount >= 3
+            ? validSubStatCount >= 3
+            : selectedSubStatCount === maxValidSubStatCount && validSubStatCount === maxValidSubStatCount;
 
       if (!passesValidSubStatCheck) {
         continue;
