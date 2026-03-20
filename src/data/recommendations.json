@@ -1130,6 +1130,222 @@
       "validSubStats": ["em", "crit_rate", "crit_dmg", "er"]
     },
     {
+      "characterId": "traveler_anemo_dps",
+      "artifactSets": ["viridescentvenerer", "instructor"],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "traveler_anemo_em",
+      "artifactSets": ["viridescentvenerer", "instructor"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "sucrose",
+      "artifactSets": ["viridescentvenerer", "instructor", "gildeddreams"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "jean",
+      "artifactSets": [
+        "viridescentvenerer",
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor",
+        "theexile"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "atk_percent", "crit_rate"]
+    },
+    {
+      "characterId": "venti",
+      "artifactSets": [
+        "viridescentvenerer",
+        "adaycarvedfromrisingwinds",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "xiao",
+      "artifactSets": [
+        "longnightsoath",
+        "vermillionhereafter",
+        "marechausseehunter",
+        "berserker",
+        "gladiatorsfinale",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "kazuha_support",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "kazuha_dps",
+      "artifactSets": ["viridescentvenerer", "echoesofanoffering"],
+      "mainStats": ["em", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "sayu_healer",
+      "artifactSets": ["viridescentvenerer", "noblesseoblige", "theexile"],
+      "mainStats": ["er", "atk_percent", "healing"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "em"]
+    },
+    {
+      "characterId": "sayu_em",
+      "artifactSets": ["viridescentvenerer", "noblesseoblige", "theexile"],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["em", "er", "atk_percent"]
+    },
+    {
+      "characterId": "heizou",
+      "artifactSets": [
+        "viridescentvenerer",
+        "goldentroupe",
+        "marechausseehunter"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em"]
+    },
+    {
+      "characterId": "faruzan",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "viridescentvenerer",
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "adaycarvedfromrisingwinds",
+        "goldentroupe"
+      ],
+      "mainStats": ["er", "atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
+    },
+    {
+      "characterId": "wanderer",
+      "artifactSets": [
+        "desertpavilionchronicle",
+        "reminiscenceofshime",
+        "viridescentvenerer",
+        "echoesofanoffering",
+        "marechausseehunter",
+        "martialartist",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
+    },
+    {
+      "characterId": "lynette",
+      "artifactSets": [
+        "viridescentvenerer",
+        "marechausseehunter",
+        "desertpavilionchronicle",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "xianyun",
+      "artifactSets": [
+        "viridescentvenerer",
+        "songofdayspast",
+        "oceanhuedclam",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "chasca",
+      "artifactSets": [
+        "obsidiancodex",
+        "marechausseehunter",
+        "reminiscenceofshime",
+        "wandererstroupe"
+      ],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "lanyan_shield",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["atk_percent", "er"]
+    },
+    {
+      "characterId": "lanyan_dps",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "mizuki",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "ifa",
+      "artifactSets": [
+        "obsidiancodex",
+        "scrolloftheheroofcindercity",
+        "viridescentvenerer"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "jahoda",
+      "artifactSets": [
+        "viridescentvenerer",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "varka",
+      "artifactSets": ["adaycarvedfromrisingwinds", "reminiscenceofshime"],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
+      "characterId": "",
+      "artifactSets": [""],
+      "mainStats": [""],
+      "validSubStats": [""]
+    },
+    {
       "characterId": "",
       "artifactSets": [""],
       "mainStats": [""],

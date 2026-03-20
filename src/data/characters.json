@@ -516,74 +516,114 @@
       "imageKey": "nefer"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_anemo_dps",
+      "name": { "ko": "여행자 (바람) (딜러)", "en": "Traveler (Anemo) (DPS)", "ja": "旅人 (風) (アタッカー)" },
+      "imageKey": "traveler"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_anemo_em",
+      "name": { "ko": "여행자 (바람) (원소 마스터리)", "en": "Traveler (Anemo) (Elemental Mastery)", "ja": "旅人 (風) (元素熟知)" },
+      "imageKey": "traveler"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "sucrose",
+      "name": { "ko": "설탕", "en": "Sucrose", "ja": "スクロース" },
+      "imageKey": "sucrose"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "jean",
+      "name": { "ko": "진", "en": "Jean", "ja": "ジン" },
+      "imageKey": "jean"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "venti",
+      "name": { "ko": "벤티", "en": "Venti", "ja": "ウェンティ" },
+      "imageKey": "venti"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "xiao",
+      "name": { "ko": "소", "en": "Xiao", "ja": "魈" },
+      "imageKey": "xiao"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kazuha_support",
+      "name": { "ko": "카에데하라 카즈하 (서포트)", "en": "Kaedehara Kazuha (Support)", "ja": "楓原万葉 (サポーター)" },
+      "imageKey": "kazuha"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kazuha_dps",
+      "name": { "ko": "카에데하라 카즈하 (딜러)", "en": "Kaedehara Kazuha (DPS)", "ja": "楓原万葉 (アタッカー)" },
+      "imageKey": "kazuha"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "sayu_healer",
+      "name": { "ko": "사유 (힐러)", "en": "Sayu (Healer)", "ja": "早柚 (ヒーラー)" },
+      "imageKey": "sayu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "sayu_em",
+      "name": { "ko": "사유 (원소 마스터리)", "en": "Sayu (Elemental Mastery)", "ja": "早柚 (元素熟知)" },
+      "imageKey": "sayu"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "heizou",
+      "name": { "ko": "시카노인 헤이조", "en": "Shikanoin Heizou", "ja": "鹿野院平蔵" },
+      "imageKey": "heizou"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "faruzan",
+      "name": { "ko": "파루잔", "en": "Faruzan", "ja": "ファルザン" },
+      "imageKey": "faruzan"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "wanderer",
+      "name": { "ko": "방랑자", "en": "Wanderer", "ja": "放浪者" },
+      "imageKey": "wanderer"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "lynette",
+      "name": { "ko": "리넷", "en": "Lynette", "ja": "リネット" },
+      "imageKey": "lynette"
+    },
+    {
+      "id": "xianyun",
+      "name": { "ko": "한운", "en": "Xianyun", "ja": "閑雲" },
+      "imageKey": "xianyun"
+    },
+    {
+      "id": "chasca",
+      "name": { "ko": "차스카", "en": "Chasca", "ja": "チャスカ" },
+      "imageKey": "chasca"
+    },
+    {
+      "id": "lanyan_shield",
+      "name": { "ko": "남연 (보호막)", "en": "Lan Yan (Shield)", "ja": "藍硯 (シールド)" },
+      "imageKey": "lanyan"
+    },
+    {
+      "id": "lanyan_dps",
+      "name": { "ko": "남연 (딜러)", "en": "Lan Yan (DPS)", "ja": "藍硯 (アタッカー)" },
+      "imageKey": "lanyan"
+    },
+    {
+      "id": "mizuki",
+      "name": { "ko": "유메미즈키 미즈키", "en": "Yumemizuki Mizuki", "ja": "夢見月瑞希" },
+      "imageKey": "mizuki"
+    },
+    {
+      "id": "ifa",
+      "name": { "ko": "이파", "en": "Ifa", "ja": "イファ" },
+      "imageKey": "ifa"
+    },
+    {
+      "id": "jahoda",
+      "name": { "ko": "야호다", "en": "Jahoda", "ja": "ヤフォダ" },
+      "imageKey": "jahoda"
+    },
+    {
+      "id": "varka",
+      "name": { "ko": "바르카", "en": "Varka", "ja": "ヴァルカ" },
+      "imageKey": "varka"
     },
     {
       "id": "",
