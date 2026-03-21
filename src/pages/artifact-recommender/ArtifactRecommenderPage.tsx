@@ -558,6 +558,17 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
             )}
             </section>
           ) : null}
+        <div className="mt-10 text-center text-sm text-slate-500">
+          <a
+            href="https://github.com/KimChungHo/GenshinArtifactRecommender/issues"
+            target="_blank"
+            rel="noreferrer"
+            className="underline underline-offset-4 hover:text-slate-700"
+          >
+            Issue: https://github.com/KimChungHo/GenshinArtifactRecommender/issues
+          </a>
+        </div>
+
         </div>
       </div>
     </div>
