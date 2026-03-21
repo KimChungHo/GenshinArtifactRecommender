@@ -1322,208 +1322,217 @@
       "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "traveler_geo",
+      "artifactSets": [
+        "noblesseoblige",
+        "nighttimewhispersintheechoingwoods",
+        "emblemofseveredfate",
+        "archaicpetra",
+        "theexile",
+        "scrolloftheheroofcindercity"
+      ],
+      "mainStats": ["atk_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "ningguang",
+      "artifactSets": [
+        "nighttimewhispersintheechoingwoods",
+        "marechausseehunter",
+        "archaicpetra",
+        "maidenbeloved",
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "theexile",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": [
+        "atk_percent",
+        "geo_dmg",
+        "crit_rate",
+        "crit_dmg",
+        "healing"
+      ],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "noelle",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "marechausseehunter",
+        "archaicpetra",
+        "gladiatorsfinale",
+        "nightoftheskysunveiling"
+      ],
+      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "zhongli_shield",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "archaicpetra",
+        "scrolloftheheroofcindercity",
+        "instructor",
+        "deepwoodmemories",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["hp_percent", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "zhongli_dps",
+      "artifactSets": ["noblesseoblige", "emblemofseveredfate", "archaicpetra"],
+      "mainStats": [
+        "hp_percent",
+        "atk_percent",
+        "geo_dmg",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "hp_percent",
+        "atk_percent",
+        "er"
+      ]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "albedo",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "goldentroupe",
+        "tenacityofthemillelith",
+        "archaicpetra"
+      ],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "gorou",
+      "artifactSets": [
+        "theexile",
+        "instructor",
+        "silkenmoonsserenade",
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "huskofopulentdreams",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "def_percent", "crit_rate", "healing"],
+      "validSubStats": ["er", "def_percent", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "arataki_itto",
+      "artifactSets": ["huskofopulentdreams", "theexile", "scholar"],
+      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "def_percent",
+        "er",
+        "atk_percent"
+      ]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "yun_jin",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "emblemofseveredfate",
+        "archaicpetra",
+        "noblesseoblige",
+        "defenderswill",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["def_percent", "er", "crit_rate"],
+      "validSubStats": ["def_percent", "er", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "navia",
+      "artifactSets": [
+        "nighttimewhispersintheechoingwoods",
+        "goldentroupe",
+        "archaicpetra",
+        "emblemofseveredfate",
+        "marechausseehunter"
+      ],
+      "mainStats": ["atk_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "chiori",
+      "artifactSets": [
+        "goldentroupe",
+        "huskofopulentdreams",
+        "marechausseehunter",
+        "archaicpetra",
+        "defenderswill",
+        "gambler",
+        "berserker"
+      ],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "def_percent",
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "er"
+      ]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kachina_dps",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["def_percent", "crit_rate", "crit_dmg"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "kachina_shield",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["em"],
+      "validSubStats": ["em", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "xilonen_support",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor"
+      ],
+      "mainStats": ["er", "def_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "def_percent", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "xilonen_dps",
+      "artifactSets": ["obsidiancodex", "huskofopulentdreams"],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "illuga",
+      "artifactSets": ["silkenmoonsserenade"],
+      "mainStats": ["em", "crit_rate"],
+      "validSubStats": ["er", "em", "crit_rate"]
     },
     {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
-    },
-    {
-      "characterId": "",
-      "artifactSets": [""],
-      "mainStats": [""],
-      "validSubStats": [""]
+      "characterId": "zibai",
+      "artifactSets": ["nightoftheskysunveiling", "huskofopulentdreams"],
+      "mainStats": ["def_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["def_percent", "crit_dmg", "crit_rate", "em"]
     }
   ]
 }

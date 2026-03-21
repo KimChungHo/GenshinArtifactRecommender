@@ -626,99 +626,89 @@
       "imageKey": "varka"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "traveler_geo",
+      "name": { "ko": "여행자 (바위)", "en": "Traveler (Geo)", "ja": "旅人 (岩)" },
+      "imageKey": "traveler"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "ningguang",
+      "name": { "ko": "응광", "en": "Ningguang", "ja": "凝光" },
+      "imageKey": "ningguang"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "noelle",
+      "name": { "ko": "노엘", "en": "Noelle", "ja": "ノエル" },
+      "imageKey": "noelle"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "zhongli_shield",
+      "name": { "ko": "종려 (보호막)", "en": "Zhongli (Shield)", "ja": "鍾離 (シールド)" },
+      "imageKey": "zhongli"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "zhongli_dps",
+      "name": { "ko": "종려 (딜러)", "en": "Zhongli (DPS)", "ja": "鍾離 (アタッカー)" },
+      "imageKey": "zhongli"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "albedo",
+      "name": { "ko": "알베도", "en": "Albedo", "ja": "アルベド" },
+      "imageKey": "albedo"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "gorou",
+      "name": { "ko": "고로", "en": "Gorou", "ja": "ゴロー" },
+      "imageKey": "gorou"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "arataki_itto",
+      "name": { "ko": "아라타키 이토", "en": "Arataki Itto", "ja": "荒瀧一斗" },
+      "imageKey": "arataki_itto"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "yun_jin",
+      "name": { "ko": "운근", "en": "Yun Jin", "ja": "雲菫" },
+      "imageKey": "yun_jin"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "navia",
+      "name": { "ko": "나비아", "en": "Navia", "ja": "ナヴィア" },
+      "imageKey": "navia"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "chiori",
+      "name": { "ko": "치오리", "en": "Chiori", "ja": "千織" },
+      "imageKey": "chiori"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kachina_dps",
+      "name": { "ko": "카치나", "en": "Kachina (DPS)", "ja": "カチーナ (アタッカー)" },
+      "imageKey": "kachina"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "kachina_shield",
+      "name": { "ko": "카치나", "en": "Kachina (Shield)", "ja": "カチーナ (シールド)" },
+      "imageKey": "kachina"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "xilonen_support",
+      "name": { "ko": "실로닌", "en": "Xilonen (Support)", "ja": "シロネン (サポーター)" },
+      "imageKey": "xilonen"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "xilonen_dps",
+      "name": { "ko": "실로닌", "en": "Xilonen (DPS)", "ja": "シロネン (アタッカー)" },
+      "imageKey": "xilonen"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "illuga",
+      "name": { "ko": "일루가", "en": "Illuga", "ja": "イルーガ" },
+      "imageKey": "illuga"
     },
     {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
-    },
-    {
-      "id": "",
-      "name": { "ko": "", "en": "", "ja": "" },
-      "imageKey": ""
+      "id": "zibai",
+      "name": { "ko": "자백", "en": "Zibai", "ja": "兹白" },
+      "imageKey": "zibai"
     }
   ]
 }
