@@ -88,12 +88,12 @@
     {
       "id": "chevreuse",
       "name": { "ko": "슈브르즈", "en": "Chevreuse", "ja": "シュヴルーズ" },
-      "imageKey": ""
+      "imageKey": "chevreuse"
     },
     {
       "id": "gaming",
       "name": { "ko": "가명", "en": "Gaming", "ja": "ガミン" },
-      "imageKey": ""
+      "imageKey": "gaming"
     },
     {
       "id": "arlecchino",
