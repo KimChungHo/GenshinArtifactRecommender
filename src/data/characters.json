@@ -1,0 +1,714 @@
+{
+  "characters": [
+    {
+      "id": "traveler_pyro",
+      "name": { "ko": "여행자 (불)", "en": "Traveler (Pyro)", "ja": "旅行者 (炎)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "amber",
+      "name": { "ko": "엠버", "en": "Amber", "ja": "アンバー" },
+      "imageKey": "amber"
+    },
+    {
+      "id": "xiangling",
+      "name": { "ko": "향릉", "en": "Xiangling", "ja": "香菱" },
+      "imageKey": "xiangling"
+    },
+    {
+      "id": "bennett",
+      "name": { "ko": "베넷", "en": "Bennett", "ja": "ベネット" },
+      "imageKey": "bennett"
+    },
+    {
+      "id": "diluc",
+      "name": { "ko": "다이루크", "en": "Diluc", "ja": "ディルック" },
+      "imageKey": "diluc"
+    },
+    {
+      "id": "klee",
+      "name": { "ko": "클레", "en": "Klee", "ja": "クレー" },
+      "imageKey": "klee"
+    },
+    {
+      "id": "xinyan_dps",
+      "name": { "ko": "신염 (딜러)", "en": "Xinyan (DPS)", "ja": "辛炎 (アタッカー)" },
+      "imageKey": "xinyan"
+    },
+    {
+      "id": "xinyan_support",
+      "name": { "ko": "신염 (서포터)", "en": "Xinyan (Support)", "ja": "辛炎 (サポーター)" },
+      "imageKey": "xinyan"
+    },
+    {
+      "id": "hutao",
+      "name": { "ko": "호두", "en": "HuTao", "ja": "胡桃" },
+      "imageKey": "hutao"
+    },
+    {
+      "id": "yanfei_dps",
+      "name": { "ko": "연비 (딜러)", "en": "Yanfei (DPS)", "ja": "煙緋 (アタッカー)" },
+      "imageKey": "yanfei"
+    },
+    {
+      "id": "yanfei_support",
+      "name": { "ko": "연비 (서포터)", "en": "Yanfei (Support)", "ja": "煙緋 (サポーター)" },
+      "imageKey": "yanfei"
+    },
+    {
+      "id": "yoimiya",
+      "name": { "ko": "요이미야", "en": "Yoimiya", "ja": "宵宮" },
+      "imageKey": "yoimiya"
+    },
+    {
+      "id": "thoma_shield",
+      "name": { "ko": "토마 (방어)", "en": "Thoma (Shield)", "ja": "トーマ (シールド)" },
+      "imageKey": "thoma"
+    },
+    {
+      "id": "thoma_burst",
+      "name": { "ko": "토마 (발화)", "en": "Thoma (Burst)", "ja": "トーマ (バースト)" },
+      "imageKey": "thoma"
+    },
+    {
+      "id": "dehya_offfield",
+      "name": { "ko": "데히야 (오프필드)", "en": "Dehya (Off-field)", "ja": "ディシア (オフフィールド)" },
+      "imageKey": "dehya"
+    },
+    {
+      "id": "dehya_onfield",
+      "name": { "ko": "데히야 (온필드)", "en": "Dehya (On-field)", "ja": "ディシア (オンフィールド)" },
+      "imageKey": "dehya"
+    },
+    {
+      "id": "lyney",
+      "name": { "ko": "리니", "en": "Lyney", "ja": "リネ" },
+      "imageKey": "lyney"
+    },
+    {
+      "id": "chevreuse",
+      "name": { "ko": "슈브르즈", "en": "Chevreuse", "ja": "シュヴルーズ" },
+      "imageKey": ""
+    },
+    {
+      "id": "gaming",
+      "name": { "ko": "가명", "en": "Gaming", "ja": "ガミン" },
+      "imageKey": ""
+    },
+    {
+      "id": "arlecchino",
+      "name": { "ko": "아를레키노", "en": "Arlecchino", "ja": "アルレッキーノ" },
+      "imageKey": "arlecchino"
+    },
+    {
+      "id": "mavuika",
+      "name": { "ko": "마비카", "en": "mavuika", "ja": "マーヴィカ" },
+      "imageKey": "mavuika"
+    },
+    {
+      "id": "durin",
+      "name": { "ko": "두린", "en": "Durin", "ja": "ドゥリン" },
+      "imageKey": "durin"
+    },
+    {
+      "id": "traveler_hydro",
+      "name": { "ko": "여행자 (물)", "en": "Traveler (Hydro)", "ja": "旅行者 (水)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "barbara_healer",
+      "name": { "ko": "바바라 (힐러)", "en": "Barbara (Healer)", "ja": "バーバラ (ヒーラー)" },
+      "imageKey": "barbara"
+    },
+    {
+      "id": "barbara_bloom",
+      "name": { "ko": "바바라 (개화)", "en": "Barbara (Bloom)", "ja": "バーバラ (開花)" },
+      "imageKey": "barbara"
+    },
+    {
+      "id": "xingqiu",
+      "name": { "ko": "행추", "en": "Xingqiu", "ja": "行秋 (ゆくあき)" },
+      "imageKey": "Xingqiu"
+    },
+    {
+      "id": "Mona",
+      "name": { "ko": "모나", "en": "Mona", "ja": "モナ" },
+      "imageKey": "mona"
+    },
+    {
+      "id": "tartaglia",
+      "name": { "ko": "타르탈리아", "en": "Tartaglia", "ja": "タルタリヤ" },
+      "imageKey": "tartaglia"
+    },
+    {
+      "id": "kokomi_healer",
+      "name": { "ko": "산고노미야 코코미 (힐러)", "en": "Sangonomiya Kokomi (Healer)", "ja": "珊瑚宮心海 (ヒーラー)" },
+      "imageKey": "kokomi"
+    },
+    {
+      "id": "kokomi_support",
+      "name": { "ko": "산고노미야 코코미 (서포터)", "en": "Sangonomiya Kokomi (Support)", "ja": "珊瑚宮心海 (サポーター)" },
+      "imageKey": "kokomi"
+    },
+    {
+      "id": "kokomi_bloom",
+      "name": { "ko": "산고노미야 코코미 (개화)", "en": "Sangonomiya Kokomi (Bloom)", "ja": "珊瑚宮心海 (開花)" },
+      "imageKey": "kokomi"
+    },
+    {
+      "id": "ayato",
+      "name": { "ko": "카미사토 아야토", "en": "Kamisato Ayato", "ja": "神里綾人" },
+      "imageKey": "ayato"
+    },
+    {
+      "id": "yelan",
+      "name": { "ko": "야란", "en": "Yelan", "ja": "夜蘭" },
+      "imageKey": "yelan"
+    },
+    {
+      "id": "candace_support",
+      "name": { "ko": "캔디스 (서포터)", "en": "Candace (Support)", "ja": "キャンディス(サポーター)" },
+      "imageKey": "candace"
+    },
+    {
+      "id": "candace_onfield",
+      "name": { "ko": "캔디스 (온필드)", "en": "Candace (On-field)", "ja": "キャンディス(オンフィールド)" },
+      "imageKey": "candace"
+    },
+    {
+      "id": "nilou_bloom",
+      "name": { "ko": "닐루 (개화)", "en": "Nilou (Bloom)", "ja": "ニィロウ (開花)" },
+      "imageKey": "nilou"
+    },
+    {
+      "id": "nilou_other",
+      "name": { "ko": "닐루 (기타)", "en": "Nilou (Other)", "ja": "ニィロウ (その他)" },
+      "imageKey": "nilou"
+    },
+    {
+      "id": "neuvillette",
+      "name": { "ko": "느비예트", "en": "Neuvillette", "ja": "ヌヴィレット" },
+      "imageKey": "neuvillette"
+    },
+    {
+      "id": "furina",
+      "name": { "ko": "푸리나", "en": "Furina", "ja": "フリーナ" },
+      "imageKey": "furina"
+    },
+    {
+      "id": "sigewinne",
+      "name": { "ko": "시그윈", "en": "Sigewinne", "ja": "シグウィン" },
+      "imageKey": "sigewinne"
+    },
+    {
+      "id": "mualani",
+      "name": { "ko": "말라니", "en": "Mualani", "ja": "ムアラニ" },
+      "imageKey": "mualani"
+    },
+    {
+      "id": "dahlia",
+      "name": { "ko": "달리아", "en": "Dahlia", "ja": "ダリア" },
+      "imageKey": "dahlia"
+    },
+    {
+      "id": "aino",
+      "name": { "ko": "아이노", "en": "Aino", "ja": "アイノ" },
+      "imageKey": "aino"
+    },
+    {
+      "id": "columbina",
+      "name": { "ko": "콜롬비나", "en": "Columbina", "ja": "コロンビーナ" },
+      "imageKey": "columbina"
+    },
+    {
+      "id": "traveler_electro",
+      "name": { "ko": "", "en": "Traveler (Electro)", "ja": "旅人 (雷)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "lisa",
+      "name": { "ko": "리사", "en": "Lisa", "ja": "リサ" },
+      "imageKey": "lisa"
+    },
+    {
+      "id": "razor",
+      "name": { "ko": "레이저", "en": "Razor", "ja": "レザー" },
+      "imageKey": "razor"
+    },
+    {
+      "id": "beidou",
+      "name": { "ko": "북두", "en": "Beidou", "ja": "北斗" },
+      "imageKey": "beidou"
+    },
+    {
+      "id": "fischl",
+      "name": { "ko": "피슬", "en": "Fischl", "ja": "フィッシュル" },
+      "imageKey": "fischl"
+    },
+    {
+      "id": "keqing",
+      "name": { "ko": "각청", "en": "Keqing", "ja": "刻晴" },
+      "imageKey": "keqing"
+    },
+    {
+      "id": "kujou_sara",
+      "name": { "ko": "쿠죠 사라", "en": "Kujou Sara", "ja": "九条裟羅" },
+      "imageKey": "kujou_sara"
+    },
+    {
+      "id": "raiden_shogun",
+      "name": { "ko": "라이덴 쇼군", "en": "Raiden Shogun", "ja": "雷電将軍" },
+      "imageKey": "raiden_shogun"
+    },
+    {
+      "id": "raiden_shogun_hyperbloom",
+      "name": { "ko": "라이덴 쇼군 (만개)", "en": "Raiden Shogun (Hyperbloom)", "ja": "雷電将軍(超開花)" },
+      "imageKey": "raiden_shogun"
+    },
+    {
+      "id": "yae_miko",
+      "name": { "ko": "야에 미코", "en": "Yae Miko", "ja": "八重神子" },
+      "imageKey": "yae_miko"
+    },
+    {
+      "id": "kuki_shinobu_hyperbloom",
+      "name": { "ko": "쿠키 시노부 (만개)", "en": "Kuki Shinobu (Hyperbloom)", "ja": "久岐忍 (超開花)" },
+      "imageKey": "kuki_shinobu"
+    },
+    {
+      "id": "kuki_shinobu_healer",
+      "name": { "ko": "쿠키 시노부 (힐러)", "en": "Kuki Shinobu (Healer)", "ja": "久岐忍 (ヒーラー)" },
+      "imageKey": "kuki_shinobu"
+    },
+    {
+      "id": "dori_hyperbloom",
+      "name": { "ko": "도리 (만개)", "en": "Dori (Hyperbloom)", "ja": "ドリー (超開花)" },
+      "imageKey": "dori"
+    },
+    {
+      "id": "dori_dps",
+      "name": { "ko": "도리 (딜러)", "en": "Dori (DPS)", "ja": "ドリー (アタッカー)" },
+      "imageKey": "dori"
+    },
+    {
+      "id": "cyno",
+      "name": { "ko": "사이노", "en": "Cyno", "ja": "セノ" },
+      "imageKey": "cyno"
+    },
+    {
+      "id": "sethos",
+      "name": { "ko": "세토스", "en": "Sethos", "ja": "セトス" },
+      "imageKey": "sethos"
+    },
+    {
+      "id": "clorinde",
+      "name": { "ko": "클로린드", "en": "Clorinde", "ja": "クロリンデ" },
+      "imageKey": "clorinde"
+    },
+    {
+      "id": "ororon_atk",
+      "name": { "ko": "올로룬 (공격력)", "en": "Ororon (ATK)", "ja": "オロルン (攻撃力)" },
+      "imageKey": "ororon"
+    },
+    {
+      "id": "ororon_em",
+      "name": { "ko": "올로룬 (원소 마스터리)", "en": "Ororon (Elemental Mastery)", "ja": "オロルン(元素熟知)" },
+      "imageKey": "ororon"
+    },
+    {
+      "id": "iansan",
+      "name": { "ko": "얀사", "en": "Iansan", "ja": "イアンサ" },
+      "imageKey": "iansan"
+    },
+    {
+      "id": "varesa",
+      "name": { "ko": "바레사", "en": "Varesa", "ja": "ヴァレサ" },
+      "imageKey": "varesa"
+    },
+    {
+      "id": "ineffa",
+      "name": { "ko": "이네파", "en": "Ineffa", "ja": "イネファ" },
+      "imageKey": "ineffa"
+    },
+    {
+      "id": "flins",
+      "name": { "ko": "플린스", "en": "Flins", "ja": "フリンズ" },
+      "imageKey": "flins"
+    },
+    {
+      "id": "kaeya",
+      "name": { "ko": "케이아", "en": "Kaeya", "ja": "ガイア" },
+      "imageKey": "kaeya"
+    },
+    {
+      "id": "chongyun",
+      "name": { "ko": "중운", "en": "Chongyun", "ja": "重雲" },
+      "imageKey": "chongyun"
+    },
+    {
+      "id": "qiqi_healer",
+      "name": { "ko": "치치 (힐러)", "en": "Qiqi (Healer)", "ja": "七七 (ヒーラー)" },
+      "imageKey": "qiqi"
+    },
+    {
+      "id": "qiqi_dps",
+      "name": { "ko": "치치 (딜러)", "en": "Qiqi (DPS)", "ja": "七七 (アタッカー)" },
+      "imageKey": "qiqi"
+    },
+    {
+      "id": "diona",
+      "name": { "ko": "디오나", "en": "Diona", "ja": "ディオナ" },
+      "imageKey": "diona"
+    },
+    {
+      "id": "ganyu_melt",
+      "name": { "ko": "감우 (융해)", "en": "Ganyu (Melt)", "ja": "甘雨 (溶解)" },
+      "imageKey": "ganyu"
+    },
+    {
+      "id": "ganyu_freeze",
+      "name": { "ko": "감우", "en": "Ganyu (Freeze)", "ja": "甘雨 (凍結)" },
+      "imageKey": "ganyu"
+    },
+    {
+      "id": "rosaria",
+      "name": { "ko": "로자리아", "en": "Rosaria", "ja": "ロサリア" },
+      "imageKey": "rosaria"
+    },
+    {
+      "id": "eula",
+      "name": { "ko": "유라", "en": "Eula", "ja": "エウルア" },
+      "imageKey": "eula"
+    },
+    {
+      "id": "kamisato_ayaka",
+      "name": { "ko": "카미사토 아야카", "en": "Kamisato Ayaka", "ja": "神里綾華" },
+      "imageKey": "kamisato_ayaka"
+    },
+    {
+      "id": "aloy",
+      "name": { "ko": "에일로이", "en": "Aloy", "ja": "アーロイ" },
+      "imageKey": "aloy"
+    },
+    {
+      "id": "shenhe",
+      "name": { "ko": "신학", "en": "Shenhe", "ja": "申鶴" },
+      "imageKey": "shenhe"
+    },
+    {
+      "id": "layla",
+      "name": { "ko": "레일라", "en": "Layla", "ja": "レイラ" },
+      "imageKey": "layla"
+    },
+    {
+      "id": "mika",
+      "name": { "ko": "미카", "en": "Mika", "ja": "ミカ" },
+      "imageKey": "mika"
+    },
+    {
+      "id": "freminet",
+      "name": { "ko": "프레미네", "en": "Freminet", "ja": "フレミネ" },
+      "imageKey": "freminet"
+    },
+    {
+      "id": "wriothesley",
+      "name": { "ko": "라이오슬리", "en": "Wriothesley", "ja": "リオセスリ" },
+      "imageKey": "wriothesley"
+    },
+    {
+      "id": "charlotte",
+      "name": { "ko": "샤를로트", "en": "Charlotte", "ja": "シャルロット" },
+      "imageKey": "charlotte"
+    },
+    {
+      "id": "citlali",
+      "name": { "ko": "시틀라리", "en": "Citlali", "ja": "シトラリ" },
+      "imageKey": "citlali"
+    },
+    {
+      "id": "escoffier",
+      "name": { "ko": "에스코피에", "en": "Escoffier", "ja": "エスコフィエ" },
+      "imageKey": "escoffier"
+    },
+    {
+      "id": "skirk",
+      "name": { "ko": "스커크", "en": "Skirk", "ja": "スカーク" },
+      "imageKey": "skirk"
+    },
+    {
+      "id": "traveler_dendro_em",
+      "name": { "ko": "여행자 (풀) (마스터리)", "en": "Traveler (Dendro) (Elemental Mastery)", "ja": "旅人 (草) (元素熟知)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "traveler_dendro_dps",
+      "name": { "ko": "여행자 (풀) (딜러)", "en": "Traveler (Dendro) (DPS)", "ja": "旅人 (草) (アタッカー)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "collei_em",
+      "name": { "ko": "콜레이 (원소 마스터리)", "en": "Collei (Elemental Mastery)", "ja": "コレイ (元素熟知)" },
+      "imageKey": "collei"
+    },
+    {
+      "id": "collei_dps",
+      "name": { "ko": "콜레이 (딜러)", "en": "Collei (DPS)", "ja": "コレイ (アタッカー)" },
+      "imageKey": "collei"
+    },
+    {
+      "id": "tighnari",
+      "name": { "ko": "타이나리", "en": "Tighnari", "ja": "ティナリ" },
+      "imageKey": "tighnari"
+    },
+    {
+      "id": "nahida",
+      "name": { "ko": "나히다", "en": "Nahida", "ja": "ナヒーダ" },
+      "imageKey": "nahida"
+    },
+    {
+      "id": "yaoyao_hp",
+      "name": { "ko": "요요", "en": "Yaoyao (HP)", "ja": "ヨォーヨ (HP)" },
+      "imageKey": "yaoyao"
+    },
+    {
+      "id": "yaoyao_em",
+      "name": { "ko": "요요", "en": "Yaoyao (Elemental Mastery)", "ja": "ヨォーヨ (元素熟知)" },
+      "imageKey": "yaoyao"
+    },
+    {
+      "id": "alhaitham",
+      "name": { "ko": "알하이탐", "en": "Alhaitham", "ja": "アルハイゼン" },
+      "imageKey": "alhaitham"
+    },
+    {
+      "id": "kaveh",
+      "name": { "ko": "카베", "en": "Kaveh", "ja": "カーヴェ" },
+      "imageKey": "kaveh"
+    },
+    {
+      "id": "baizhu",
+      "name": { "ko": "백출", "en": "Baizhu", "ja": "白朮" },
+      "imageKey": "baizhu"
+    },
+    {
+      "id": "kirara",
+      "name": { "ko": "키라라", "en": "Kirara", "ja": "綺良々" },
+      "imageKey": "kirara"
+    },
+    {
+      "id": "emilie",
+      "name": { "ko": "에밀리", "en": "Emilie", "ja": "エミリエ" },
+      "imageKey": "emilie"
+    },
+    {
+      "id": "kinich",
+      "name": { "ko": "키니치", "en": "Kinich", "ja": "キィニチ" },
+      "imageKey": "kinich"
+    },
+    {
+      "id": "lauma",
+      "name": { "ko": "라우마", "en": "Lauma", "ja": "ラウマ" },
+      "imageKey": "lauma"
+    },
+    {
+      "id": "nefer",
+      "name": { "ko": "네페르", "en": "Nefer", "ja": "ネフェル" },
+      "imageKey": "nefer"
+    },
+    {
+      "id": "traveler_anemo_dps",
+      "name": { "ko": "여행자 (바람) (딜러)", "en": "Traveler (Anemo) (DPS)", "ja": "旅人 (風) (アタッカー)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "traveler_anemo_em",
+      "name": { "ko": "여행자 (바람) (원소 마스터리)", "en": "Traveler (Anemo) (Elemental Mastery)", "ja": "旅人 (風) (元素熟知)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "sucrose",
+      "name": { "ko": "설탕", "en": "Sucrose", "ja": "スクロース" },
+      "imageKey": "sucrose"
+    },
+    {
+      "id": "jean",
+      "name": { "ko": "진", "en": "Jean", "ja": "ジン" },
+      "imageKey": "jean"
+    },
+    {
+      "id": "venti",
+      "name": { "ko": "벤티", "en": "Venti", "ja": "ウェンティ" },
+      "imageKey": "venti"
+    },
+    {
+      "id": "xiao",
+      "name": { "ko": "소", "en": "Xiao", "ja": "魈" },
+      "imageKey": "xiao"
+    },
+    {
+      "id": "kazuha_support",
+      "name": { "ko": "카에데하라 카즈하 (서포트)", "en": "Kaedehara Kazuha (Support)", "ja": "楓原万葉 (サポーター)" },
+      "imageKey": "kazuha"
+    },
+    {
+      "id": "kazuha_dps",
+      "name": { "ko": "카에데하라 카즈하 (딜러)", "en": "Kaedehara Kazuha (DPS)", "ja": "楓原万葉 (アタッカー)" },
+      "imageKey": "kazuha"
+    },
+    {
+      "id": "sayu_healer",
+      "name": { "ko": "사유 (힐러)", "en": "Sayu (Healer)", "ja": "早柚 (ヒーラー)" },
+      "imageKey": "sayu"
+    },
+    {
+      "id": "sayu_em",
+      "name": { "ko": "사유 (원소 마스터리)", "en": "Sayu (Elemental Mastery)", "ja": "早柚 (元素熟知)" },
+      "imageKey": "sayu"
+    },
+    {
+      "id": "heizou",
+      "name": { "ko": "시카노인 헤이조", "en": "Shikanoin Heizou", "ja": "鹿野院平蔵" },
+      "imageKey": "heizou"
+    },
+    {
+      "id": "faruzan",
+      "name": { "ko": "파루잔", "en": "Faruzan", "ja": "ファルザン" },
+      "imageKey": "faruzan"
+    },
+    {
+      "id": "wanderer",
+      "name": { "ko": "방랑자", "en": "Wanderer", "ja": "放浪者" },
+      "imageKey": "wanderer"
+    },
+    {
+      "id": "lynette",
+      "name": { "ko": "리넷", "en": "Lynette", "ja": "リネット" },
+      "imageKey": "lynette"
+    },
+    {
+      "id": "xianyun",
+      "name": { "ko": "한운", "en": "Xianyun", "ja": "閑雲" },
+      "imageKey": "xianyun"
+    },
+    {
+      "id": "chasca",
+      "name": { "ko": "차스카", "en": "Chasca", "ja": "チャスカ" },
+      "imageKey": "chasca"
+    },
+    {
+      "id": "lanyan_shield",
+      "name": { "ko": "남연 (보호막)", "en": "Lan Yan (Shield)", "ja": "藍硯 (シールド)" },
+      "imageKey": "lanyan"
+    },
+    {
+      "id": "lanyan_dps",
+      "name": { "ko": "남연 (딜러)", "en": "Lan Yan (DPS)", "ja": "藍硯 (アタッカー)" },
+      "imageKey": "lanyan"
+    },
+    {
+      "id": "mizuki",
+      "name": { "ko": "유메미즈키 미즈키", "en": "Yumemizuki Mizuki", "ja": "夢見月瑞希" },
+      "imageKey": "mizuki"
+    },
+    {
+      "id": "ifa",
+      "name": { "ko": "이파", "en": "Ifa", "ja": "イファ" },
+      "imageKey": "ifa"
+    },
+    {
+      "id": "jahoda",
+      "name": { "ko": "야호다", "en": "Jahoda", "ja": "ヤフォダ" },
+      "imageKey": "jahoda"
+    },
+    {
+      "id": "varka",
+      "name": { "ko": "바르카", "en": "Varka", "ja": "ヴァルカ" },
+      "imageKey": "varka"
+    },
+    {
+      "id": "traveler_geo",
+      "name": { "ko": "여행자 (바위)", "en": "Traveler (Geo)", "ja": "旅人 (岩)" },
+      "imageKey": "traveler"
+    },
+    {
+      "id": "ningguang",
+      "name": { "ko": "응광", "en": "Ningguang", "ja": "凝光" },
+      "imageKey": "ningguang"
+    },
+    {
+      "id": "noelle",
+      "name": { "ko": "노엘", "en": "Noelle", "ja": "ノエル" },
+      "imageKey": "noelle"
+    },
+    {
+      "id": "zhongli_shield",
+      "name": { "ko": "종려 (보호막)", "en": "Zhongli (Shield)", "ja": "鍾離 (シールド)" },
+      "imageKey": "zhongli"
+    },
+    {
+      "id": "zhongli_dps",
+      "name": { "ko": "종려 (딜러)", "en": "Zhongli (DPS)", "ja": "鍾離 (アタッカー)" },
+      "imageKey": "zhongli"
+    },
+    {
+      "id": "albedo",
+      "name": { "ko": "알베도", "en": "Albedo", "ja": "アルベド" },
+      "imageKey": "albedo"
+    },
+    {
+      "id": "gorou",
+      "name": { "ko": "고로", "en": "Gorou", "ja": "ゴロー" },
+      "imageKey": "gorou"
+    },
+    {
+      "id": "arataki_itto",
+      "name": { "ko": "아라타키 이토", "en": "Arataki Itto", "ja": "荒瀧一斗" },
+      "imageKey": "arataki_itto"
+    },
+    {
+      "id": "yun_jin",
+      "name": { "ko": "운근", "en": "Yun Jin", "ja": "雲菫" },
+      "imageKey": "yun_jin"
+    },
+    {
+      "id": "navia",
+      "name": { "ko": "나비아", "en": "Navia", "ja": "ナヴィア" },
+      "imageKey": "navia"
+    },
+    {
+      "id": "chiori",
+      "name": { "ko": "치오리", "en": "Chiori", "ja": "千織" },
+      "imageKey": "chiori"
+    },
+    {
+      "id": "kachina_dps",
+      "name": { "ko": "카치나", "en": "Kachina (DPS)", "ja": "カチーナ (アタッカー)" },
+      "imageKey": "kachina"
+    },
+    {
+      "id": "kachina_shield",
+      "name": { "ko": "카치나", "en": "Kachina (Shield)", "ja": "カチーナ (シールド)" },
+      "imageKey": "kachina"
+    },
+    {
+      "id": "xilonen_support",
+      "name": { "ko": "실로닌", "en": "Xilonen (Support)", "ja": "シロネン (サポーター)" },
+      "imageKey": "xilonen"
+    },
+    {
+      "id": "xilonen_dps",
+      "name": { "ko": "실로닌", "en": "Xilonen (DPS)", "ja": "シロネン (アタッカー)" },
+      "imageKey": "xilonen"
+    },
+    {
+      "id": "illuga",
+      "name": { "ko": "일루가", "en": "Illuga", "ja": "イルーガ" },
+      "imageKey": "illuga"
+    },
+    {
+      "id": "zibai",
+      "name": { "ko": "자백", "en": "Zibai", "ja": "兹白" },
+      "imageKey": "zibai"
+    }
+  ]
+}

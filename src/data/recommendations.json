@@ -1,0 +1,1538 @@
+{
+  "rules": [
+    {
+      "characterId": "traveler_pyro",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith",
+        "noblesseoblige",
+        "obsidiancodex"
+      ],
+      "mainStats": ["er", "atk_percent", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "amber",
+      "artifactSets": [
+        "wandererstroupe",
+        "gildeddreams",
+        "instructor",
+        "noblesseoblige"
+      ],
+      "mainStats": ["em", "atk_percent", "pyro", "em", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "xiangling",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "silkenmoonsserenade",
+        "scrolloftheheroofcindercity",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["er", "atk_percent", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent", "em"]
+    },
+    {
+      "characterId": "bennett",
+      "artifactSets": ["noblesseoblige", "instructor", "emblemofseveredfate"],
+      "mainStats": ["er", "hp_percent", "healing"],
+      "validSubStats": ["er", "hp_percent", "crit_rate"]
+    },
+    {
+      "characterId": "diluc",
+      "artifactSets": [
+        "crimsonwitchofflames",
+        "gildeddreams",
+        "longnightsoath",
+        "marechausseehunter",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["em", "atk_percent", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "em"]
+    },
+    {
+      "characterId": "klee",
+      "artifactSets": [
+        "marechausseehunter",
+        "crimsonwitchofflames",
+        "adaycarvedfromrisingwinds",
+        "berserker",
+        "gladiatorsfinale"
+      ],
+      "mainStats": ["atk_percent", "em", "pyro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "xinyan_dps",
+      "artifactSets": [
+        "marechausseehunter",
+        "retracingbolide",
+        "paleflame",
+        "bloodstainedchivalry"
+      ],
+      "mainStats": ["atk_percent", "physical", "crit_dmg", "crit_rate"],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "def_percent",
+        "er"
+      ]
+    },
+    {
+      "characterId": "xinyan_support",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "huskofopulentdreams",
+        "deepwoodmemories",
+        "instructor",
+        "noblesseoblige"
+      ],
+      "mainStats": ["def_percent"],
+      "validSubStats": ["er"]
+    },
+    {
+      "characterId": "hutao",
+      "artifactSets": [
+        "crimsonwitchofflames",
+        "marechausseehunter",
+        "shimenawasreminiscence",
+        "gildeddreams",
+        "berserker"
+      ],
+      "mainStats": ["hp_percent", "em", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "hp_percent",
+        "em",
+        "atk_percent"
+      ]
+    },
+    {
+      "characterId": "yanfei_dps",
+      "artifactSets": [
+        "wandererstroupe",
+        "marechausseehunter",
+        "crimsonwitchofflames",
+        "martialartist",
+        "berserker",
+        "blizzardstrayer"
+      ],
+      "mainStats": ["em", "er", "atk_percent", "pyro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "yanfei_support",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "scrolloftheheroofcindercity",
+        "noblesseoblige",
+        "maidenbeloved",
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "instructor"
+      ],
+      "mainStats": ["er", "hp_percent", "healing"],
+      "validSubStats": ["hp_percent", "er"]
+    },
+    {
+      "characterId": "yoimiya",
+      "artifactSets": [
+        "shimenawasreminiscence",
+        "echoesofanoffering",
+        "marechausseehunter",
+        "retracingbolide",
+        "flowerofparadiselost",
+        "gildeddreams",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "em", "pyro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "thoma_shield",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "deepwoodmemories",
+        "instructor",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["er", "hp_percent", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "thoma_burst",
+      "artifactSets": [
+        "gildeddreams",
+        "flowerofparadiselost",
+        "deepwoodmemories",
+        "wandererstroupe",
+        "instructor"
+      ],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["er", "em", "hp_percent"]
+    },
+    {
+      "characterId": "dehya_offfield",
+      "artifactSets": [
+        "deepwoodmemories",
+        "tenacityofthemillelith",
+        "gildeddreams",
+        "flowerofparadiselost"
+      ],
+      "mainStats": ["em", "crit_rate"],
+      "validSubStats": ["em", "crit_rate", "crit_dmg", "hp_percent"]
+    },
+    {
+      "characterId": "dehya_onfield",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "vourukashasglow",
+        "marechausseehunter"
+      ],
+      "mainStats": [
+        "er",
+        "atk_percent",
+        "hp_percent",
+        "pyro",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": [
+        "er",
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "hp_percent"
+      ]
+    },
+    {
+      "characterId": "lyney",
+      "artifactSets": [
+        "marechausseehunter",
+        "wandererstroupe",
+        "crimsonwitchofflames",
+        "gladiatorsfinale"
+      ],
+      "mainStats": ["atk_percent", "em", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "chevreuse",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "songofdayspast",
+        "maidenbeloved"
+      ],
+      "mainStats": ["hp_percent", "er", "healing", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "gaming",
+      "artifactSets": [
+        "marechausseehunter",
+        "crimsonwitchofflames",
+        "gildeddreams"
+      ],
+      "mainStats": ["em", "atk_percent", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "arlecchino",
+      "artifactSets": [
+        "fragmentofharmonicwhimsy",
+        "gladiatorsfinale",
+        "shimenawasreminiscence",
+        "crimsonwitchofflames",
+        "cinderwrenchsflames"
+      ],
+      "mainStats": ["atk_percent", "em", "pyro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "mavuika",
+      "artifactSets": ["obsidiancodex", "scrolloftheheroofcindercity"],
+      "mainStats": ["atk_percent", "em", "pyro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em"]
+    },
+    {
+      "characterId": "durin",
+      "artifactSets": [
+        "adaycarvedfromrisingwinds",
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "crimsonwitchofflames"
+      ],
+      "mainStats": ["atk_percent", "er", "pyro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "traveler_hydro",
+      "artifactSets": [
+        "marechausseehunter",
+        "emblemofseveredfate",
+        "instructor",
+        "deepwoodmemories",
+        "gambler",
+        "berserker"
+      ],
+      "mainStats": [
+        "atk_percent",
+        "hp_percent",
+        "hydro",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": [
+        "hp_percent",
+        "atk_percent",
+        "em",
+        "crit_rate",
+        "crit_dmg"
+      ]
+    },
+    {
+      "characterId": "barbara_healer",
+      "artifactSets": [
+        "oceanhuedclam",
+        "instructor",
+        "maidenbeloved",
+        "emblemofseveredfate",
+        "scholar"
+      ],
+      "mainStats": ["er", "hp_percent", "healing"],
+      "validSubStats": ["hp_percent", "er", "em"]
+    },
+    {
+      "characterId": "barbara_bloom",
+      "artifactSets": ["flowerofparadiselost", "gildeddreams", "instructor"],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["em", "er", "hp_percent"]
+    },
+    {
+      "characterId": "xingqiu",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "instructor",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["atk_percent", "er", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "mona",
+      "artifactSets": [
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "maidenbeloved",
+        "instructor",
+        "emblemofseveredfate",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": [
+        "er",
+        "atk_percent",
+        "hydro",
+        "crit_rate",
+        "crit_dmg",
+        "healing"
+      ],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "tartaglia",
+      "artifactSets": [
+        "nymphsdream",
+        "heartofdepth",
+        "echoesofanoffering",
+        "noblesseoblige"
+      ],
+      "mainStats": ["atk_percent", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "kokomi_healer",
+      "artifactSets": [
+        "oceanhuedclam",
+        "scholar",
+        "instructor",
+        "maidenbeloved"
+      ],
+      "mainStats": ["hp_percent", "hydro", "healing"],
+      "validSubStats": ["hp_percent", "er", "em"]
+    },
+    {
+      "characterId": "kokomi_support",
+      "artifactSets": ["tenacityofthemillelith", "songofdayspast"],
+      "mainStats": ["hp_percent", "er", "healing"],
+      "validSubStats": ["hp_percent", "er", "em"]
+    },
+    {
+      "characterId": "kokomi_bloom",
+      "artifactSets": ["flowerofparadiselost"],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["em", "er", "hp_percent"]
+    },
+    {
+      "characterId": "ayato",
+      "artifactSets": [
+        "echoesofanoffering",
+        "gladiatorsfinale",
+        "heartofdepth",
+        "nymphsdream",
+        "marechausseehunter",
+        "thunderingfury",
+        "martialartist"
+      ],
+      "mainStats": [
+        "atk_percent",
+        "hp_percent",
+        "hydro",
+        "crit_dmg",
+        "crit_rate"
+      ],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "er",
+        "hp_percent",
+        "em"
+      ]
+    },
+    {
+      "characterId": "yelan",
+      "artifactSets": ["emblemofseveredfate", "theexile", "scholar"],
+      "mainStats": ["hp_percent", "er", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_dmg", "crit_rate", "hp_percent", "er"]
+    },
+    {
+      "characterId": "candace_support",
+      "artifactSets": [
+        "instructor",
+        "gildeddreams",
+        "noblesseoblige",
+        "flowerofparadiselost",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "hp_percent", "crit_rate"],
+      "validSubStats": ["er", "hp_percent", "em", "crit_rate"]
+    },
+    {
+      "characterId": "candace_onfield",
+      "artifactSets": [
+        "marechausseehunter",
+        "gildeddreams",
+        "nymphsdream",
+        "gladiatorsfinale",
+        "heartofdepth"
+      ],
+      "mainStats": ["er", "atk_percent", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "er",
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "hp_percent",
+        "em"
+      ]
+    },
+    {
+      "characterId": "nilou_bloom",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "paleandfrostyblade",
+        "instructor"
+      ],
+      "mainStats": ["hp_percent"],
+      "validSubStats": ["hp_percent", "em", "er"]
+    },
+    {
+      "characterId": "nilou_other",
+      "artifactSets": ["marechausseehunter", "vourukashasglow"],
+      "mainStats": ["hp_percent", "er", "em", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "hp_percent", "er", "em"]
+    },
+    {
+      "characterId": "neuvillette",
+      "artifactSets": ["marechausseehunter", "wandererstroupe", "heartofdepth"],
+      "mainStats": ["hp_percent", "hydro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "hp_percent", "er"]
+    },
+    {
+      "characterId": "furina",
+      "artifactSets": [
+        "goldentroupe",
+        "marechausseehunter",
+        "tenacityofthemillelith",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "hp_percent", "hydro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_dmg", "crit_rate", "hp_percent"]
+    },
+    {
+      "characterId": "sigewinne",
+      "artifactSets": [
+        "silkenmoonsserenade",
+        "songofdayspast",
+        "oceanhuedclam",
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["hp_percent", "er"],
+      "validSubStats": ["hp_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "mualani",
+      "artifactSets": [
+        "obsidiancodex",
+        "unfinishedreverie",
+        "gildeddreams",
+        "scrolloftheheroofcindercity",
+        "marechausseehunter"
+      ],
+      "mainStats": ["hp_percent", "em", "hydro", "crit_dmg"],
+      "validSubStats": ["crit_dmg", "hp_percent", "em", "crit_rate", "er"]
+    },
+    {
+      "characterId": "dahlia",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith",
+        "vourukashasglow"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "aino",
+      "artifactSets": [
+        "silkenmoonsserenade",
+        "instructor",
+        "noblesseoblige",
+        "deepwoodmemories"
+      ],
+      "mainStats": ["em", "er", "crit_rate"],
+      "validSubStats": ["er", "em", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "columbina",
+      "artifactSets": [
+        "silkenmoonsserenade",
+        "journeyofstarsandmoon",
+        "tenacityofthemillelith",
+        "nightrevealstheboundaries"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate", "crit_dmg"],
+      "validSubStats": ["hp_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "traveler_electro",
+      "artifactSets": ["emblemofseveredfate", "theexile"],
+      "mainStats": ["er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
+    },
+    {
+      "characterId": "lisa",
+      "artifactSets": [
+        "noblesseoblige",
+        "gildeddreams",
+        "emblemofseveredfate",
+        "thunderingfury",
+        "instructor"
+      ],
+      "mainStats": [
+        "er",
+        "atk_percent",
+        "em",
+        "electro",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "razor",
+      "artifactSets": [
+        "adaycarvedfromrisingwinds",
+        "marechausseehunter",
+        "gladiatorsfinale",
+        "paleflame"
+      ],
+      "mainStats": ["atk_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "beidou",
+      "artifactSets": ["emblemofseveredfate", "theexile", "scholar"],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "fischl",
+      "artifactSets": [
+        "goldentroupe",
+        "adaycarvedfromrisingwinds",
+        "thunderingfury",
+        "tenacityofthemillelith",
+        "gildeddreams"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "keqing",
+      "artifactSets": [
+        "thunderingfury",
+        "gildeddreams",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "kujou_sara",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "thunderingfury",
+        "scholar"
+      ],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "raiden_shogun",
+      "artifactSets": ["emblemofseveredfate", "theexile", "scholar"],
+      "mainStats": ["er", "atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent", "em"]
+    },
+    {
+      "characterId": "raiden_shogun_hyperbloom",
+      "artifactSets": ["flowerofparadiselost", "gildeddreams"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "yae_miko",
+      "artifactSets": [
+        "goldentroupe",
+        "thunderingfury",
+        "gildeddreams",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "kuki_shinobu_healer",
+      "artifactSets": ["tenacityofthemillelith", "instructor"],
+      "mainStats": ["hp_percent", "healing", "hp_percent"],
+      "validSubStats": ["hp_percent", "em", "er"]
+    },
+    {
+      "characterId": "dori_hyperbloom",
+      "artifactSets": [
+        "thunderingfury",
+        "gildeddreams",
+        "instructor",
+        "noblesseoblige",
+        "flowerofparadiselost"
+      ],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["er", "em", "hp_percent", "crit_rate"]
+    },
+    {
+      "characterId": "dori_dps",
+      "artifactSets": ["thunderingfury"],
+      "mainStats": ["em", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "er",
+        "crit_rate",
+        "crit_dmg",
+        "em",
+        "atk_percent",
+        "hp_percent"
+      ]
+    },
+    {
+      "characterId": "cyno",
+      "artifactSets": ["thunderingfury", "gildeddreams", "gladiatorsfinale"],
+      "mainStats": ["em", "atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "em", "atk_percent", "er"]
+    },
+    {
+      "characterId": "sethos",
+      "artifactSets": [
+        "wandererstroupe",
+        "gildeddreams",
+        "thunderingfury",
+        "marechausseehunter",
+        "resolutionofsojourner",
+        "martialartist"
+      ],
+      "mainStats": ["em", "er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "em"]
+    },
+    {
+      "characterId": "clorinde",
+      "artifactSets": [
+        "fragmentofharmonicwhimsy",
+        "thunderingfury",
+        "gladiatorsfinale",
+        "echoesofanoffering"
+      ],
+      "mainStats": ["atk_percent", "electro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "ororon_atk",
+      "artifactSets": ["scrolloftheheroofcindercity"],
+      "mainStats": ["atk_percent", "er", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "iansan",
+      "artifactSets": ["scrolloftheheroofcindercity", "noblesseoblige"],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "varesa",
+      "artifactSets": ["longnightsoath", "obsidiancodex"],
+      "mainStats": ["atk_percent", "electro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "atk_percent"]
+    },
+    {
+      "characterId": "ineffa",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "aubadeofmorningstarandmoon",
+        "gildeddreams"
+      ],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "flins",
+      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "kaeya",
+      "artifactSets": [
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "blizzardstrayer",
+        "nightoftheboundlessskies",
+        "scholar",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "er", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "chongyun",
+      "artifactSets": [
+        "marechausseehunter",
+        "noblesseoblige",
+        "blizzardstrayer",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "qiqi_healer",
+      "artifactSets": [
+        "oceanhuedclam",
+        "tenacityofthemillelith",
+        "maidenbeloved",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["atk_percent", "er", "healing"],
+      "validSubStats": ["atk_percent", "er"]
+    },
+    {
+      "characterId": "qiqi_dps",
+      "artifactSets": ["oceanhuedclam"],
+      "mainStats": ["atk_percent", "physical", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "diona",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "instructor",
+        "emblemofseveredfate",
+        "scholar",
+        "theexile"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "hp", "crit_rate"]
+    },
+    {
+      "characterId": "ganyu_melt",
+      "artifactSets": [
+        "wandererstroupe",
+        "unfinishedreverie",
+        "reminiscenceofshime"
+      ],
+      "mainStats": ["atk_percent", "em", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "atk_percent"]
+    },
+    {
+      "characterId": "ganyu_freeze",
+      "artifactSets": [
+        "blizzardstrayer",
+        "marechausseehunter",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "er", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
+    },
+    {
+      "characterId": "rosaria",
+      "artifactSets": [
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor",
+        "blizzardstrayer",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "er", "em", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "eula",
+      "artifactSets": [
+        "paleflame",
+        "marechausseehunter",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "er", "physical", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "kamisato_ayaka",
+      "artifactSets": [
+        "blizzardstrayer",
+        "marechausseehunter",
+        "emblemofseveredfate",
+        "gladiatorsfinale",
+        "martialartist"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
+    },
+    {
+      "characterId": "aloy",
+      "artifactSets": [
+        "blizzardstrayer",
+        "reminiscenceofshime",
+        "noblesseoblige"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "shenhe",
+      "artifactSets": ["noblesseoblige", "emblemofseveredfate"],
+      "mainStats": ["atk_percent", "er", "crit_rate", "atk_percent"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "atk"]
+    },
+    {
+      "characterId": "layla",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor"
+      ],
+      "mainStats": ["hp_percent", "er", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate", "hp"]
+    },
+    {
+      "characterId": "mika",
+      "artifactSets": [
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "oceanhuedclam",
+        "maidenbeloved",
+        "theexile"
+      ],
+      "mainStats": ["hp_percent", "er", "healing", "crit_rate"],
+      "validSubStats": ["er", "crit_rate", "hp_percent", "hp"]
+    },
+    {
+      "characterId": "freminet",
+      "artifactSets": ["marechausseehunter", "paleflame", "blizzardstrayer"],
+      "mainStats": [
+        "atk_percent",
+        "er",
+        "physical",
+        "cryo",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
+    },
+    {
+      "characterId": "wriothesley",
+      "artifactSets": [
+        "marechausseehunter",
+        "shimenawasreminiscence",
+        "blizzardstrayer"
+      ],
+      "mainStats": ["atk_percent", "em", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "charlotte",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "oceanhuedclam",
+        "songofdayspast",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "atk_percent", "crit_rate"]
+    },
+    {
+      "characterId": "citlali",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith",
+        "noblesseoblige",
+        "instructor"
+      ],
+      "mainStats": ["er", "em", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "em"]
+    },
+    {
+      "characterId": "escoffier",
+      "artifactSets": [
+        "goldentroupe",
+        "blizzardstrayer",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "skirk",
+      "artifactSets": [
+        "finaleofthedeepgalleries",
+        "marechausseehunter",
+        "blizzardstrayer",
+        "gladiatorsfinale",
+        "martialartist",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "cryo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "traveler_dendro_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "scrolloftheheroofcindercity",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er", "crit_rate"]
+    },
+    {
+      "characterId": "traveler_dendro_dps",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "scrolloftheheroofcindercity",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "er", "em", "atk_percent"]
+    },
+    {
+      "characterId": "collei_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er", "crit_rate"]
+    },
+    {
+      "characterId": "collei_dps",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": []
+    },
+    {
+      "characterId": "tighnari",
+      "artifactSets": [
+        "wandererstroupe",
+        "gildeddreams",
+        "deepwoodmemories",
+        "marechausseehunter",
+        "instructor"
+      ],
+      "mainStats": ["em", "atk_percent", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "atk_percent", "er"]
+    },
+    {
+      "characterId": "nahida",
+      "artifactSets": [
+        "deepwoodmemories",
+        "gildeddreams",
+        "noblesseoblige",
+        "instructor"
+      ],
+      "mainStats": ["em", "er", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["em", "crit_dmg", "er", "crit_rate", "atk_percent"]
+    },
+    {
+      "characterId": "yaoyao_hp",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "maidenbeloved",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["hp_percent", "er", "healing", "crit_rate"],
+      "validSubStats": ["er", "hp_percent", "hp", "em", "crit_rate"]
+    },
+    {
+      "characterId": "yaoyao_em",
+      "artifactSets": [
+        "deepwoodmemories",
+        "instructor",
+        "maidenbeloved",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["em", "er", "crit_rate"],
+      "validSubStats": ["em", "er", "hp_percent", "hp", "crit_rate"]
+    },
+    {
+      "characterId": "alhaitham",
+      "artifactSets": ["gildeddreams", "deepwoodmemories"],
+      "mainStats": ["em", "atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "em", "er", "atk_percent"]
+    },
+    {
+      "characterId": "kaveh",
+      "artifactSets": [
+        "deepwoodmemories",
+        "flowerofparadiselost",
+        "oceanhuedclam",
+        "gildeddreams",
+        "instructor"
+      ],
+      "mainStats": ["er", "em"],
+      "validSubStats": ["er", "em", "atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "baizhu",
+      "artifactSets": [
+        "noblesseoblige",
+        "instructor",
+        "deepwoodmemories",
+        "songofdayspast",
+        "oceanhuedclam",
+        "scrolloftheheroofcindercity",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "hp_percent"],
+      "validSubStats": ["er", "hp_percent", "crit_rate", "hp"]
+    },
+    {
+      "characterId": "kirara",
+      "artifactSets": [
+        "deepwoodmemories",
+        "scrolloftheheroofcindercity",
+        "noblesseoblige",
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "instructor"
+      ],
+      "mainStats": ["hp_percent", "crit_rate"],
+      "validSubStats": ["hp_percent", "crit_rate", "er", "em", "hp"]
+    },
+    {
+      "characterId": "emilie",
+      "artifactSets": [
+        "deepwoodmemories",
+        "unfinishedreverie",
+        "goldentroupe",
+        "lavawalker"
+      ],
+      "mainStats": ["atk_percent", "dendro", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "kinich",
+      "artifactSets": [
+        "obsidiancodex",
+        "unfinishedreverie",
+        "deepwoodmemories"
+      ],
+      "mainStats": ["atk_percent", "dendro", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "lauma",
+      "artifactSets": [
+        "deepwoodmemories",
+        "noblesseoblige",
+        "instructor",
+        "gildeddreams"
+      ],
+      "mainStats": ["er", "em", "crit_rate"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "nefer",
+      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "mainStats": ["em", "crit_dmg", "crit_rate"],
+      "validSubStats": ["em", "crit_rate", "crit_dmg", "er"]
+    },
+    {
+      "characterId": "traveler_anemo_dps",
+      "artifactSets": ["viridescentvenerer", "instructor"],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "traveler_anemo_em",
+      "artifactSets": ["viridescentvenerer", "instructor"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "sucrose",
+      "artifactSets": ["viridescentvenerer", "instructor", "gildeddreams"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "jean",
+      "artifactSets": [
+        "viridescentvenerer",
+        "noblesseoblige",
+        "emblemofseveredfate",
+        "instructor",
+        "theexile"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "atk_percent", "crit_rate"]
+    },
+    {
+      "characterId": "venti",
+      "artifactSets": [
+        "viridescentvenerer",
+        "adaycarvedfromrisingwinds",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "xiao",
+      "artifactSets": [
+        "longnightsoath",
+        "vermillionhereafter",
+        "marechausseehunter",
+        "berserker",
+        "gladiatorsfinale",
+        "theexile"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "kazuha_support",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "kazuha_dps",
+      "artifactSets": ["viridescentvenerer", "echoesofanoffering"],
+      "mainStats": ["em", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "sayu_healer",
+      "artifactSets": ["viridescentvenerer", "noblesseoblige", "theexile"],
+      "mainStats": ["er", "atk_percent", "healing"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "em"]
+    },
+    {
+      "characterId": "sayu_em",
+      "artifactSets": ["viridescentvenerer", "noblesseoblige", "theexile"],
+      "mainStats": ["em", "er", "healing"],
+      "validSubStats": ["em", "er", "atk_percent"]
+    },
+    {
+      "characterId": "heizou",
+      "artifactSets": [
+        "viridescentvenerer",
+        "goldentroupe",
+        "marechausseehunter"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em"]
+    },
+    {
+      "characterId": "faruzan",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "viridescentvenerer",
+        "emblemofseveredfate",
+        "noblesseoblige",
+        "adaycarvedfromrisingwinds",
+        "goldentroupe"
+      ],
+      "mainStats": ["er", "atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["er", "crit_rate", "crit_dmg", "atk_percent"]
+    },
+    {
+      "characterId": "wanderer",
+      "artifactSets": [
+        "desertpavilionchronicle",
+        "reminiscenceofshime",
+        "viridescentvenerer",
+        "echoesofanoffering",
+        "marechausseehunter",
+        "martialartist",
+        "berserker"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_dmg", "crit_rate", "atk_percent", "er"]
+    },
+    {
+      "characterId": "lynette",
+      "artifactSets": [
+        "viridescentvenerer",
+        "marechausseehunter",
+        "desertpavilionchronicle",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "xianyun",
+      "artifactSets": [
+        "viridescentvenerer",
+        "songofdayspast",
+        "oceanhuedclam",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "chasca",
+      "artifactSets": [
+        "obsidiancodex",
+        "marechausseehunter",
+        "reminiscenceofshime",
+        "wandererstroupe"
+      ],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "lanyan_shield",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["atk_percent", "er"],
+      "validSubStats": ["atk_percent", "er"]
+    },
+    {
+      "characterId": "lanyan_dps",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["atk_percent", "anemo", "crit_rate", "crit_dmg"],
+      "validSubStats": ["atk_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "mizuki",
+      "artifactSets": ["viridescentvenerer"],
+      "mainStats": ["em", "er"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "ifa",
+      "artifactSets": [
+        "obsidiancodex",
+        "scrolloftheheroofcindercity",
+        "viridescentvenerer"
+      ],
+      "mainStats": ["atk_percent", "anemo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er", "em"]
+    },
+    {
+      "characterId": "jahoda",
+      "artifactSets": [
+        "viridescentvenerer",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "atk_percent", "healing", "crit_rate"],
+      "validSubStats": ["atk_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "varka",
+      "artifactSets": ["adaycarvedfromrisingwinds", "reminiscenceofshime"],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "traveler_geo",
+      "artifactSets": [
+        "noblesseoblige",
+        "nighttimewhispersintheechoingwoods",
+        "emblemofseveredfate",
+        "archaicpetra",
+        "theexile",
+        "scrolloftheheroofcindercity"
+      ],
+      "mainStats": ["atk_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "ningguang",
+      "artifactSets": [
+        "nighttimewhispersintheechoingwoods",
+        "marechausseehunter",
+        "archaicpetra",
+        "maidenbeloved",
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "theexile",
+        "gladiatorsfinale",
+        "berserker"
+      ],
+      "mainStats": [
+        "atk_percent",
+        "geo_dmg",
+        "crit_rate",
+        "crit_dmg",
+        "healing"
+      ],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "noelle",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "marechausseehunter",
+        "archaicpetra",
+        "gladiatorsfinale",
+        "nightoftheskysunveiling"
+      ],
+      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
+    },
+    {
+      "characterId": "zhongli_shield",
+      "artifactSets": [
+        "tenacityofthemillelith",
+        "vourukashasglow",
+        "archaicpetra",
+        "scrolloftheheroofcindercity",
+        "instructor",
+        "deepwoodmemories",
+        "noblesseoblige",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["hp_percent", "crit_rate"],
+      "validSubStats": ["hp_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "zhongli_dps",
+      "artifactSets": ["noblesseoblige", "emblemofseveredfate", "archaicpetra"],
+      "mainStats": [
+        "hp_percent",
+        "atk_percent",
+        "geo_dmg",
+        "crit_rate",
+        "crit_dmg"
+      ],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "hp_percent",
+        "atk_percent",
+        "er"
+      ]
+    },
+    {
+      "characterId": "albedo",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "goldentroupe",
+        "tenacityofthemillelith",
+        "archaicpetra"
+      ],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent"]
+    },
+    {
+      "characterId": "gorou",
+      "artifactSets": [
+        "theexile",
+        "instructor",
+        "silkenmoonsserenade",
+        "noblesseoblige",
+        "scrolloftheheroofcindercity",
+        "huskofopulentdreams",
+        "emblemofseveredfate"
+      ],
+      "mainStats": ["er", "def_percent", "crit_rate", "healing"],
+      "validSubStats": ["er", "def_percent", "crit_rate"]
+    },
+    {
+      "characterId": "arataki_itto",
+      "artifactSets": ["huskofopulentdreams", "theexile", "scholar"],
+      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "crit_rate",
+        "crit_dmg",
+        "def_percent",
+        "er",
+        "atk_percent"
+      ]
+    },
+    {
+      "characterId": "yun_jin",
+      "artifactSets": [
+        "huskofopulentdreams",
+        "emblemofseveredfate",
+        "archaicpetra",
+        "noblesseoblige",
+        "defenderswill",
+        "theexile",
+        "scholar"
+      ],
+      "mainStats": ["def_percent", "er", "crit_rate"],
+      "validSubStats": ["def_percent", "er", "crit_rate"]
+    },
+    {
+      "characterId": "navia",
+      "artifactSets": [
+        "nighttimewhispersintheechoingwoods",
+        "goldentroupe",
+        "archaicpetra",
+        "emblemofseveredfate",
+        "marechausseehunter"
+      ],
+      "mainStats": ["atk_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
+    },
+    {
+      "characterId": "chiori",
+      "artifactSets": [
+        "goldentroupe",
+        "huskofopulentdreams",
+        "marechausseehunter",
+        "archaicpetra",
+        "defenderswill",
+        "gambler",
+        "berserker"
+      ],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": [
+        "def_percent",
+        "crit_rate",
+        "crit_dmg",
+        "atk_percent",
+        "er"
+      ]
+    },
+    {
+      "characterId": "kachina_dps",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["er", "def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["def_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "kachina_shield",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["em"],
+      "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "xilonen_support",
+      "artifactSets": [
+        "scrolloftheheroofcindercity",
+        "archaicpetra",
+        "instructor"
+      ],
+      "mainStats": ["er", "def_percent", "healing", "crit_rate"],
+      "validSubStats": ["er", "def_percent", "crit_rate"]
+    },
+    {
+      "characterId": "xilonen_dps",
+      "artifactSets": ["obsidiancodex", "huskofopulentdreams"],
+      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
+    },
+    {
+      "characterId": "illuga",
+      "artifactSets": ["silkenmoonsserenade"],
+      "mainStats": ["em", "crit_rate"],
+      "validSubStats": ["er", "em", "crit_rate"]
+    },
+    {
+      "characterId": "zibai",
+      "artifactSets": ["nightoftheskysunveiling", "huskofopulentdreams"],
+      "mainStats": ["def_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["def_percent", "crit_dmg", "crit_rate", "em"]
+    }
+  ]
+}
