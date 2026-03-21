@@ -348,7 +348,6 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
       );
 
       const maxValidSubStatCount: number = Math.min(4, effectiveValidSubStats.length);
-      const selectedSubStatCount: number = selectedSubStatKeys.length;
       const validSubStatCount: number = validSubStatKeys.length;
 
       const requiredValidSubStatCount: number =
