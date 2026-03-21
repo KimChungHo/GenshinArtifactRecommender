@@ -249,9 +249,9 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     },
     recommendationTitle: { ko: "추천 캐릭터", en: "Recommended Characters", ja: "おすすめキャラ" },
     recommendationHint: {
-      ko: "주옵션이 일치하고, (캐릭터 기준) 유효 부옵션이 충분하면 추천됩니다.",
-      en: "A character is recommended when the main stat matches and you meet the character\'s valid sub stat requirement.",
-      ja: "メインが一致し、キャラの有効サブ条件を満たすとおすすめします。",
+      ko: "주옵션이 일치하고, 유효 부옵션이 2개 이상이면 추천됩니다. (유효 부옵션 최대치가 0~1개인 캐릭터는 그 최대치 기준)",
+      en: "Recommended when the main stat matches and 2+ sub stats are valid (or the character\'s max if it has 0~1).",
+      ja: "メイン一致＋有効サブが2つ以上（有効サブ最大が0〜1のキャラはその最大基準）でおすすめします。",
     },
     noRecommendation: {
       ko: "아직 추천할 수 있는 캐릭터가 없어요. 세트/주옵션/부옵션을 더 골라보세요.",
@@ -351,12 +351,14 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
       const selectedSubStatCount: number = selectedSubStatKeys.length;
       const validSubStatCount: number = validSubStatKeys.length;
 
-      const passesValidSubStatCheck: boolean =
+      const requiredValidSubStatCount: number =
         maxValidSubStatCount === 0
-          ? true
-          : maxValidSubStatCount >= 3
-            ? validSubStatCount >= 3
-            : selectedSubStatCount === maxValidSubStatCount && validSubStatCount === maxValidSubStatCount;
+          ? 0
+          : maxValidSubStatCount === 1
+            ? 1
+            : 2;
+
+      const passesValidSubStatCheck: boolean = validSubStatCount >= requiredValidSubStatCount;
 
       if (!passesValidSubStatCheck) {
         continue;
@@ -559,14 +561,16 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
             </section>
           ) : null}
         <div className="mt-10 text-center text-sm text-slate-500">
-          <a
+          {/* <a
             href="https://github.com/KimChungHo/GenshinArtifactRecommender/issues"
             target="_blank"
             rel="noreferrer"
             className="underline underline-offset-4 hover:text-slate-700"
           >
             Issue: https://github.com/KimChungHo/GenshinArtifactRecommender/issues
-          </a>
+          </a> */}
+
+          Issue: oksk0302@naver.com
         </div>
 
         </div>

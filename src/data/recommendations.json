@@ -255,7 +255,7 @@
         "gladiatorsfinale",
         "shimenawasreminiscence",
         "crimsonwitchofflames",
-        "cinderwrenchsflames"
+        "marechausseehunter"
       ],
       "mainStats": ["atk_percent", "em", "pyro", "crit_dmg", "crit_rate"],
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
@@ -456,7 +456,7 @@
       "artifactSets": [
         "tenacityofthemillelith",
         "vourukashasglow",
-        "paleandfrostyblade",
+        "silkenmoonsserenade",
         "instructor"
       ],
       "mainStats": ["hp_percent"],
@@ -536,9 +536,9 @@
       "characterId": "columbina",
       "artifactSets": [
         "silkenmoonsserenade",
-        "journeyofstarsandmoon",
+        "aubadeofmorningstarandmoon",
         "tenacityofthemillelith",
-        "nightrevealstheboundaries"
+        "nightoftheskysunveiling"
       ],
       "mainStats": ["hp_percent", "er", "crit_rate", "crit_dmg"],
       "validSubStats": ["hp_percent", "er", "crit_rate", "crit_dmg"]
@@ -734,7 +734,7 @@
     },
     {
       "characterId": "flins",
-      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "artifactSets": ["nightoftheskysunveiling", "gildeddreams"],
       "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
     },
@@ -744,7 +744,7 @@
         "emblemofseveredfate",
         "noblesseoblige",
         "blizzardstrayer",
-        "nightoftheboundlessskies",
+        "silkenmoonsserenade",
         "scholar",
         "theexile"
       ],
@@ -1125,7 +1125,7 @@
     },
     {
       "characterId": "nefer",
-      "artifactSets": ["nightoftheboundlessskies", "gildeddreams"],
+      "artifactSets": ["nightoftheskysunveiling", "gildeddreams"],
       "mainStats": ["em", "crit_dmg", "crit_rate"],
       "validSubStats": ["em", "crit_rate", "crit_dmg", "er"]
     },
