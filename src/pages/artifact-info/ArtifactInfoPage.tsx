@@ -51,7 +51,7 @@ function ChipSelectSection(props: ChipSelectSectionProps): React.JSX.Element {
 
 export default function ArtifactInfoPage(): React.JSX.Element {
   const uiText = {
-    languageTitle: { ko: "언어", en: "Language", ja: "言語" },
+    languageTitle: { ko: "Language", en: "Language", ja: "Language" },
     setSearchPlaceholder: {
       ko: "세트 이름 검색...",
       en: "Search set name...",
