@@ -570,6 +570,8 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
           </a> */}
 
           Issue: oksk0302@naver.com
+          <br/>
+          Updated: 2026-03-23
         </div>
 
         </div>
