@@ -1,7 +1,7 @@
 import React from "react";
-import { getArtifactSetOptions, type Locale } from "../../data/artifactOptions";
+import { getArtifactSetOptions, type ArtifactSetMeta, type Locale } from "../../data/artifactOptions";
 
-type ChipOption = { key: string; label: string };
+type ChipOption = { key: string; label: string; meta: ArtifactSetMeta };
 type OptionKey = string;
 
 type ChipSelectSectionProps = {
@@ -51,18 +51,18 @@ function ChipSelectSection(props: ChipSelectSectionProps): React.JSX.Element {
 
 export default function ArtifactInfoPage(): React.JSX.Element {
   const uiText = {
-    languageTitle: { ko: "Language", en: "Language", ja: "Language" },
-    setSearchPlaceholder: {
-      ko: "세트 이름 검색...",
-      en: "Search set name...",
-      ja: "セット名を検索...",
-    },
+    languageTitle: { ko: "언어", en: "Language", ja: "言語" },
+    setSearchPlaceholder: { ko: "세트 이름 검색...", en: "Search set name...", ja: "セット名を検索..." },
     setSectionTitle: { ko: "성유물 세트", en: "Artifact Set", ja: "聖遺物セット" },
     setSectionDescription: {
       ko: "세트는 한 개 선택 가능합니다. 선택을 해제하려면 같은 버튼을 다시 누르세요.",
       en: "You can select only one set. Click again to clear.",
       ja: "セットは1つだけ選択できます。もう一度押すと解除されます。",
     },
+    detailsTitle: { ko: "세트 정보", en: "Set Details", ja: "セット情報" },
+    rarityTitle: { ko: "등급", en: "Rarity", ja: "レアリティ" },
+    sourcesTitle: { ko: "획득처", en: "Sources", ja: "入手先" },
+    noData: { ko: "정보가 없습니다.", en: "No data.", ja: "情報がありません。" },
   };
 
   const [locale, setLocale] = React.useState<Locale>("ko");
@@ -70,7 +70,11 @@ export default function ArtifactInfoPage(): React.JSX.Element {
 
   const artifactSetChipOptions: ChipOption[] = artifactSetOptions
     .filter((option) => option.value !== "none")
-    .map((option) => ({ key: option.value, label: option.label }));
+    .map((option) => ({
+      key: option.value,
+      label: option.label,
+      meta: option.meta ?? { rarity: [], sources: [] },
+    }));
 
   const [artifactSetSearchText, setArtifactSetSearchText] = React.useState<string>("");
 
@@ -85,6 +89,16 @@ export default function ArtifactInfoPage(): React.JSX.Element {
   const handleToggleSetKey = (key: OptionKey) => {
     setSelectedArtifactSetKey((prev) => (prev === key ? null : key));
   };
+
+  const selectedOption: ChipOption | undefined = artifactSetChipOptions.find((x) => x.key === selectedArtifactSetKey);
+  const selectedMeta: ArtifactSetMeta | null = selectedOption ? selectedOption.meta : null;
+
+  const rarityText: string =
+    selectedMeta && selectedMeta.rarity.length > 0
+      ? locale === "ko"
+        ? [...selectedMeta.rarity].sort((a, b) => a - b).map((x) => `${x}성`).join(", ")
+        : [...selectedMeta.rarity].sort((a, b) => a - b).map((x) => `★${x}`).join(", ")
+      : uiText.noData[locale];
 
   return (
     <div className="mx-auto w-full max-w-[980px] px-4 py-8">
@@ -120,6 +134,34 @@ export default function ArtifactInfoPage(): React.JSX.Element {
           selectedKey={selectedArtifactSetKey}
           onToggle={handleToggleSetKey}
         />
+
+        {selectedArtifactSetKey ? (
+          <section className="mt-10 rounded-2xl border border-slate-200 bg-slate-50 p-6">
+            <h3 className="text-base font-extrabold text-slate-900">{uiText.detailsTitle[locale]}</h3>
+
+            <div className="mt-4 grid gap-4 md:grid-cols-2">
+              <div className="rounded-2xl border border-slate-200 bg-white p-4">
+                <div className="text-sm font-semibold text-slate-500">{uiText.rarityTitle[locale]}</div>
+                <div className="mt-2 text-base font-semibold text-slate-900">{rarityText}</div>
+              </div>
+
+              <div className="rounded-2xl border border-slate-200 bg-white p-4">
+                <div className="text-sm font-semibold text-slate-500">{uiText.sourcesTitle[locale]}</div>
+                <div className="mt-2">
+                  {selectedMeta && selectedMeta.sources.length > 0 ? (
+                    <ul className="list-disc space-y-1 pl-5 text-sm text-slate-800">
+                      {selectedMeta.sources.map((s) => (
+                        <li key={s}>{s}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <div className="text-sm text-slate-500">{uiText.noData[locale]}</div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+        ) : null}
       </div>
     </div>
   );

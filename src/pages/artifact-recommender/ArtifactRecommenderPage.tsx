@@ -268,7 +268,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       en: "(max)",
       ja: "（最大）",
     },
-    languageLabel: { ko: "Language", en: "Language", ja: "Language" },
+    languageLabel: { ko: "언어", en: "Language", ja: "言語" },
   };
 
   const artifactSetChipOptions: ChipOption[] = artifactSetOptions
