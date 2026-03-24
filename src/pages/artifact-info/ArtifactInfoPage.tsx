@@ -73,7 +73,7 @@ export default function ArtifactInfoPage(): React.JSX.Element {
     fontaine: { ko: "폰타인", en: "Fontaine", ja: "フォンテーヌ" },
     natlan: { ko: "나타", en: "Natlan", ja: "ナタ" },
     snezhnaya: { ko: "스네즈나야", en: "Snezhnaya", ja: "スネージナヤ" },
-    khaenriah: { ko: "켄리아", en: "Khaenri'ah", ja: "カーンルイア" },
+    nodkrai: { ko: "노드크라이", en: "Nodkrai", ja: "ナド・クライ" },
     unknown: { ko: "미상", en: "Unknown", ja: "不明" },
   };
 
