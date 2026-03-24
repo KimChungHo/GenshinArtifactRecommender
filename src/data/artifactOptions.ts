@@ -11,7 +11,28 @@ interface LabelBundle {
 export type ArtifactSetMeta = {
   rarity: number[];
   sources: string[];
+  sourceDetails?: ArtifactSourceDetail[];
 };
+
+export type NationKey =
+  | "mondstadt"
+  | "liyue"
+  | "inazuma"
+  | "sumeru"
+  | "fontaine"
+  | "natlan"
+  | "snezhnaya"
+  | "khaenriah"
+  | "unknown";
+
+export type ArtifactSourceKind = "domain" | "boss" | "other";
+
+export type ArtifactSourceDetail = {
+  kind: ArtifactSourceKind;
+  name: LabelBundle;
+  nationKey: NationKey;
+};
+
 
 export interface ArtifactSetRaw {
   value: string;
@@ -37,13 +58,13 @@ export function getArtifactSetOptions(locale: Locale = "ko") {
   return data.artifactSets.map((item) => ({
     value: item.value,
     label: item.label[locale],
-    meta: item.meta ?? { rarity: [], sources: [] },
+    meta: item.meta ?? { rarity: [], sources: [], sourceDetails: [] },
   }));
 }
 
 export function getArtifactSetMeta(value: string): ArtifactSetMeta {
   const found = data.artifactSets.find((x) => x.value === value);
-  return found?.meta ?? { rarity: [], sources: [] };
+  return found?.meta ?? { rarity: [], sources: [], sourceDetails: [] };
 }
 
 export function getMainStatOptions(locale: Locale = "ko") {

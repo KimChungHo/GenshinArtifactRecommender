@@ -65,6 +65,18 @@ export default function ArtifactInfoPage(): React.JSX.Element {
     noData: { ko: "정보가 없습니다.", en: "No data.", ja: "情報がありません。" },
   };
 
+  const nationLabelByKey: Record<string, { ko: string; en: string; ja: string }> = {
+    mondstadt: { ko: "몬드", en: "Mondstadt", ja: "モンド" },
+    liyue: { ko: "리월", en: "Liyue", ja: "璃月" },
+    inazuma: { ko: "이나즈마", en: "Inazuma", ja: "稲妻" },
+    sumeru: { ko: "수메르", en: "Sumeru", ja: "スメール" },
+    fontaine: { ko: "폰타인", en: "Fontaine", ja: "フォンテーヌ" },
+    natlan: { ko: "나타", en: "Natlan", ja: "ナタ" },
+    snezhnaya: { ko: "스네즈나야", en: "Snezhnaya", ja: "スネージナヤ" },
+    khaenriah: { ko: "켄리아", en: "Khaenri'ah", ja: "カーンルイア" },
+    unknown: { ko: "미상", en: "Unknown", ja: "不明" },
+  };
+
   const [locale, setLocale] = React.useState<Locale>("ko");
   const artifactSetOptions = getArtifactSetOptions(locale);
 
@@ -148,12 +160,52 @@ export default function ArtifactInfoPage(): React.JSX.Element {
               <div className="rounded-2xl border border-slate-200 bg-white p-4">
                 <div className="text-sm font-semibold text-slate-500">{uiText.sourcesTitle[locale]}</div>
                 <div className="mt-2">
-                  {selectedMeta && selectedMeta.sources.length > 0 ? (
-                    <ul className="list-disc space-y-1 pl-5 text-sm text-slate-800">
-                      {selectedMeta.sources.map((s) => (
-                        <li key={s}>{s}</li>
-                      ))}
-                    </ul>
+                  {selectedMeta ? (
+                    selectedMeta.sourceDetails && selectedMeta.sourceDetails.length > 0 ? (
+                      <ul className="space-y-1 text-sm text-slate-800">
+                        {selectedMeta.sourceDetails.map((detail, index) => {
+                          const nation = nationLabelByKey[detail.nationKey] ?? nationLabelByKey.unknown;
+                          const prefix =
+                            detail.kind === "domain"
+                              ? locale === "ko"
+                                ? "비경"
+                                : locale === "ja"
+                                  ? "秘境"
+                                  : "Domain"
+                              : detail.kind === "boss"
+                                ? locale === "ko"
+                                  ? "보스"
+                                  : locale === "ja"
+                                    ? "ボス"
+                                    : "Boss"
+                                : locale === "ko"
+                                  ? "기타"
+                                  : locale === "ja"
+                                    ? "その他"
+                                    : "Other";
+
+                          return (
+                            <li key={`${detail.kind}-${index}`} className="flex flex-wrap items-center gap-2">
+                              <span className="rounded-full border border-slate-200 bg-white px-2 py-0.5 text-[12px] font-medium text-slate-700">
+                                {prefix}
+                              </span>
+                              <span className="font-medium text-slate-900">{detail.name[locale]}</span>
+                              {detail.kind !== "other" && detail.nationKey !== "unknown" ? (
+                                <span className="text-slate-500">({nation[locale]})</span>
+                              ) : null}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    ) : selectedMeta.sources.length > 0 ? (
+                      <ul className="list-disc space-y-1 pl-5 text-sm text-slate-800">
+                        {selectedMeta.sources.map((s) => (
+                          <li key={s}>{s}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <div className="text-sm text-slate-500">{uiText.noData[locale]}</div>
+                    )
                   ) : (
                     <div className="text-sm text-slate-500">{uiText.noData[locale]}</div>
                   )}
