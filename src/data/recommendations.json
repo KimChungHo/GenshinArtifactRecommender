@@ -1117,8 +1117,7 @@
       "artifactSets": [
         "deepwoodmemories",
         "silkenmoonsserenade",
-        "instructor",
-        "gildeddreams"
+        "instructor"
       ],
       "mainStats": ["er", "em", "crit_rate"],
       "validSubStats": ["em", "er"]
