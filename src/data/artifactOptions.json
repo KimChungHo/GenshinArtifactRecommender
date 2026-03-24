@@ -1,533 +1,779 @@
 {
   "artifactSets": [
     {
-      "value": "gladiatorsfinale",
-      "label": { "ko": "검투사의 피날레", "en": "Gladiator's Finale", "ja": "剣闘士のフィナーレ" },
+      "value": "adventurer",
+      "label": {
+        "ko": "모험가",
+        "en": "Adventurer",
+        "ja": "冒険者"
+      },
       "meta": {
-        "rarity": [4, 5],
+        "rarity": [1, 2, 3],
         "sourceDetails": [
-          { "kind": "boss", "name": { "ko": "필드 보스 및 주간 보스", "en": "Elite Bosses & Weekly Bosses", "ja": "精鋭魔物 & 週ボス" }, "nationKey": "all" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 한 여름의 정원",
+              "en": "Midsummer Courtyard",
+              "ja": "仲夏の庭園"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "wandererstroupe",
-      "label": { "ko": "대지를 유랑하는 악단", "en": "Wanderer's Troupe", "ja": "大地を流浪する楽団" },
+      "value": "luckydog",
+      "label": {
+        "ko": "행운아",
+        "en": "Lucky Dog",
+        "ja": "幸運児"
+      },
       "meta": {
-        "rarity": [4, 5],
+        "rarity": [1, 2, 3],
         "sourceDetails": [
-          { "kind": "boss", "name": { "ko": "필드 보스 및 주간 보스", "en": "Elite Bosses & Weekly Bosses", "ja": "精鋭魔物 & 週ボス" }, "nationKey": "all" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺물廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 한 여름의 정원",
+              "en": "Midsummer Courtyard",
+              "ja": "仲夏の庭園"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "viridescentvenerer",
-      "label": { "ko": "청록색 그림자", "en": "Viridescent Venerer", "ja": "影の薄い青緑" },
+      "value": "travelingdoctor",
+      "label": {
+        "ko": "의사",
+        "en": "Traveling Doctor",
+        "ja": "医者"
+      },
       "meta": {
-        "rarity": [4, 5],
+        "rarity": [1, 2, 3],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 각인의 골짜기", "en": "Valley of Remembrance", "ja": "銘記の谷" }, "nationKey": "mondstadt" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무망 인구 밀궁",
+              "en": "Hidden Palace of Zhou Formula",
+              "ja": "無妄引責密宮"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "crimsonwitchofflames",
-      "label": { "ko": "불타오르는 화염의 마녀", "en": "Crimson Witch of Flames", "ja": "燃え盛る炎の魔女" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무망 인구 밀궁", "en": "Hidden Palace of Zhou Formula", "ja": "無妄引責密宮" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "noblesseoblige",
-      "label": { "ko": "옛 왕실의 의식", "en": "Noblesse Oblige", "ja": "旧貴族のしつけ" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 화지 산굴", "en": "Clear Pool and Mountain Cavern", "ja": "華池岩岫" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "emblemofseveredfate",
-      "label": { "ko": "절연의 기치", "en": "Emblem of Severed Fate", "ja": "絶縁の旗印" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 단풍의 정원", "en": "Momiji-Dyed Court", "ja": "紅葉の庭" }, "nationKey": "inazuma" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "shimenawasreminiscence",
-      "label": { "ko": "추억의 시메나와", "en": "Shimenawa's Reminiscence", "ja": "追憶のしめ縄" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 단풍의 정원", "en": "Momiji-Dyed Court", "ja": "紅葉の庭" }, "nationKey": "inazuma" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "archaicpetra",
-      "label": { "ko": "유구한 반암", "en": "Archaic Petra", "ja": "悠久の磐岩" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 하늘을 찌르는 땅", "en": "Domain of Guyun", "ja": "孤雲凌霄の処" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "bloodstainedchivalry",
-      "label": { "ko": "피에 물든 기사도", "en": "Bloodstained Chivalry", "ja": "血染めの騎士道" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 화지 산굴", "en": "Clear Pool and Mountain Cavern", "ja": "華池岩岫" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "retracingbolide",
-      "label": { "ko": "날아오르는 유성", "en": "Retracing Bolide", "ja": "逆飛びの流星" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 하늘을 찌르는 땅", "en": "Domain of Guyun", "ja": "孤雲凌霄の処" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "vourukashasglow",
-      "label": { "ko": "감로빛 꽃바다", "en": "Vourukasha's Glow", "ja": "花海甘露の光" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 쇳물 요새", "en": "Molten Fortress", "ja": "鉄甲の古城" }, "nationKey": "sumeru" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "marechausseehunter",
-      "label": { "ko": "그림자 사냥꾼", "en": "Marechaussee Hunter", "ja": "ファントムハンター" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 죄업의 종말", "en": "Denouement of Sin", "ja": "罪の終焉" }, "nationKey": "fontaine" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "goldentroupe",
-      "label": { "ko": "황금 극단", "en": "Golden Troupe", "ja": "黄金の劇団" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 죄업의 종말", "en": "Denouement of Sin", "ja": "罪の終焉" }, "nationKey": "fontaine" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "nighttimewhispersintheechoingwoods",
-      "label": { "ko": "메아리숲의 야화", "en": "Nighttime Whispers in the Echoing Woods", "ja": "残響の森の夜話" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 폭포 옆의 도시", "en": "Waterfall Wen", "ja": "滝の音の城寨" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "songofdayspast",
-      "label": { "ko": "지난날의 노래", "en": "Song of Days Past", "ja": "迫る客星" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 폭포 옆의 도시", "en": "Waterfall Wen", "ja": "滝の音の城寨" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "fragmentofharmonicwhimsy",
-      "label": { "ko": "조화로운 공상의 단편", "en": "Fragment of Harmonic Whimsy", "ja": "調和の空想の断片" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 빛바랜 극장", "en": "Faded Theater", "ja": "色褪せた劇場" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "unfinishedreverie",
-      "label": { "ko": "미완의 몽상", "en": "Unfinished Reverie", "ja": "未完成の夢想" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 빛바랜 극장", "en": "Faded Theater", "ja": "色褪せた劇場" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "obsidianpanoply",
-      "label": { "ko": "흑요석 비전", "en": "Obsidian Codex", "ja": "黒曜石の秘典" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무지개령의 정토", "en": "Sanctum of Rainbow Spirits", "ja": "虹霊の浄土" }, "nationKey": "natlan" }
-        ]
-      }
-    },
-    {
-      "value": "scrollheroofashimcity",
-      "label": { "ko": "잿더미성 용사의 두루마리", "en": "Scroll of the Hero of Ash-Gray City", "ja": "灰燼の都に立つ英雄の絵巻" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무지개령의 정토", "en": "Sanctum of Rainbow Spirits", "ja": "虹霊の浄土" }, "nationKey": "natlan" }
-        ]
-      }
-    },
-    {
-      "value": "deepwoodmemories",
-      "label": { "ko": "숲의 기억", "en": "Deepwood Memories", "ja": "深林の記憶" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 연각의 탑", "en": "Spire of Solitary Enlightenment", "ja": "縁覚の塔" }, "nationKey": "sumeru" }
-        ]
-      }
-    },
-    {
-      "value": "instructor",
-      "label": { "ko": "교관", "en": "Instructor", "ja": "教官" },
+      "value": "resolutionofsojourner",
+      "label": {
+        "ko": "행자의 마음",
+        "en": "Resolution of Sojourner",
+        "ja": "旅人の心"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "boss", "name": { "ko": "필드 보스 및 주간 보스", "en": "Elite Bosses & Weekly Bosses", "ja": "精鋭魔物 & 週ボス" }, "nationKey": "all" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 한 여름의 정원",
+              "en": "Midsummer Courtyard",
+              "ja": "仲夏の庭園"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "theexile",
-      "label": { "ko": "유배자", "en": "The Exile", "ja": "亡命者" },
+      "value": "tinymiracle",
+      "label": {
+        "ko": "기적",
+        "en": "Tiny Miracle",
+        "ja": "奇跡"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "boss", "name": { "ko": "필드 보스 및 주간 보스", "en": "Elite Bosses & Weekly Bosses", "ja": "精鋭魔物 & 週ボス" }, "nationKey": "all" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 기억의 골짜기",
+              "en": "Valley of Remembrance",
+              "ja": "銘記の谷"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 단풍 정원",
+              "en": "Momiji-Dyed Court",
+              "ja": "椛染の庭"
+            },
+            "nationKey": "inazuma"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 연각의 탑",
+              "en": "Spire of Solitary Enlightenment",
+              "ja": "縁覚の塔"
+            },
+            "nationKey": "sumeru"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 폭포 옆의 도시",
+              "en": "Waterfall Wen",
+              "ja": "滝を臨む廃都"
+            },
+            "nationKey": "fontaine"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 황폐한 조선소",
+              "en": "Derelict Masonry Dock",
+              "ja": "荒れ果てた創造の地"
+            },
+            "nationKey": "natlan"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 달 아이의 보관소",
+              "en": "Moonchild's Treasures",
+              "ja": "月の子の宝物"
+            },
+            "nationKey": "nodkrai"
+          }
         ]
       }
     },
     {
       "value": "berserker",
-      "label": { "ko": "전투광", "en": "Berserker", "ja": "狂戦士" },
+      "label": {
+        "ko": "전투광",
+        "en": "Berserker",
+        "ja": "狂戦士"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "boss", "name": { "ko": "필드 보스 및 주간 보스", "en": "Elite Bosses & Weekly Bosses", "ja": "精鋭魔物 & 週ボス" }, "nationKey": "all" },
-          { "kind": "chest", "name": { "ko": "보물상자", "en": "Chests", "ja": "宝箱" }, "nationKey": "all" }
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "weekly_boss",
+            "name": {
+              "ko": "주간 보스",
+              "en": "Weekly Bosses",
+              "ja": "週ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "martialartist",
-      "label": { "ko": "무인", "en": "Martial Artist", "ja": "武人" },
+      "value": "instructor",
+      "label": {
+        "ko": "교관",
+        "en": "Instructor",
+        "ja": "教官"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무망 인구 밀궁", "en": "Hidden Palace of Zhou Formula", "ja": "無妄引責密宮" }, "nationKey": "liyue" },
-          { "kind": "domain", "name": { "ko": "축성 비경: 산등성이의 파수꾼", "en": "Ridge Watch", "ja": "山脊の見張り" }, "nationKey": "liyue" }
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "weekly_boss",
+            "name": {
+              "ko": "주간 보스",
+              "en": "Weekly Bosses",
+              "ja": "週ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 달 아이의 보관소",
+              "en": "Moonchild's Treasures",
+              "ja": "月の子の宝物"
+            },
+            "nationKey": "nodkrai"
+          }
         ]
       }
     },
     {
-      "value": "defenderwill",
-      "label": { "ko": "수호자의 마음", "en": "Defender's Will", "ja": "守護の心" },
+      "value": "theexile",
+      "label": {
+        "ko": "유배자",
+        "en": "The Exile",
+        "ja": "亡命者"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무망 인구 밀궁", "en": "Hidden Palace of Zhou Formula", "ja": "無妄引責密宮" }, "nationKey": "liyue" },
-          { "kind": "domain", "name": { "ko": "축성 비경: 잠든 정원", "en": "Slumbering Court", "ja": "眠りの庭" }, "nationKey": "inazuma" }
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "weekly_boss",
+            "name": {
+              "ko": "주간 보스",
+              "en": "Weekly Bosses",
+              "ja": "週ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "gambler",
-      "label": { "ko": "노름꾼", "en": "Gambler", "ja": "博徒" },
+      "value": "defenderswill",
+      "label": {
+        "ko": "수호자의 마음",
+        "en": "Defender's Will",
+        "ja": "守護の心"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 각인의 골짜기", "en": "Valley of Remembrance", "ja": "銘記の谷" }, "nationKey": "mondstadt" },
-          { "kind": "domain", "name": { "ko": "축성 비경: 암중 협곡", "en": "The Lost Valley", "ja": "岩中峡谷" }, "nationKey": "liyue" }
-        ]
-      }
-    },
-    {
-      "value": "scholar",
-      "label": { "ko": "학사", "en": "Scholar", "ja": "学者" },
-      "meta": {
-        "rarity": [3, 4],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 화지 암굴", "en": "Clear Pool and Mountain Cavern", "ja": "華池岩岫" }, "nationKey": "liyue" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무망 인구 밀궁",
+              "en": "Hidden Palace of Zhou Formula",
+              "ja": "無妄引責密宮"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빈다그니르의 정상",
+              "en": "Peak of Vindagnyr",
+              "ja": "フィンドニールの頂上"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 잠든 정원",
+              "en": "Slumbering Court",
+              "ja": "熟眠の庭"
+            },
+            "nationKey": "inazuma"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 죄업의 종말",
+              "en": "Denouement of Sin",
+              "ja": "罪業の終末"
+            },
+            "nationKey": "fontaine"
+          }
         ]
       }
     },
     {
       "value": "braveheart",
-      "label": { "ko": "용사의 마음", "en": "Brave Heart", "ja": "勇士の心" },
+      "label": {
+        "ko": "용사의 마음",
+        "en": "Brave Heart",
+        "ja": "勇士の心"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 하늘이 맑은 물 연못과 산동굴", "en": "Domain of Guyun", "ja": "孤雲凌霄の処" }, "nationKey": "liyue" },
-          { "kind": "domain", "name": { "ko": "축성 비경: 산등성이의 파수꾼", "en": "Ridge Watch", "ja": "山脊の見張り" }, "nationKey": "liyue" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 하늘을 찌르는 땅",
+              "en": "Domain of Guyun",
+              "ja": "孤雲凌霄の処"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산등성이의 파수꾼",
+              "en": "Ridge Watch",
+              "ja": "山脊の見守り"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 잠든 정원",
+              "en": "Slumbering Court",
+              "ja": "熟眠の庭"
+            },
+            "nationKey": "inazuma"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 적금색 폐허",
+              "en": "City of Gold",
+              "ja": "赤金の城墟"
+            },
+            "nationKey": "sumeru"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빛바랜 극장",
+              "en": "Faded Theater",
+              "ja": "色褪せた劇場"
+            },
+            "nationKey": "fontaine"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 화청귀장 밀궁",
+              "en": "Hidden Palace of Guizang Formula",
+              "ja": "華清帰蔵密宮"
+            },
+            "nationKey": "liyue"
+          }
         ]
       }
     },
     {
-      "value": "sojourner",
-      "label": { "ko": "행자의 마음", "en": "Resolution of Sojourner", "ja": "旅人の心" },
+      "value": "martialartist",
+      "label": {
+        "ko": "무인",
+        "en": "Martial Artist",
+        "ja": "武人"
+      },
       "meta": {
         "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 한여름의 정원", "en": "Midsummer Courtyard", "ja": "仲夏の庭" }, "nationKey": "mondstadt" },
-          { "kind": "domain", "name": { "ko": "축성 비경: 세실리아의 모밭", "en": "Cecilia Garden", "ja": "セ시리아의 苗床" }, "nationKey": "mondstadt" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무망 인구 밀궁",
+              "en": "Hidden Palace of Zhou Formula",
+              "ja": "無妄引責密宮"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산등성이의 파수꾼",
+              "en": "Ridge Watch",
+              "ja": "山脊の見守り"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 암중협곡",
+              "en": "The Lost Valley",
+              "ja": "岩中幽谷"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 쇳물 요새",
+              "en": "Molten Iron Fortress",
+              "ja": "熔鉄の孤塞"
+            },
+            "nationKey": "fontaine"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 폭포 옆의 도시",
+              "en": "Waterfall Wen",
+              "ja": "滝を臨む廃都"
+            },
+            "nationKey": "fontaine"
+          }
         ]
       }
     },
     {
-      "value": "adventurer",
-      "label": { "ko": "모험가", "en": "Adventurer", "ja": "冒険者" },
+      "value": "gambler",
+      "label": {
+        "ko": "노름꾼",
+        "en": "Gambler",
+        "ja": "博徒"
+      },
       "meta": {
-        "rarity": [1, 2, 3],
+        "rarity": [3, 4],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 한여름의 정원", "en": "Midsummer Courtyard", "ja": "仲夏の庭" }, "nationKey": "mondstadt" },
-          { "kind": "chest", "name": { "ko": "보물상자", "en": "Chests", "ja": "宝箱" }, "nationKey": "all" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 화지 산굴",
+              "en": "Clear Pool and Mountain Cavern",
+              "ja": "華池岩岫"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빈다그니르의 정상",
+              "en": "Peak of Vindagnyr",
+              "ja": "フィンドニールの頂上"
+            },
+            "nationKey": "mondstadt"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 암중협곡",
+              "en": "The Lost Valley",
+              "ja": "岩中幽谷"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 연각의 탑",
+              "en": "Spire of Solitary Enlightenment",
+              "ja": "縁覚の塔"
+            },
+            "nationKey": "sumeru"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무지개령의 정토",
+              "en": "Sanctum of Rainbow Spirits",
+              "ja": "レインボースピリットの地"
+            },
+            "nationKey": "natlan"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 서리 내린 기계 무덤",
+              "en": "Frostladen Machinery",
+              "ja": "霜つく機軸"
+            },
+            "nationKey": "nodkrai"
+          }
         ]
       }
     },
     {
-      "value": "thunderingfury",
-      "label": { "ko": "번개 같은 분노", "en": "Thundering Fury", "ja": "雷のような怒り" },
+      "value": "scholar",
+      "label": {
+        "ko": "학사",
+        "en": "Scholar",
+        "ja": "学者"
+      },
+      "meta": {
+        "rarity": [3, 4],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 화지 산굴",
+              "en": "Clear Pool and Mountain Cavern",
+              "ja": "華池岩岫"
+            },
+            "nationKey": "liyue"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 쇳물 요새",
+              "en": "Molten Iron Fortress",
+              "ja": "熔鉄の孤塞"
+            },
+            "nationKey": "fontaine"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빛바랜 극장",
+              "en": "Faded Theater",
+              "ja": "色褪せた劇場"
+            },
+            "nationKey": "fontaine"
+          },
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 황폐한 조선소",
+              "en": "Derelict Masonry Dock",
+              "ja": "荒れ果てた創造の地"
+            },
+            "nationKey": "natlan"
+          }
+        ]
+      }
+    },
+    {
+      "value": "prayersforwisdom",
+      "label": {
+        "ko": "뇌명을 모시는 자",
+        "en": "Prayers for Wisdom",
+        "ja": "雷祭りの人"
+      },
+      "meta": {
+        "rarity": [3, 4],
+        "sourceDetails": [
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
+        ]
+      }
+    },
+    {
+      "value": "prayersfordestiny",
+      "label": {
+        "ko": "물을 모시는 자",
+        "en": "Prayers for Destiny",
+        "ja": "水祭りの人"
+      },
+      "meta": {
+        "rarity": [3, 4],
+        "sourceDetails": [
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
+        ]
+      }
+    },
+    {
+      "value": "prayersforillumination",
+      "label": {
+        "ko": "불을 모시는 자",
+        "en": "Prayers for Illumination",
+        "ja": "火祭りの人"
+      },
+      "meta": {
+        "rarity": [3, 4],
+        "sourceDetails": [
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
+        ]
+      }
+    },
+    {
+      "value": "prayerstospringtime",
+      "label": {
+        "ko": "얼음을 모시는 자",
+        "en": "Prayers to Springtime",
+        "ja": "氷祭りの人"
+      },
+      "meta": {
+        "rarity": [3, 4],
+        "sourceDetails": [
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
+        ]
+      }
+    },
+    {
+      "value": "gladiatorsfinale",
+      "label": {
+        "ko": "검투사의 피날레",
+        "en": "Gladiator's Finale",
+        "ja": "剣闘士のフィナーレ"
+      },
       "meta": {
         "rarity": [4, 5],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 한여름의 정원", "en": "Midsummer Courtyard", "ja": "仲夏の庭" }, "nationKey": "mondstadt" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "weekly_boss",
+            "name": {
+              "ko": "주간 보스",
+              "en": "Weekly Bosses",
+              "ja": "週ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "blizzardstrayer",
-      "label": { "ko": "얼음바람 속에서 길잃은 용사", "en": "Blizzard Strayer", "ja": "氷風を彷徨う勇士" },
+      "value": "wandererstroupe",
+      "label": {
+        "ko": "대지를 유랑하는 악단",
+        "en": "Wanderer's Troupe",
+        "ja": "大地を流浪する楽団"
+      },
       "meta": {
         "rarity": [4, 5],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 빈다그니르의 정상", "en": "Peak of Vindagnyr", "ja": "フィンドニールの頂上" }, "nationKey": "mondstadt" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "weekly_boss",
+            "name": {
+              "ko": "주간 보스",
+              "en": "Weekly Bosses",
+              "ja": "週ボス"
+            },
+            "nationKey": "all"
+          },
+          {
+            "kind": "field_boss",
+            "name": {
+              "ko": "필드 보스",
+              "en": "Normal Bosses",
+              "ja": "通常ボス"
+            },
+            "nationKey": "all"
+          }
         ]
       }
     },
     {
-      "value": "heartofdepth",
-      "label": { "ko": "몰락한 마음", "en": "Heart of Depth", "ja": "沈淪の心" },
+      "value": "noblesseoblige",
+      "label": {
+        "ko": "옛 왕실의 의식",
+        "en": "Noblesse Oblige",
+        "ja": "旧貴族のしつけ"
+      },
       "meta": {
         "rarity": [4, 5],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 빈다그니르의 정상", "en": "Peak of Vindagnyr", "ja": "フィンドニールの頂上" }, "nationKey": "mondstadt" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 화지 산굴",
+              "en": "Clear Pool and Mountain Cavern",
+              "ja": "華池岩岫"
+            },
+            "nationKey": "liyue"
+          }
         ]
       }
     },
     {
-      "value": "tenacityofthemillelith",
-      "label": { "ko": "견고한 천암", "en": "Tenacity of the Millelith", "ja": "堅固な千岩" },
+      "value": "bloodstainedchivalry",
+      "label": {
+        "ko": "피에 물든 기사도",
+        "en": "Bloodstained Chivalry",
+        "ja": "血染めの騎士道"
+      },
       "meta": {
         "rarity": [4, 5],
         "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 산등성이의 파수꾼", "en": "Ridge Watch", "ja": "山脊の見張り" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "paleflame",
-      "label": { "ko": "창백의 화염", "en": "Pale Flame", "ja": "蒼白の炎" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 산등성이의 파수꾼", "en": "Ridge Watch", "ja": "山脊の見張り" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "huskofopulentdreams",
-      "label": { "ko": "풍요로운 꿈의 껍데기", "en": "Husk of Opulent Dreams", "ja": "華館夢醒形骸記" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 깊이 잠든 정원", "en": "Slumbering Court", "ja": "眠りの庭" }, "nationKey": "inazuma" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "oceanhuedclam",
-      "label": { "ko": "바다에 물든 거대 조개", "en": "Ocean-Hued Clam", "ja": "海染硨磲" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 깊이 잠든 정원", "en": "Slumbering Court", "ja": "眠りの庭" }, "nationKey": "inazuma" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "vermillionhereafter",
-      "label": { "ko": "진사 왕생록", "en": "Vermillion Hereafter", "ja": "辰砂往生録" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 암중 협곡", "en": "The Lost Valley", "ja": "岩中峡谷" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "echoesofanoffering",
-      "label": { "ko": "제사의 여운", "en": "Echoes of an Offering", "ja": "来歆の余響" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 암중 협곡", "en": "The Lost Valley", "ja": "岩중 峡谷" }, "nationKey": "liyue" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "gildeddreams",
-      "label": { "ko": "도금된 꿈", "en": "Gilded Dreams", "ja": "金メッキの夢" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 연각의 탑", "en": "Spire of Solitary Enlightenment", "ja": "縁覚の塔" }, "nationKey": "sumeru" }
-        ]
-      }
-    },
-    {
-      "value": "desertpavilionchronicle",
-      "label": { "ko": "모래 위 누각의 역사", "en": "Desert Pavilion Chronicle", "ja": "砂上の楼閣の史話" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 적금색 폐허", "en": "City of Gold", "ja": "赤金の廃墟" }, "nationKey": "sumeru" }
-        ]
-      }
-    },
-    {
-      "value": "flowerofparadiselost",
-      "label": { "ko": "잃어버린 낙원의 꽃", "en": "Flower of Paradise Lost", "ja": "楽園の絶花" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 적금색 폐허", "en": "City of Gold", "ja": "赤金の廃墟" }, "nationKey": "sumeru" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
-        ]
-      }
-    },
-    {
-      "value": "nymphsdream",
-      "label": { "ko": "님프의 꿈", "en": "Nymph's Dream", "ja": "水仙の夢" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 쇳물 요새", "en": "Molten Fortress", "ja": "鉄甲の古城" }, "nationKey": "sumeru" }
-        ]
-      }
-    },
-    {
-      "value": "shuro",
-      "label": { "ko": "바람이 시작되는 날", "en": "Day of the Start of the Wind", "ja": "風の始まる日" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 바래지 않는 영광의 구릉", "en": "Faded Theater", "ja": "褪せない栄光の丘" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "morninglight",
-      "label": { "ko": "샛별과 달의 여명", "en": "Dawn of the Morning Star and Moon", "ja": "暁星と月の夜明け" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 무지개령의 정토", "en": "Sanctum of Rainbow Spirits", "ja": "虹霊の浄土" }, "nationKey": "natlan" }
-        ]
-      }
-    },
-    {
-      "value": "nightvow",
-      "label": { "ko": "긴 밤의 맹세", "en": "Long Night's Vow", "ja": "長い夜の誓い" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 황폐한 조선소", "en": "Sanctum of Rainbow Spirits", "ja": "虹霊の浄土" }, "nationKey": "natlan" }
-        ]
-      }
-    },
-    {
-      "value": "corridorfinale",
-      "label": { "ko": "깊은 회랑의 피날레", "en": "Deep Corridor Finale", "ja": "深い回廊のフィナーレ" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 폭포 소리 성채", "en": "Waterfall Wen", "ja": "滝の音の城寨" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "moonlitnight",
-      "label": { "ko": "달을 엮는 밤노래", "en": "Moon-Woven Night Song", "ja": "月を紡ぐ夜歌" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 폭포 소리 성채", "en": "Waterfall Wen", "ja": "滝の音の城寨" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "skyborder",
-      "label": { "ko": "하늘 경계가 드러난 밤", "en": "The Night the Sky Border Was Revealed", "ja": "空の境界が明かされた夜" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 죄의 종말", "en": "Denouement of Sin", "ja": "罪の終焉" }, "nationKey": "fontaine" }
-        ]
-      }
-    },
-    {
-      "value": "thunderingfury_old",
-      "label": { "ko": "뇌명을 평정한 존자", "en": "Thundersoother", "ja": "雷を鎮める尊者" },
-      "meta": {
-        "rarity": [4, 5],
-        "sourceDetails": [
-          { "kind": "domain", "name": { "ko": "축성 비경: 한여름의 정원", "en": "Midsummer Courtyard", "ja": "仲夏の庭" }, "nationKey": "mondstadt" },
-          { "kind": "reliquary_box", "name": { "ko": "성유물 반환의 신비", "en": "Mystic Offering", "ja": "聖遺物廻聖" }, "nationKey": "unknown" }
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 화지 산굴",
+              "en": "Clear Pool and Mountain Cavern",
+              "ja": "華池岩岫"
+            },
+            "nationKey": "liyue"
+          }
         ]
       }
     },
@@ -549,15 +795,116 @@
               "ja": "銘記の谷"
             },
             "nationKey": "mondstadt"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "value": "viridescentvenerer",
+      "label": {
+        "ko": "청록색 그림자",
+        "en": "Viridescent Venerer",
+        "ja": "翠緑の影"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
           {
-            "kind": "reliquary_box",
+            "kind": "domain",
             "name": {
-              "ko": "성유물 반환의 신비",
-              "en": "Mystic Offering",
-              "ja": "聖遺物廻聖"
+              "ko": "축성 비경: 각인의 골짜기",
+              "en": "Valley of Remembrance",
+              "ja": "銘記の谷"
             },
-            "nationKey": "unknown"
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
+    },
+    {
+      "value": "archaicpetra",
+      "label": {
+        "ko": "유구한 반암",
+        "en": "Archaic Petra",
+        "ja": "悠久の磐岩"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 하늘을 찌르는 땅",
+              "en": "Domain of Guyun",
+              "ja": "孤雲凌霄の処"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "retracingbolide",
+      "label": {
+        "ko": "역비의 유성",
+        "en": "Retracing Bolide",
+        "ja": "逆飛びの流星"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 하늘을 찌르는 땅",
+              "en": "Domain of Guyun",
+              "ja": "孤雲凌霄の処"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "thundersoother",
+      "label": {
+        "ko": "뇌명을 평정한 존자",
+        "en": "Thundersoother",
+        "ja": "雷を鎮める尊者"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 한 여름의 정원",
+              "en": "Midsummer Courtyard",
+              "ja": "仲夏の庭園"
+            },
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
+    },
+    {
+      "value": "thunderingfury",
+      "label": {
+        "ko": "번개 같은 분노",
+        "en": "Thundering Fury",
+        "ja": "雷のような怒り"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 한 여름의 정원",
+              "en": "Midsummer Courtyard",
+              "ja": "仲夏の庭園"
+            },
+            "nationKey": "mondstadt"
           }
         ]
       }
@@ -567,7 +914,7 @@
       "label": {
         "ko": "불 위를 걷는 현인",
         "en": "Lavawalker",
-        "ja": "火を渡る賢者"
+        "ja": "烈火を渡る賢者"
       },
       "meta": {
         "rarity": [4, 5],
@@ -580,15 +927,688 @@
               "ja": "無妄引責密宮"
             },
             "nationKey": "liyue"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "value": "crimsonwitchofflames",
+      "label": {
+        "ko": "불타오르는 화염의 마녀",
+        "en": "Crimson Witch of Flames",
+        "ja": "燃え盛る炎の魔女"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
           {
-            "kind": "reliquary_box",
+            "kind": "domain",
             "name": {
-              "ko": "성유물 반환의 신비",
-              "en": "Mystic Offering",
-              "ja": "聖遺물廻聖"
+              "ko": "축성 비경: 무망 인구 밀궁",
+              "en": "Hidden Palace of Zhou Formula",
+              "ja": "無妄引責密宮"
             },
-            "nationKey": "unknown"
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "blizzardstrayer",
+      "label": {
+        "ko": "얼음바람 속에서 길잃은 용사",
+        "en": "Blizzard Strayer",
+        "ja": "氷風を彷徨う勇士"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빈다그니르의 정상",
+              "en": "Peak of Vindagnyr",
+              "ja": "フィンドニールの頂上"
+            },
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
+    },
+    {
+      "value": "heartofdepth",
+      "label": {
+        "ko": "몰락한 마음",
+        "en": "Heart of Depth",
+        "ja": "沈淪の心"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빈다그니르의 정상",
+              "en": "Peak of Vindagnyr",
+              "ja": "フィンドニールの頂上"
+            },
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
+    },
+    {
+      "value": "tenacityofthemillelith",
+      "label": {
+        "ko": "견고한 천암",
+        "en": "Tenacity of the Millelith",
+        "ja": "千岩牢固"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산등성이의 파수꾼",
+              "en": "Ridge Watch",
+              "ja": "山脊の見守り"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "paleflame",
+      "label": {
+        "ko": "창백의 화염",
+        "en": "Pale Flame",
+        "ja": "蒼白の炎"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산등성이의 파수꾼",
+              "en": "Ridge Watch",
+              "ja": "山脊の見守り"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "shimenawasreminiscence",
+      "label": {
+        "ko": "추억의 시메나와",
+        "en": "Shimenawa's Reminiscence",
+        "ja": "追憶のしめ縄"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 단풍의 정원",
+              "en": "Momiji-Dyed Court",
+              "ja": "紅葉ノ庭"
+            },
+            "nationKey": "inazuma"
+          }
+        ]
+      }
+    },
+    {
+      "value": "emblemofseveredfate",
+      "label": {
+        "ko": "절연의 기치",
+        "en": "Emblem of Severed Fate",
+        "ja": "絶縁の旗印"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 단풍의 정원",
+              "en": "Momiji-Dyed Court",
+              "ja": "紅葉ノ庭"
+            },
+            "nationKey": "inazuma"
+          }
+        ]
+      }
+    },
+    {
+      "value": "huskofopulentdreams",
+      "label": {
+        "ko": "풍요로운 꿈의 껍데기",
+        "en": "Husk of Opulent Dreams",
+        "ja": "華館夢醒形骸記"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 깊이 잠든 정원",
+              "en": "Slumbering Court",
+              "ja": "熟眠ノ庭"
+            },
+            "nationKey": "inazuma"
+          }
+        ]
+      }
+    },
+    {
+      "value": "oceanhuedclam",
+      "label": {
+        "ko": "바다에 물든 거대 조개",
+        "en": "Ocean-Hued Clam",
+        "ja": "海染硨磲"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 깊이 잠든 정원",
+              "en": "Slumbering Court",
+              "ja": "熟眠ノ庭"
+            },
+            "nationKey": "inazuma"
+          }
+        ]
+      }
+    },
+    {
+      "value": "vermillionhereafter",
+      "label": {
+        "ko": "진사왕생록",
+        "en": "Vermillion Hereafter",
+        "ja": "辰砂往生録"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 암중협곡",
+              "en": "The Lost Valley",
+              "ja": "岩中幽谷"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "echoesofanoffering",
+      "label": {
+        "ko": "제사의 여운",
+        "en": "Echoes of an Offering",
+        "ja": "来歆の余響"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 암중협곡",
+              "en": "The Lost Valley",
+              "ja": "岩中幽谷"
+            },
+            "nationKey": "liyue"
+          }
+        ]
+      }
+    },
+    {
+      "value": "deepwoodmemories",
+      "label": {
+        "ko": "숲의 기억",
+        "en": "Deepwood Memories",
+        "ja": "深林の記憶"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 연각의 탑",
+              "en": "Spire of Solitary Enlightenment",
+              "ja": "縁覚の塔"
+            },
+            "nationKey": "sumeru"
+          }
+        ]
+      }
+    },
+    {
+      "value": "gildeddreams",
+      "label": {
+        "ko": "도금된 꿈",
+        "en": "Gilded Dreams",
+        "ja": "金メッキの夢"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 연각의 탑",
+              "en": "Spire of Solitary Enlightenment",
+              "ja": "縁覚の塔"
+            },
+            "nationKey": "sumeru"
+          }
+        ]
+      }
+    },
+    {
+      "value": "desertpavilionchronicle",
+      "label": {
+        "ko": "모래 위 누각의 역사",
+        "en": "Desert Pavilion Chronicle",
+        "ja": "砂上の楼閣の史話"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 적금색 폐허",
+              "en": "City of Gold",
+              "ja": "赤金の城墟"
+            },
+            "nationKey": "sumeru"
+          }
+        ]
+      }
+    },
+    {
+      "value": "flowerofparadiselost",
+      "label": {
+        "ko": "낙원의 꽃",
+        "en": "Flower of Paradise Lost",
+        "ja": "楽園の絶花"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 적금색 폐허",
+              "en": "City of Gold",
+              "ja": "赤金の城墟"
+            },
+            "nationKey": "sumeru"
+          }
+        ]
+      }
+    },
+    {
+      "value": "nymphsdream",
+      "label": {
+        "ko": "님프의 꿈",
+        "en": "Nymph's Dream",
+        "ja": "水仙の夢"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 녹아내린 쇠의 성",
+              "en": "Molten Iron Fortress",
+              "ja": "熔鉄の孤塞"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "vourukashasglow",
+      "label": {
+        "ko": "감로빛 꽃바다",
+        "en": "Vourukasha's Glow",
+        "ja": "花海甘露の光"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 녹아내린 쇠의 성",
+              "en": "Molten Iron Fortress",
+              "ja": "熔鉄の孤塞"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "marechausseehunter",
+      "label": {
+        "ko": "그림자 사냥꾼",
+        "en": "Marechaussee Hunter",
+        "ja": "ファントムハンター"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 죄업의 종말",
+              "en": "Denouement of Sin",
+              "ja": "罪業の終末"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "goldentroupe",
+      "label": {
+        "ko": "황금 극단",
+        "en": "Golden Troupe",
+        "ja": "黄金の劇団"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 죄업의 종말",
+              "en": "Denouement of Sin",
+              "ja": "罪業の終末"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "songofdayspast",
+      "label": {
+        "ko": "지난날의 노래",
+        "en": "Song of Days Past",
+        "ja": "在りし日の歌"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "폭포 옆의 도시",
+              "en": "Waterfall Wen",
+              "ja": "滝を臨む廃都"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "nighttimewhispersintheechoingwoods",
+      "label": {
+        "ko": "메아리숲의 야화",
+        "en": "Nighttime Whispers in the Echoing Woods",
+        "ja": "残響の森で囁かれる夜話"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "폭포 옆의 도시",
+              "en": "Waterfall Wen",
+              "ja": "滝を臨む廃都"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "fragmentofharmonicwhimsy",
+      "label": {
+        "ko": "조화로운 공상의 단편",
+        "en": "Fragment of Harmonic Whimsy",
+        "ja": "諧律奇想の断章"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빛바랜 극장",
+              "en": "Faded Theater",
+              "ja": "色褪せた劇場"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "unfinishedreverie",
+      "label": {
+        "ko": "미완의 몽상",
+        "en": "Unfinished Reverie",
+        "ja": "遂げられなかった想い"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 빛바랜 극장",
+              "en": "Faded Theater",
+              "ja": "色褪せた劇場"
+            },
+            "nationKey": "fontaine"
+          }
+        ]
+      }
+    },
+    {
+      "value": "scrolloftheheroofcindercity",
+      "label": {
+        "ko": "잿더미성 용사의 두루마리",
+        "en": "Scroll of the Hero of Cinder City",
+        "ja": "灰燼の都に立つ英雄の絵巻"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무지개령의 정토",
+              "en": "Sanctum of Rainbow Spirits",
+              "ja": "レインボースピリットの地"
+            },
+            "nationKey": "natlan"
+          }
+        ]
+      }
+    },
+    {
+      "value": "obsidiancodex",
+      "label": {
+        "ko": "흑요석 비전",
+        "en": "Obsidian Codex",
+        "ja": "黒曜の秘典"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 무지개령의 정토",
+              "en": "Sanctum of Rainbow Spirits",
+              "ja": "レインボースピリットの地"
+            },
+            "nationKey": "natlan"
+          }
+        ]
+      }
+    },
+    {
+      "value": "longnightsoath",
+      "label": {
+        "ko": "긴 밤의 맹세",
+        "en": "Long Night's Oath",
+        "ja": "長き夜の誓い"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 황폐한 조선소",
+              "en": "Derelict Masonry Dock",
+              "ja": "荒れ果てた創造の地"
+            },
+            "nationKey": "natlan"
+          }
+        ]
+      }
+    },
+    {
+      "value": "finaleofthedeepgalleries",
+      "label": {
+        "ko": "깊은 회랑의 피날레",
+        "en": "Finale of the Deep Galleries",
+        "ja": "深廊の終曲"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 황폐한 조선소",
+              "en": "Derelict Masonry Dock",
+              "ja": "荒れ果てた創造の地"
+            },
+            "nationKey": "natlan"
+          }
+        ]
+      }
+    },
+    {
+      "value": "nightoftheskysunveiling",
+      "label": {
+        "ko": "하늘 경계가 드러난 밤",
+        "en": "Night of the Sky's Unveiling",
+        "ja": "天穹の顕現せし夜"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 서리 내린 기계 무덤",
+              "en": "Frostladen Machinery",
+              "ja": "霜つく機軸"
+            },
+            "nationKey": "nodkrai"
+          }
+        ]
+      }
+    },
+    {
+      "value": "silkenmoonsserenade",
+      "label": {
+        "ko": "달을 엮는 밤노래",
+        "en": "Silken Moon's Serenade",
+        "ja": "月を紡ぐ夜の歌"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 서리 내린 기계 무덤",
+              "en": "Frostladen Machinery",
+              "ja": "霜つく機軸"
+            },
+            "nationKey": "nodkrai"
+          }
+        ]
+      }
+    },
+    {
+      "value": "adaycarvedfromrisingwinds",
+      "label": {
+        "ko": "바람이 시작되는 날",
+        "en": "A Day Carved From Rising Winds",
+        "ja": "風立ちの日"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 달 아이의 보관소",
+              "en": "Moonchild's Treasures",
+              "ja": "月の子の宝物"
+            },
+            "nationKey": "nodkrai"
+          }
+        ]
+      }
+    },
+    {
+      "value": "aubadeofmorningstarandmoon",
+      "label": {
+        "ko": "샛별과 달의 여명",
+        "en": "Aubade of Morningstar and Moon",
+        "ja": "暁の星と月の歌"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 달 아이의 보관소",
+              "en": "Moonchild's Treasures",
+              "ja": "月の子の宝物"
+            },
+            "nationKey": "nodkrai"
           }
         ]
       }
