@@ -268,7 +268,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
       en: "(max)",
       ja: "（最大）",
     },
-    languageLabel: { ko: "언어", en: "Language", ja: "言語" },
+    languageLabel: { ko: "Language", en: "Language", ja: "Language" },
   };
 
   const artifactSetChipOptions: ChipOption[] = artifactSetOptions
@@ -570,6 +570,8 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
           </a> */}
 
           Issue: oksk0302@naver.com
+          <br/>
+          Updated: 2026-03-23
         </div>
 
         </div>

@@ -798,7 +798,7 @@
       "artifactSets": [
         "wandererstroupe",
         "unfinishedreverie",
-        "reminiscenceofshime"
+        "shimenawasreminiscence"
       ],
       "mainStats": ["atk_percent", "em", "cryo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "em", "atk_percent"]
@@ -852,7 +852,7 @@
       "characterId": "aloy",
       "artifactSets": [
         "blizzardstrayer",
-        "reminiscenceofshime",
+        "shimenawasreminiscence",
         "noblesseoblige"
       ],
       "mainStats": ["atk_percent", "cryo", "crit_rate", "crit_dmg"],
@@ -1233,7 +1233,7 @@
       "characterId": "wanderer",
       "artifactSets": [
         "desertpavilionchronicle",
-        "reminiscenceofshime",
+        "shimenawasreminiscence",
         "viridescentvenerer",
         "echoesofanoffering",
         "marechausseehunter",
@@ -1271,7 +1271,7 @@
       "artifactSets": [
         "obsidiancodex",
         "marechausseehunter",
-        "reminiscenceofshime",
+        "shimenawasreminiscence",
         "wandererstroupe"
       ],
       "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
@@ -1317,7 +1317,7 @@
     },
     {
       "characterId": "varka",
-      "artifactSets": ["adaycarvedfromrisingwinds", "reminiscenceofshime"],
+      "artifactSets": ["adaycarvedfromrisingwinds", "shimenawasreminiscence"],
       "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
       "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     },
@@ -1331,7 +1331,7 @@
         "theexile",
         "scrolloftheheroofcindercity"
       ],
-      "mainStats": ["atk_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["atk_percent", "er", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
@@ -1347,13 +1347,7 @@
         "gladiatorsfinale",
         "berserker"
       ],
-      "mainStats": [
-        "atk_percent",
-        "geo_dmg",
-        "crit_rate",
-        "crit_dmg",
-        "healing"
-      ],
+      "mainStats": ["atk_percent", "geo", "crit_rate", "crit_dmg", "healing"],
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
@@ -1365,7 +1359,7 @@
         "gladiatorsfinale",
         "nightoftheskysunveiling"
       ],
-      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["def_percent", "er", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
     },
     {
@@ -1389,7 +1383,7 @@
       "mainStats": [
         "hp_percent",
         "atk_percent",
-        "geo_dmg",
+        "geo",
         "crit_rate",
         "crit_dmg"
       ],
@@ -1409,7 +1403,7 @@
         "tenacityofthemillelith",
         "archaicpetra"
       ],
-      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["def_percent", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "def_percent"]
     },
     {
@@ -1429,7 +1423,7 @@
     {
       "characterId": "arataki_itto",
       "artifactSets": ["huskofopulentdreams", "theexile", "scholar"],
-      "mainStats": ["def_percent", "er", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["def_percent", "er", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": [
         "crit_rate",
         "crit_dmg",
@@ -1461,7 +1455,7 @@
         "emblemofseveredfate",
         "marechausseehunter"
       ],
-      "mainStats": ["atk_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["atk_percent", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
@@ -1475,7 +1469,7 @@
         "gambler",
         "berserker"
       ],
-      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["def_percent", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": [
         "def_percent",
         "crit_rate",
@@ -1492,7 +1486,7 @@
         "instructor",
         "tenacityofthemillelith"
       ],
-      "mainStats": ["er", "def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["er", "def_percent", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["def_percent", "crit_rate", "crit_dmg"]
     },
     {
@@ -1519,7 +1513,7 @@
     {
       "characterId": "xilonen_dps",
       "artifactSets": ["obsidiancodex", "huskofopulentdreams"],
-      "mainStats": ["def_percent", "geo_dmg", "crit_rate", "crit_dmg"],
+      "mainStats": ["def_percent", "geo", "crit_rate", "crit_dmg"],
       "validSubStats": ["crit_rate", "crit_dmg", "def_percent", "er"]
     },
     {

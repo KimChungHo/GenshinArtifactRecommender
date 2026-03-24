@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "gen:artifact-sets": "node tools/generateArtifactSets.mjs"
+    "gen:artifact-sets": "node tools/generateArtifactSets.mjs",
+    "gen:artifact-set-meta": "node tools/genArtifactSetMeta.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",
