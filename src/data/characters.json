@@ -709,6 +709,11 @@
       "id": "zibai",
       "name": { "ko": "자백", "en": "Zibai", "ja": "兹白" },
       "imageKey": "zibai"
+    },
+    {
+      "id": "linnea",
+      "name": { "ko": "린네아", "en": "Linnea", "ja": "リンネア" },
+      "imageKey": "linnea"
     }
   ]
 }
