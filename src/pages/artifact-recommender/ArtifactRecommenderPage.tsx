@@ -42,6 +42,30 @@ const characterImageModules: Record<string, { default: string }> = import.meta.g
   { eager: true }
 );
 
+function getInitialLocale(): Locale {
+  if (typeof navigator === "undefined") {
+    return "en";
+  }
+
+  const browserLanguages: readonly string[] = navigator.languages.length > 0
+    ? navigator.languages
+    : [navigator.language];
+
+  for (const language of browserLanguages) {
+    const normalizedLanguage: string = language.toLowerCase();
+
+    if (normalizedLanguage.startsWith("ja")) {
+      return "ja";
+    }
+
+    if (normalizedLanguage.startsWith("ko")) {
+      return "ko";
+    }
+  }
+
+  return "en";
+}
+
 function getCharacterImageUrl(imageKey: string): string | null {
   const svgPath: string = `../../assets/characters/${imageKey}.svg`;
   const pngPath: string = `../../assets/characters/${imageKey}.png`;
@@ -215,7 +239,7 @@ function LabeledSelect(props: LabeledSelectProps): JSX.Element {
 
 export default function ArtifactRecommenderPage(): JSX.Element {
   // locale state (ko/en/ja)
-  const [locale, setLocale] = React.useState<"ko" | "en" | "ja">("ko");
+  const [locale, setLocale] = React.useState<Locale>(getInitialLocale);
 
   // load lists from JSON data and localize
   const artifactSetOptions = getArtifactSetOptions(locale);
