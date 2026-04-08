@@ -1526,6 +1526,16 @@
       "artifactSets": ["nightoftheskysunveiling", "huskofopulentdreams"],
       "mainStats": ["def_percent", "crit_rate", "crit_dmg"],
       "validSubStats": ["def_percent", "crit_dmg", "crit_rate", "em"]
+    },
+    {
+      "characterId": "linnea",
+      "artifactSets": [
+        "aubadeofmorningstarandmoon",
+        "huskofopulentdreams",
+        "nightoftheboundlessskies"
+      ],
+      "mainStats": ["def_percent", "crit_rate", "crit_dmg"],
+      "validSubStats": ["def_percent", "em", "er", "crit_rate", "crit_dmg"]
     }
   ]
 }
