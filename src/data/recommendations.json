@@ -862,7 +862,7 @@
       "characterId": "shenhe",
       "artifactSets": ["noblesseoblige", "emblemofseveredfate"],
       "mainStats": ["atk_percent", "er", "crit_rate", "atk_percent"],
-      "validSubStats": ["atk_percent", "er", "crit_rate", "atk"]
+      "validSubStats": ["atk_percent", "er", "crit_rate", "atk_flat"]
     },
     {
       "characterId": "layla",
@@ -1114,11 +1114,7 @@
     },
     {
       "characterId": "lauma",
-      "artifactSets": [
-        "deepwoodmemories",
-        "silkenmoonsserenade",
-        "instructor"
-      ],
+      "artifactSets": ["deepwoodmemories", "silkenmoonsserenade", "instructor"],
       "mainStats": ["er", "em", "crit_rate"],
       "validSubStats": ["em", "er"]
     },
@@ -1145,6 +1141,22 @@
       "artifactSets": ["viridescentvenerer", "instructor", "gildeddreams"],
       "mainStats": ["em", "er"],
       "validSubStats": ["em", "er"]
+    },
+    {
+      "characterId": "prune",
+      "artifactSets": [
+        "viridescentvenerer",
+        "celestialgift",
+        "gladiatorsfinale",
+        "shimenawasreminiscence",
+        "vermillionhereafter",
+        "echoesofanoffering",
+        "unfinishedreverie",
+        "nighttimewhispersintheechoingwoods",
+        "fragmentofharmonicwhimsy"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "atk_flat"]
     },
     {
       "characterId": "jean",
@@ -1536,6 +1548,12 @@
       ],
       "mainStats": ["def_percent", "crit_rate", "crit_dmg"],
       "validSubStats": ["def_percent", "em", "er", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "nicole",
+      "artifactSets": ["celestialgift"],
+      "mainStats": ["atk_percent"],
+      "validSubStats": ["atk_percent", "er", "atk_flat"]
     }
   ]
 }

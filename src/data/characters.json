@@ -714,6 +714,16 @@
       "id": "linnea",
       "name": { "ko": "린네아", "en": "Linnea", "ja": "リンネア" },
       "imageKey": "linnea"
+    },
+    {
+      "id": "nicole",
+      "name": { "ko": "니콜", "en": "Nicole", "ja": "ニコ" },
+      "imageKey": "nicole"
+    },
+    {
+      "id": "prune",
+      "name": { "ko": "프루네", "en": "Prune", "ja": "プルーネ" },
+      "imageKey": "prune"
     }
   ]
 }

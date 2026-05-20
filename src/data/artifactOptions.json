@@ -1612,6 +1612,28 @@
           }
         ]
       }
+    },
+    {
+      "value": "celestialgift",
+      "label": {
+        "ko": "하늘의 은총",
+        "en": "Celestial Gift",
+        "ja": "天からの贈り物"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산바람의 가시관",
+              "en": "Thorny Crown of the Mountain Wind",
+              "ja": "山風の荊冠"
+            },
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
     }
   ],
   "mainStats": [

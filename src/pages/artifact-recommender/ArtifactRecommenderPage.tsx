@@ -274,7 +274,7 @@ export default function ArtifactRecommenderPage(): JSX.Element {
     recommendationTitle: { ko: "추천 캐릭터", en: "Recommended Characters", ja: "おすすめキャラ" },
     recommendationHint: {
       ko: "주옵션이 일치하고, 유효 부옵션이 2개 이상이면 추천됩니다. (유효 부옵션 최대치가 0~1개인 캐릭터는 그 최대치 기준)",
-      en: "Recommended when the main stat matches and 2+ sub stats are valid (or the character\'s max if it has 0~1).",
+      en: "Recommended when the main stat matches and 2+ sub stats are valid (or the character's max if it has 0~1).",
       ja: "メイン一致＋有効サブが2つ以上（有効サブ最大が0〜1のキャラはその最大基準）でおすすめします。",
     },
     noRecommendation: {
@@ -341,6 +341,7 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
 
     const results: Array<{
       characterId: string;
+      implicitValidSubStatKeys: string[];
       validSubStatKeys: string[];
       matchedSetKeys: string[];
       maxValidSubStatCount: number;
@@ -360,19 +361,16 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
         continue;
       }
 
-      // NOTE:
-      // - Sub stats cannot include the selected main stat (we also actively disable it in the UI).
-      // - Some characters' rule data may include the same stat in both mainStats and validSubStats.
-      //   In that case, the *effective* valid sub stat pool should exclude the selected main stat,
-      //   otherwise the "max valid" count becomes impossible to reach.
+      const implicitValidSubStatKeys: string[] = rule.validSubStats.includes(selectedMainStatKey)
+        ? [selectedMainStatKey]
+        : [];
       const effectiveValidSubStats: string[] = rule.validSubStats.filter((key) => key !== selectedMainStatKey);
-
       const validSubStatKeys: string[] = selectedSubStatKeys.filter((key) =>
         effectiveValidSubStats.includes(key)
       );
 
-      const maxValidSubStatCount: number = Math.min(4, effectiveValidSubStats.length);
-      const validSubStatCount: number = validSubStatKeys.length;
+      const maxValidSubStatCount: number = Math.min(4, rule.validSubStats.length);
+      const validSubStatCount: number = implicitValidSubStatKeys.length + validSubStatKeys.length;
 
       const requiredValidSubStatCount: number =
         maxValidSubStatCount === 0
@@ -387,7 +385,13 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
         continue;
       }
 
-      results.push({ characterId: rule.characterId, validSubStatKeys, matchedSetKeys, maxValidSubStatCount });
+      results.push({
+        characterId: rule.characterId,
+        implicitValidSubStatKeys,
+        validSubStatKeys,
+        matchedSetKeys,
+        maxValidSubStatCount,
+      });
 
     }
 
@@ -496,19 +500,22 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
                   }
 
                   const imageUrl: string | null = getCharacterImageUrl(characterMeta.imageKey);
-                  const validCount: number = item.validSubStatKeys.length;
+                  const validCount: number = item.implicitValidSubStatKeys.length + item.validSubStatKeys.length;
                   const messageTemplate: string = uiText.validOptionCountMessage[locale];
                   const isMaxValidSubStatSelection: boolean =
                     item.maxValidSubStatCount < 4 &&
-                    selectedSubStatKeys.length === item.maxValidSubStatCount &&
-                    validCount === selectedSubStatKeys.length;
+                    validCount === item.maxValidSubStatCount &&
+                    item.validSubStatKeys.length === selectedSubStatKeys.length;
 
                   let message: string = messageTemplate.replace("{count}", String(validCount));
                   if (isMaxValidSubStatSelection) {
                     message = `${message}${uiText.validOptionMaxSuffix[locale]}`;
                   }
 
-                  const validLabels: string[] = item.validSubStatKeys.map((key) => {
+                  const validLabels: string[] = [
+                    ...item.implicitValidSubStatKeys,
+                    ...item.validSubStatKeys,
+                  ].map((key) => {
                     return subStatLabelByKey.get(key) ?? key;
                   });
 
@@ -595,7 +602,9 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
 
           Issue: oksk0302@naver.com
           <br/>
-          Updated: 2026-04-05
+          Updated: 2026-05-20
+          <br/>
+          Add Prune, Nicole
         </div>
 
         </div>
