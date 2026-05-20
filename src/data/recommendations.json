@@ -1143,6 +1143,22 @@
       "validSubStats": ["em", "er"]
     },
     {
+      "characterId": "prune",
+      "artifactSets": [
+        "viridescentvenerer",
+        "celestialgift",
+        "gladiatorsfinale",
+        "shimenawasreminiscence",
+        "vermillionhereafter",
+        "echoesofanoffering",
+        "unfinishedreverie",
+        "nighttimewhispersintheechoingwoods",
+        "fragmentofharmonicwhimsy"
+      ],
+      "mainStats": ["atk_percent", "er", "anemo"],
+      "validSubStats": ["atk_percent", "er", "crit_rate", "atk_flat"]
+    },
+    {
       "characterId": "jean",
       "artifactSets": [
         "viridescentvenerer",
