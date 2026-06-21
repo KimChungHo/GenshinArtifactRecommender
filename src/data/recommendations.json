@@ -1554,6 +1554,12 @@
       "artifactSets": ["celestialgift"],
       "mainStats": ["atk_percent"],
       "validSubStats": ["atk_percent", "er", "atk_flat"]
+    },
+    {
+      "characterId": "lohen",
+      "artifactSets": ["adaycarvedfromrisingwinds", "blizzardstrayer"],
+      "mainStats": ["atk_percent", "cryo", "crit_dmg", "crit_rate"],
+      "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
     }
   ]
 }

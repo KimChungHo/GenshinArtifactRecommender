@@ -724,6 +724,11 @@
       "id": "prune",
       "name": { "ko": "프루네", "en": "Prune", "ja": "プルーネ" },
       "imageKey": "prune"
+    },
+    {
+      "id": "lohen",
+      "name": { "ko": "로엔", "en": "Lohen", "ja": "ローエン" },
+      "imageKey": "lohen"
     }
   ]
 }
