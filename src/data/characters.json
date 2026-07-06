@@ -729,6 +729,11 @@
       "id": "lohen",
       "name": { "ko": "로엔", "en": "Lohen", "ja": "ローエン" },
       "imageKey": "lohen"
+    },
+    {
+      "id": "sandrone",
+      "name": { "ko": "산드로네", "en": "Sandrone", "ja": "サンドローネ" },
+      "imageKey": "sandrone"
     }
   ]
 }

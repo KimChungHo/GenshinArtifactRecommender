@@ -1634,6 +1634,28 @@
           }
         ]
       }
+    },
+    {
+      "value": "dreamsshatteredinshadow",
+      "label": {
+        "ko": "그림자 속 산산조각 난 꿈",
+        "en": "Dreams Shattered in Shadow",
+        "ja": "影の中で砕け散った夢"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 산바람의 가시관",
+              "en": "Thorny Crown of the Mountain Wind",
+              "ja": "山風の荊冠"
+            },
+            "nationKey": "mondstadt"
+          }
+        ]
+      }
     }
   ],
   "mainStats": [
