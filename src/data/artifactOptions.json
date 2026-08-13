@@ -1656,6 +1656,50 @@
           }
         ]
       }
+    },
+    {
+      "value": "scarletproof",
+      "label": {
+        "ko": "핏빛 증표",
+        "en": "Scarlet Proof",
+        "ja": "紅血の証"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 솟구친 빙하",
+              "en": "Ice Erosion",
+              "ja": "氷蝕"
+            },
+            "nationKey": "snezhnaya"
+          }
+        ]
+      }
+    },
+    {
+      "value": "heartofthefurnace",
+      "label": {
+        "ko": "용광로가 빚은 심장",
+        "en": "Heart of the Furnace",
+        "ja": "炉炎溶錬の心"
+      },
+      "meta": {
+        "rarity": [4, 5],
+        "sourceDetails": [
+          {
+            "kind": "domain",
+            "name": {
+              "ko": "축성 비경: 솟구친 빙하",
+              "en": "Ice Erosion",
+              "ja": "氷蝕"
+            },
+            "nationKey": "snezhnaya"
+          }
+        ]
+      }
     }
   ],
   "mainStats": [
