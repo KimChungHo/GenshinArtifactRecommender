@@ -1566,6 +1566,22 @@
       "artifactSets": ["dreamsshatteredinshadow"],
       "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
       "validSubStats": ["atk_percent", "crit_dmg", "em", "crit_rate", "er"]
+    },
+    {
+      "characterId": "odette",
+      "artifactSets": [
+        "dreamsshatteredinshadow",
+        "heartofthefurnace",
+        "tenacityofthemillelith"
+      ],
+      "mainStats": ["atk_percent", "em", "crit_rate", "crit_dmg"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "em", "er"]
+    },
+    {
+      "characterId": "alyosha",
+      "artifactSets": ["noblesseoblige", "heartofthefurnace"],
+      "mainStats": ["er", "atk_percent", "crit_rate"],
+      "validSubStats": ["er", "atk_percent", "crit_rate"]
     }
   ]
 }

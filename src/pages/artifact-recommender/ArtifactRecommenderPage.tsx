@@ -602,9 +602,9 @@ const [selectedArtifactSetKeys, setSelectedArtifactSetKeys] = React.useState<Opt
 
           Issue: oksk0302@naver.com
           <br/>
-          Updated: 2026-07-06
+          Updated: 2026-08-13
           <br/>
-          Add Sandrone
+          Add Odette, Alyosha
         </div>
 
         </div>

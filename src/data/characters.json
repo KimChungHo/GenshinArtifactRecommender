@@ -734,6 +734,16 @@
       "id": "sandrone",
       "name": { "ko": "산드로네", "en": "Sandrone", "ja": "サンドローネ" },
       "imageKey": "sandrone"
+    },
+    {
+      "id": "odette",
+      "name": { "ko": "오데트", "en": "Odette", "ja": "オデット" },
+      "imageKey": "odette"
+    },
+    {
+      "id": "alyosha",
+      "name": { "ko": "알료샤", "en": "Alyosha", "ja": "アリョーシャ" },
+      "imageKey": "alyosha"
     }
   ]
 }
