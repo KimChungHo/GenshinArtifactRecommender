@@ -544,6 +544,12 @@
       "validSubStats": ["hp_percent", "er", "crit_rate", "crit_dmg"]
     },
     {
+      "characterId": "vodyanitsa",
+      "artifactSets": ["tenacityofthemillelith"],
+      "mainStats": ["hp_percent"],
+      "validSubStats": ["hp_percent", "hp_flat"]
+    },
+    {
       "characterId": "traveler_electro",
       "artifactSets": ["emblemofseveredfate", "theexile"],
       "mainStats": ["er", "electro", "crit_rate", "crit_dmg"],
@@ -1331,6 +1337,12 @@
       "artifactSets": ["adaycarvedfromrisingwinds", "shimenawasreminiscence"],
       "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
       "validSubStats": ["atk_percent", "crit_rate", "crit_dmg"]
+    },
+    {
+      "characterId": "vesna",
+      "artifactSets": ["scarletproof"],
+      "mainStats": ["atk_percent", "crit_dmg", "crit_rate"],
+      "validSubStats": ["crit_rate", "crit_dmg", "atk_percent", "er"]
     },
     {
       "characterId": "traveler_geo",
