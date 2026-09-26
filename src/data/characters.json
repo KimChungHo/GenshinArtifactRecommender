@@ -221,6 +221,11 @@
       "imageKey": "columbina"
     },
     {
+      "id": "vodyanitsa",
+      "name": { "ko": "보댜니차", "en": "Vodyanitsa", "ja": "ヴォジャニーツァ" },
+      "imageKey": "vodyanitsa"
+    },
+    {
       "id": "traveler_electro",
       "name": { "ko": "", "en": "Traveler (Electro)", "ja": "旅人 (雷)" },
       "imageKey": "traveler"
@@ -624,6 +629,11 @@
       "id": "varka",
       "name": { "ko": "바르카", "en": "Varka", "ja": "ヴァルカ" },
       "imageKey": "varka"
+    },
+    {
+      "id": "vesna",
+      "name": { "ko": "베스나", "en": "Vesna", "ja": "ヴェスナ" },
+      "imageKey": "vesna"
     },
     {
       "id": "traveler_geo",
